@@ -45,11 +45,11 @@ When a book is added, staff choose Fiction or Non-fiction. There are no sub-genr
 
 ## Viewing books
 
-View Books lets any staff member search the whole school library and see who has each book.
+Books lets any staff member search the whole school library and see who has each book.
 
 ## Managing a class
 
-Each teacher has a Manage Class page that only shows their own class. On it they can:
+Each teacher has a Classes page that only shows their own class. On it they can:
 
 - see the class list, with each child's name showing the colour of their oldest loan
 - set the class's weekly library day, which most UK primary classes have on their timetable
@@ -64,7 +64,7 @@ Tapping a child's name opens their child view. On it the teacher can:
 
 ## Managing teachers
 
-The school admin and class teachers can open Manage Teachers. On it they can:
+The school admin and class teachers can open Teachers. On it they can:
 
 - invite a new teacher for a class, whose email gets an invite link
 - change a class's teacher, from that class's page
@@ -80,7 +80,7 @@ This section comes from the Figma flows board.
 3. The starting email address gets a unique link. That person, the school admin, uses it to set up classes and give each one a teacher's email.
 4. Each teacher gets their own invite link and sets up their class and its children.
 
-Nobody can sign up without an invite. The site has three parts: public pages (landing page, register, log in), the school registration steps, and the logged-in app (Scan Book, View Books, Manage Class, Manage Teachers).
+Nobody can sign up without an invite. The site has three parts: public pages (landing page, register, log in), the school registration steps, and the logged-in app (Scan Book, Books, Classes, Teachers).
 
 ## End of the school year
 
