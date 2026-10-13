@@ -69,7 +69,7 @@ The school admin and class teachers can open Manage Teachers. On it they can:
 - invite a new teacher, whose email gets an invite link
 - change a class's teacher
 - remove a teacher
-- add or remove classes
+- add or remove classes, but a class can only be removed once it has no children
 
 ## Schools, accounts and onboarding
 
