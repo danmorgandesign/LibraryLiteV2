@@ -15,7 +15,7 @@ It's for school staff only for now. Children and parents don't log in or see any
 
 - **School admin:** the account that registered and pays for the school. Sets up the school's classes and invites teachers. After that they're an extra user without a class, like a teaching assistant, who can also manage teachers and classes.
 - **Class teachers:** each is linked to a class. They manage their class's children, library day and loan limit, and get the weekly reminder email. They can also manage teachers and classes.
-- **Other staff, such as teaching assistants:** these users don't need a class of their own. The school admin is one of them.
+- **Other staff, such as teaching assistants:** these users don't need a class of their own. The school admin is one of them. They can also manage teachers and classes.
 
 Anyone with a login at the school can scan books and loan them to any child in the school.
 
@@ -68,14 +68,14 @@ Staff without a class (other staff and the school admin) who open Classes are of
 
 ## Managing teachers
 
-The school admin and class teachers can open Teachers. On it they can:
+Any staff member can open Teachers. On it they can:
 
 - invite a new teacher for a class, whose email gets an invite link
-- change a class's teacher, from that class's page
+- rename a class or change its teacher, from that class's page
 - remove a teacher
 - add or remove classes, but a class can only be removed once it has no children
 
-Invites and new classes save as a draft while they're typed, so nothing is lost if someone leaves the page. Changing a class's teacher saves straight away.
+Invites and new classes save as a draft while they're typed, so nothing is lost if someone leaves the page. Changing a class's name or teacher saves straight away.
 
 ## Schools, accounts and onboarding
 
@@ -83,14 +83,14 @@ This section comes from the Figma flows board.
 
 1. A school registers on the public site with its name, address, contacts and a starting email address.
 2. Library Lite approves the school by hand before it goes live.
-3. The starting email address gets a unique link. That person, the school admin, uses it to set up classes and give each one a teacher's email. This setup saves as they go, class by class, so they can leave and come back to the link. Invites are only emailed when they press Send invites.
+3. The starting email address gets a unique link. That person, the school admin, uses it to create their account, with the same password rules as teachers, then set up classes and give each one a teacher's email. This setup saves as they go, class by class, so they can leave and come back to the link. Invites are only emailed when they press Send invites.
 4. Each teacher gets their own invite link, creates a password and sets up their class and its children. Their setup also saves as they go. A strength meter shows how strong the password is, and they can't continue until it meets every rule: at least 10 characters, includes a number, includes a special character, and isn't a common password.
 
 Nobody can sign up without an invite. The site has three parts: public pages (landing page, register, log in), the school registration steps, and the logged-in app (Scan Book, Books, Classes, Teachers).
 
 ## End of the school year
 
-A child's loan history stays until they leave the school. Classes move on by renaming them: for example, Year 3 becomes Year 4, and its children and their history stay.
+A child's loan history stays until they leave the school. Classes move on by renaming them on the class's page in Teachers: for example, Year 3 becomes Year 4, and its children and their history stay.
 
 Leavers must return all their books before they're removed from the school.
 
