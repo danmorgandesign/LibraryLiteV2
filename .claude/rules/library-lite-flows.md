@@ -1,46 +1,31 @@
 # Library Lite flows (FigJam summary)
 
-Source: [Library Lite Flows board](https://www.figma.com/board/6TADZXvo4PxMned1su6bZP/Library-Lite-Flows?node-id=35-360) (file key `6TADZXvo4PxMned1su6bZP`). Summarised 2026-10-13. Text is quoted from the board; typos fixed.
+Source: [Library Lite Flows board](https://www.figma.com/board/6TADZXvo4PxMned1su6bZP/Library-Lite-Flows?node-id=39-247) (file key `6TADZXvo4PxMned1su6bZP`), section **"Library Lite V2 — Design Overview"** (`39:247`), the only section on the board. Built from the brief on 2026-10-13; the earlier "Initial Ideas" section was deleted the same day.
 
-## What the product is
-A school library tool: staff scan book barcodes to catalogue them and loan them to children, organised by school, class and teacher. Schools register, are authorised by Library Lite, then invite their teachers.
+Read top to bottom. Key: green rounded = start/end, yellow diamond = decision, blue square = screen/action, violet parallelogram = input, teal cylinder = saved data, teal sticky = decision made, yellow sticky = still to decide.
 
-## Information architecture (new, node 35:360)
-Three tiers of access:
-- **Public:** Landing Page, Register School, Login.
-- **Restricted (school registration flow):** School Name → Address & Contacts → Add starting email address → Send email to Library Lite to authorise the school → Send email to the starting email address.
-- **Authenticated user:** Manage Class (class view depends on which teacher is logged in), Scan Book, View Books.
+## 1 Who uses it (`39:284`)
+School admin, class teachers, other staff (incl. the school admin after setup: no class), and the Library Lite team (approves schools). Anyone with a login can loan to any child. Children and parents don't log in.
 
-## Information architecture (earlier, node 17:500)
-Top-level areas: **Library** (Search Books, Add Book), **Admin** (Manage Classes, Users), **Loans** (filter by class), plus a **Loan Book** call to action. Treat 35:360 as the newer structure; this one adds Search, Users admin and the Loans list.
+## 2 Site map (`39:311`)
+Landing page (public) branches to:
+- **Register school** (public) → school name → address & contacts → starting email address → Library Lite emailed to approve → starting email gets a unique link.
+- **Log in** (public) → Scan Book, View Books (search the whole library, see who has each book), Manage Class (own class only: current loans colour-coded, each child's history, weekly library day, loan limit, add children).
 
-## Teacher onboarding (node 35:210)
-1. The original admin (the paying account) gives an email address.
-2. That address gets an email with a unique link to a page reachable only via that link.
-3. On that page the admin sets up classes, each with a teacher's email address.
-4. Each teacher is emailed a unique invite link to set up their class with its children.
+## 3 Onboarding (`40:465`)
+School registers → Library Lite approves by hand? (No → school doesn't go live) → starting email gets unique link (school admin) → admin sets up classes with teacher emails → each teacher gets an invite link → teacher sets up class and children → class ready.
 
-## V2 scan flow (node 26:242) — the core V2 interaction
-One "Scan book" entry point that branches on the book's state:
-- **Not in the catalogue** → Add it → either *catalogue without loaning* or go on to *loan it*.
-- **In the catalogue (available)** → Loan it → Choose class → Choose child.
-- **In the catalogue, on loan** → Return it.
+## 4 Scan flow (`41:388`)
+Tap Scan → camera access allowed? (No → remind them to allow it → try again) → scan barcode, or type the ISBN if it won't scan → what state is the book in?
+- **Not in the library:** lookup finds it? (No → type title + author → saved against the barcode) → add to library → choose Fiction or Non-fiction → loan it now? (No → just added; Yes → loan branch).
+- **Available:** loan it → choose class → choose child → at loan limit? (Yes → loan not allowed, no warning) → loan saved with today's date, starts green → on loan.
+- **On loan:** return (loan closed → back in library) or renew (restarts from today, back to green → child keeps it another week).
 
-## Book loan flow (V1-era, node 15:308)
-Scan book → correct book? → choose class → choose child → confirm loan, recording the loan date in the database. If the book can't be found, add it to the collection, then continue to choose class.
+## 5 Loan rules (`41:549`)
+Green days 1–7, orange 8–14, red 15+; overdue after a week. Limit 2 by default (teacher can change). Renew resets to green. Weekly reminder email the day before library day. Books belong to the whole school.
 
-## Book scanning / cataloguing flow (node 15:323)
-Start → Landing page (Scan button and Recent Books) → camera permission? (granted) → scan barcode → book found?
-- Yes → confirm book info. No → enter ISBN or scan the book cover → confirm book info.
-- Then: already in database? Yes → back to landing page. No → select category (Fiction / Non-fiction and sub-genre) → save to database → end.
-- The board does not show the camera-permission-denied branch.
+## 6 End of the school year (`43:492`)
+Loan history stays until a child leaves. Option A: rename the class. Option B: end the year → archive the eldest year group (leavers) → archive their history → move every other year group up. Still to decide: A, B or both; who can end the year; books a leaver still has on loan.
 
-## Barcode not finding a book (node 32:224)
-Barcode lookup fails → manually enter title and author → attach those details to the scanned barcode and save the book to the database (so the same barcode resolves next time).
-
-## Key decisions and open points
-- V2 collapses cataloguing, loaning and returning into a single scan whose outcome depends on catalogue/loan state.
-- Multi-tenant model: school → classes → teachers → children; teachers only see their own classes.
-- Schools need manual authorisation by Library Lite before going live; invites are by unique emailed links (no open sign-up for teachers).
-- Books carry a category (Fiction / Non-fiction plus sub-genre).
-- Not shown on the board: camera-denied fallback, loan due dates or overdue handling, how children are added (beyond "teachers set up classes with children"), and whether children log in (assumed not).
+## 7 Decisions & out of scope (`41:580`)
+The six answered questions (same as the brief's Decisions table) and the out-of-scope list.

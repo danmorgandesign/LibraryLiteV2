@@ -1,6 +1,6 @@
 # Library Lite Brief V2
 
-Rewritten Oct 13, 2026 from Dan's notes, his Q&A answers and the Figma flows board.
+Rewritten Oct 13, 2026 from Dan's notes, his Q&A answers and the Figma flows board. Open questions answered the same day.
 Source of truth: the "Library Lite Brief V2" Claude Doc (https://claude.ai/code/artifact/3435a4e0-fbde-453f-bf1a-b5bfe4725009). This file is a markdown export of it; update it when the doc changes.
 
 ## What Library Lite is
@@ -13,15 +13,15 @@ Its heart is one action: scan a book's barcode on an iPad. The app works out wha
 
 It's for school staff only for now. Children and parents don't log in or see anything.
 
-- **School admin:** the account that registered and pays for the school. Sets up the school's classes and invites teachers.
+- **School admin:** the account that registered and pays for the school. Sets up the school's classes and invites teachers. After that they're an extra user without a class, like a teaching assistant.
 - **Class teachers:** each is linked to a class. They manage their class's children, library day and loan limit, and get the weekly reminder email.
-- **Other staff, such as teaching assistants:** these users don't need a class of their own.
+- **Other staff, such as teaching assistants:** these users don't need a class of their own. The school admin is one of them.
 
 Anyone with a login at the school can scan books and loan them to any child in the school.
 
 ## The core flow: scan a book
 
-One Scan button covers adding, loaning and returning. The app checks the book's barcode against the school's library and shows only the options that fit.
+One Scan button covers adding, loaning, returning and renewing. The app checks the book's barcode against the school's library and shows only the options that fit.
 
 Scan flow (1 scan, 3 outcomes):
 
@@ -31,13 +31,21 @@ Scan flow (1 scan, 3 outcomes):
 
 When the barcode lookup can't find a book, the title and author typed in are saved against that barcode. The same barcode is then recognised next time. A new book can be loaned straight away or just added to the library.
 
+If a barcode won't scan, staff can type in the ISBN instead. If camera access is blocked on the iPad, the app reminds them to allow it when they try to scan.
+
+When a book is added, staff choose Fiction or Non-fiction. There are no sub-genres.
+
 ## Loan rules
 
-- **Loan limit:** each child can have 2 books out at once by default. A class's teacher can change that limit at any time.
+- **Loan limit:** each child can have 2 books out at once by default. A class's teacher can change that limit at any time. A child at their limit can't borrow any more: the loan is blocked, with no warning step.
 - **Colour coding:** every loan shows its age by colour. It's green for days 1 to 7, orange for days 8 to 14 and red from day 15. A loan counts as overdue once it's past a week.
 - **Renewing:** this tells the app the teacher has seen the book and is happy for the child to keep it. The loan goes back to green and the week starts again from that day.
 - **Weekly reminder:** each teacher gets an email the day before their class's library day. It lists the books their class has on loan, with the same colour coding as the website.
 - **Collection:** books belong to the whole school library, not to a class, so any child can borrow any book.
+
+## Viewing books
+
+View Books lets any staff member search the whole school library and see who has each book.
 
 ## Managing a class
 
@@ -60,19 +68,30 @@ This section comes from the Figma flows board.
 
 Nobody can sign up without an invite. The site has three parts: public pages (landing page, register, log in), the school registration steps, and the logged-in app (Scan Book, View Books, Manage Class).
 
+## End of the school year
+
+A child's loan history stays until they leave the school. There are two ways to move classes on:
+
+- **Rename the class:** for example, Year 3 becomes Year 4. Its children and their history stay.
+- **End the year:** archive the past year's eldest year group (the leavers), then move every other year group up one.
+
+Still to decide: which option to build, who can end the year, and what happens to books a leaver still has on loan.
+
 ## Out of scope for now
 
 - Logins or views for parents or children
 - Library cards for children
 - Working offline (the site needs a connection)
 
-## Open questions
+## Decisions
 
-These come from gaps noticed between the notes and the flows. They're not things Dan has raised.
+The brief's open questions, answered by Dan on Oct 13, 2026. The sections above include these answers.
 
-- What happens if a staff member blocks camera access on the iPad? Could they type the ISBN instead?
-- Should a loan be blocked when a child is at their limit, or should staff just be warned?
-- Can staff search the whole library and see who has a book? The earlier Figma flow had Search Books and a Loans list.
-- The Figma flow asks for a category when a book is added (Fiction or Non-fiction, plus a sub-genre). Is that still wanted?
-- When the school admin sets up classes, are they also a teacher, or a separate role?
-- What happens to classes and loan history when children move up a year?
+| Question | Decision |
+| --- | --- |
+| Camera blocked, or barcode won't scan | Staff can type in the ISBN. If camera access is blocked, the app reminds them to allow it. |
+| Child at their loan limit | The loan is blocked. No warning step. |
+| Search the whole library | Yes. Staff can search every book and see who has each one. |
+| Category when adding a book | Yes, Fiction or Non-fiction only. No sub-genres. |
+| School admin's role | An extra user without a class, like a teaching assistant. |
+| Moving up a year | Loan history stays until a child leaves. Rename the class, or use an end-of-year tool (see End of the school year). |
