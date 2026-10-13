@@ -14,7 +14,7 @@ Landing page (public) branches to:
 - **Log in** also → **Teachers** (school admin and teachers): invite a new teacher for a class (email gets an invite link), change a class's teacher (from that class's page), remove a teacher, add or remove classes (a class can only be removed once it has no children).
 
 ## 3 Onboarding (`40:465`)
-School registers → Library Lite approves by hand? (No → school doesn't go live) → starting email gets unique link (school admin) → admin sets up classes with teacher emails → each teacher gets an invite link → teacher sets up class and children → class ready.
+School registers → Library Lite approves by hand? (No → school doesn't go live) → starting email gets unique link (school admin) → admin sets up classes with teacher emails (saves as they go; invites only sent on Send invites) → each teacher gets an invite link → teacher sets up class and children → class ready.
 
 ## 4 Scan flow (`41:388`)
 Tap Scan → camera access allowed? (No → remind them to allow it → try again) → scan barcode, or type the ISBN if it won't scan → what state is the book in?

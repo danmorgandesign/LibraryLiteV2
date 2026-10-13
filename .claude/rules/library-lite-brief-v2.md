@@ -77,7 +77,7 @@ This section comes from the Figma flows board.
 
 1. A school registers on the public site with its name, address, contacts and a starting email address.
 2. Library Lite approves the school by hand before it goes live.
-3. The starting email address gets a unique link. That person, the school admin, uses it to set up classes and give each one a teacher's email.
+3. The starting email address gets a unique link. That person, the school admin, uses it to set up classes and give each one a teacher's email. This setup saves as they go, class by class, so they can leave and come back to the link. Invites are only emailed when they press Send invites.
 4. Each teacher gets their own invite link and sets up their class and its children.
 
 Nobody can sign up without an invite. The site has three parts: public pages (landing page, register, log in), the school registration steps, and the logged-in app (Scan Book, Books, Classes, Teachers).
