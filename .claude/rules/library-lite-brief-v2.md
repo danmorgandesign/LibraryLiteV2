@@ -29,7 +29,7 @@ Scan flow (1 scan, 3 outcomes):
 - **In the library, available** → loan it → choose class → choose child.
 - **In the library, on loan** → return it (or renew it).
 
-When the barcode lookup can't find a book, the title and author typed in are saved against that barcode. The same barcode is then recognised next time. A new book can be loaned straight away or just added to the library.
+If the barcode isn't recognised or the lookup can't find the book, it's still saved straight away with its barcode. When staff add the title and author, they're attached to that barcode, so the book is recognised the next time it's scanned. A new book can be loaned straight away or just added to the library.
 
 If a barcode won't scan, staff can type in the ISBN instead. If camera access is blocked on the iPad, the app reminds them to allow it when they try to scan.
 
