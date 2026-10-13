@@ -39,7 +39,7 @@ When a book is added, staff choose Fiction or Non-fiction. There are no sub-genr
 
 ## Loan rules
 
-- **Loan limit:** each child can have 2 books out at once by default. A class's teacher can change that limit at any time. A child at their limit can't borrow any more: the loan is blocked, with no warning step.
+- **Loan limit:** each child can have 2 books out at once by default. A class's teacher can change that limit at any time. A child at their limit can't borrow any more: the loan is blocked, with no warning step. Staff can tap that child to see which books they have out.
 - **Colour coding:** every loan shows its age by colour. It's green for days 1 to 7, orange for days 8 to 14 and red from day 15. A loan counts as overdue once it's past a week.
 - **Renewing:** this tells the app the teacher has seen the book and is happy for the child to keep it. The loan goes back to green and the week starts again from that day.
 - **Weekly reminder:** each teacher gets an email the day before their class's library day. It lists the books their class has on loan, with the same colour coding as the website.
