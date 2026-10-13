@@ -51,7 +51,7 @@ View Books lets any staff member search the whole school library and see who has
 
 Each teacher has a Manage Class page that only shows their own class. On it they can:
 
-- see the class list, with each child's name colour-coded by the age of their loans
+- see the class list, with each child's name showing the colour of their oldest loan
 - set the class's weekly library day, which most UK primary classes have on their timetable
 - change the class's loan limit
 - add the children in their class
