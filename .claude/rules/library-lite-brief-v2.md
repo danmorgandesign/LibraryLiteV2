@@ -81,7 +81,7 @@ Invites and new classes save as a draft while they're typed, so nothing is lost 
 
 This section comes from the Figma flows board.
 
-1. A school registers on the public site with its name, address, contacts and a starting email address.
+1. A school registers on the public site. It searches England's official list of schools by name, postcode or both, then picks itself from the matches, so its address fills in. A school that isn't listed types its details in by hand. It then adds contacts and a starting email address.
 2. Library Lite approves the school by hand before it goes live.
 3. The starting email address gets a unique link. That person, the school admin, uses it to create their account, with the same password rules as teachers, then set up classes and give each one a teacher's email. This setup saves as they go, class by class, so they can leave and come back to the link. Invites are only emailed when they press Send invites.
 4. Each teacher gets their own invite link, creates a password and sets up their class and its children. Their setup also saves as they go. A strength meter shows how strong the password is, and they can't continue until it meets every rule: at least 10 characters, includes a number, includes a special character, and isn't a common password.
@@ -103,6 +103,7 @@ Leavers must return all their books before they're removed from the school.
 - Logins or views for parents or children
 - Library cards for children
 - Working offline (the site needs a connection)
+- Looking up schools in Wales, Scotland and Northern Ireland (they can still register by typing their details in)
 
 ## Decisions
 
@@ -117,3 +118,4 @@ The brief's open questions, answered by Dan on Oct 13, 2026. The sections above 
 | School admin's role | An extra user without a class, like a teaching assistant. |
 | Moving up a year | Loan history stays until a child leaves. Classes move on by renaming them. Leavers return their books before they're removed (see End of the school year). |
 | Password rules | At least 10 characters, includes a number and a special character, and isn't a common password. |
+| Finding the school at registration | Looked up in the DfE's Get Information about Schools list, England only for now, refreshed weekly. One account per school: a school that's already registered is told to ask its admin for an invite. A school that isn't listed types its details in, and Library Lite checks them by hand. |
