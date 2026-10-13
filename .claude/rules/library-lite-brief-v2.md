@@ -111,5 +111,5 @@ The brief's open questions, answered by Dan on Oct 13, 2026. The sections above 
 | Search the whole library | Yes. Staff can search every book and see who has each one. |
 | Category when adding a book | Yes, Fiction or Non-fiction only. No sub-genres. |
 | School admin's role | An extra user without a class, like a teaching assistant. |
-| Password rules | At least 10 characters, includes a number and a special character, and isn't a common password. |
 | Moving up a year | Loan history stays until a child leaves. Classes move on by renaming them. Leavers return their books before they're removed (see End of the school year). |
+| Password rules | At least 10 characters, includes a number and a special character, and isn't a common password. |
