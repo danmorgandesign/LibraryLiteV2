@@ -19,7 +19,7 @@ School registers → Library Lite approves by hand? (No → school doesn't go li
 ## 4 Scan flow (`41:388`)
 Tap Scan → camera access allowed? (No → remind them to allow it → try again) → scan barcode, or type the ISBN if it won't scan → what state is the book in?
 - **Not in the library:** barcode recognised and book found? (No → ask staff to scan it again → found this time? Yes → add to library; No → book saved straight away with its barcode → type title + author → attached to the barcode so it's recognised next time; Cancel deletes the saved book and barcode) → add to library → choose Fiction or Non-fiction → loan it now? (No → just added; Yes → loan branch).
-- **Available:** loan it → choose class → choose child → at loan limit? (Yes → loan not allowed, no warning) → loan saved with today's date, starts green → on loan.
+- **Available:** loan it → does the person have a class? (Yes → their class is chosen → choose child, with a Change class option; No → choose class → choose child) → at loan limit? (Yes → loan not allowed, no warning) → loan saved with today's date, starts green → on loan.
 - **On loan:** return (loan closed → back in library) or renew (restarts from today, back to green → child keeps it another week).
 
 ## 5 Loan rules (`41:549`)

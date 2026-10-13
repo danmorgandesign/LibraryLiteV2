@@ -26,10 +26,12 @@ One Scan button covers adding, loaning, returning and renewing. The app checks t
 Scan flow (1 scan, 3 outcomes):
 
 - **Not in the library** → add it → either just add it to the library, or go on to loan it.
-- **In the library, available** → loan it → choose class → choose child.
+- **In the library, available** → loan it → choose child (a teacher's own class is chosen for them, with an option to change class; staff without a class choose the class first).
 - **In the library, on loan** → return it (or renew it).
 
 If a scan doesn't find the book, staff are asked to scan it once more. If the second scan still isn't recognised or found, the book is saved straight away with its barcode. When staff add the title and author, they're attached to that barcode, so the book is recognised the next time it's scanned. If they cancel instead, the saved book and its barcode are deleted. A new book can be loaned straight away or just added to the library.
+
+When loaning a book, a teacher's own class is chosen for them, so they go straight to choosing the child, with an option to change class. Staff without a class choose the class first.
 
 If a barcode won't scan, staff can type in the ISBN instead. If camera access is blocked on the iPad, the app reminds them to allow it when they try to scan.
 
