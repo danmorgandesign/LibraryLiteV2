@@ -11,10 +11,10 @@ School admin, class teachers, other staff (incl. the school admin after setup: n
 Landing page (public) branches to:
 - **Register school** (public) → school name → address & contacts → starting email address → Library Lite emailed to approve → starting email gets a unique link.
 - **Log in** (public) → Scan Book, Books (search the whole library, see who has each book), Classes (own class only: class list with each child's name showing the colour of their oldest loan, weekly library day, loan limit, add children). Tapping a name opens the **Child view**: that child's books on loan now (colour-coded), borrowing history, remove the child once they've returned all their books.
-- **Log in** also → **Teachers** (school admin and teachers): invite a new teacher for a class (email gets an invite link), change a class's teacher (from that class's page), remove a teacher, add or remove classes (a class can only be removed once it has no children).
+- **Log in** also → **Teachers** (school admin and teachers): invite a new teacher for a class (email gets an invite link), change a class's teacher (from that class's page), remove a teacher, add or remove classes (a class can only be removed once it has no children). Invite and add-class drafts save as they're typed; changing a class's teacher saves straight away.
 
 ## 3 Onboarding (`40:465`)
-School registers → Library Lite approves by hand? (No → school doesn't go live) → starting email gets unique link (school admin) → admin sets up classes with teacher emails (saves as they go; invites only sent on Send invites) → each teacher gets an invite link → teacher sets up class and children → class ready.
+School registers → Library Lite approves by hand? (No → school doesn't go live) → starting email gets unique link (school admin) → admin sets up classes with teacher emails (saves as they go; invites only sent on Send invites) → each teacher gets an invite link → teacher creates a password (strength meter; can't continue until strong enough) and sets up class and children (saves as they go) → class ready.
 
 ## 4 Scan flow (`41:388`)
 Tap Scan → camera access allowed? (No → remind them to allow it → try again) → scan barcode, or type the ISBN if it won't scan → what state is the book in?

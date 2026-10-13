@@ -71,6 +71,8 @@ The school admin and class teachers can open Teachers. On it they can:
 - remove a teacher
 - add or remove classes, but a class can only be removed once it has no children
 
+Invites and new classes save as a draft while they're typed, so nothing is lost if someone leaves the page. Changing a class's teacher saves straight away.
+
 ## Schools, accounts and onboarding
 
 This section comes from the Figma flows board.
@@ -78,7 +80,7 @@ This section comes from the Figma flows board.
 1. A school registers on the public site with its name, address, contacts and a starting email address.
 2. Library Lite approves the school by hand before it goes live.
 3. The starting email address gets a unique link. That person, the school admin, uses it to set up classes and give each one a teacher's email. This setup saves as they go, class by class, so they can leave and come back to the link. Invites are only emailed when they press Send invites.
-4. Each teacher gets their own invite link and sets up their class and its children.
+4. Each teacher gets their own invite link, creates a password and sets up their class and its children. Their setup also saves as they go. A strength meter shows how strong the password is, and they can't continue until it's strong enough. Still to decide: the exact password rules.
 
 Nobody can sign up without an invite. The site has three parts: public pages (landing page, register, log in), the school registration steps, and the logged-in app (Scan Book, Books, Classes, Teachers).
 
