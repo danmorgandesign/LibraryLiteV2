@@ -28,8 +28,10 @@ Afternoon:
 15. Classes are renamed on their page in Teachers. Removing a class is blocked while any child has a book out; otherwise a warning says it also removes the children and their history, and offers Rename instead.
 16. Added a forgot-password flow from Log in.
 17. Public website (Home, About, Pricing, Contact) with placeholder content and its own nav. Registration now starts from the website; the old landing page was removed. Pricing is still to decide.
-18. Reviewed the wireframe against the brief and the FigJam board and fixed the gaps. The wireframe now has 52 frames (47 screens and 5 overlays) in 8 flows.
-19. Added a mock-up of the weekly reminder email (new section 9): sent the day before library day, listing the class's books on loan, oldest first, colour-coded, with an Open Classes button. The wireframe now has 53 frames in 9 flows.
+18. Reviewed the wireframe against the brief and the FigJam board and fixed the gaps. The wireframe now has 51 frames (46 screens and 5 overlays) in 8 flows.
+19. Added a mock-up of the weekly reminder email (new section 9): sent the day before library day, listing the class's books on loan, oldest first, colour-coded, with an Open Classes button. The wireframe now has 52 frames in 9 flows.
 20. Added Help to the signed-in nav, between Teachers and Log Out.
-21. Added a Help page (new section 10): quick answers on scanning, barcodes that won't scan, loan colours and loan limits, plus a placeholder contact line. Help in the nav opens it. The wireframe now has 54 frames in 10 flows.
+21. Added a Help page (new section 10): quick answers on scanning, barcodes that won't scan, loan colours and loan limits, plus a placeholder contact line. Help in the nav opens it. The wireframe now has 53 frames in 10 flows.
 22. Added Help to the brief and to the FigJam site map.
+23. Added a data model (new "Data model" section on the Information Architecture V2 page): 8 tables, how they relate, what's calculated rather than stored, the rules the database enforces, the weekly reminder job, and 5 open questions (multiple copies, removing a teacher, school holidays, children's data, time zone).
+24. Every wireframe screen now has a Development annotation saying what it reads from and writes to the database. The Read me points to them.
