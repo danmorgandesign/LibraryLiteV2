@@ -16,3 +16,16 @@
 6. Renamed the signed-in pages to Scan Book, Books, Classes and Teachers.
 7. FigJam flows board: rebuilt as one "Library Lite V2 — Design Overview" section with seven parts (roles, site map, onboarding, scan flow, loan rules, end of year, decisions). Deleted the old "Initial Ideas" section.
 8. Figma wireframe ("Wireframes V2" page): 38 clickable greyscale iPad-landscape screens in 7 flows, built from a token-bound component kit, with 21 annotations, section notes and a Read me.
+
+Afternoon:
+
+9. Classes nav link now depends on who's logged in: teachers go to their own class, staff without a class get "Choose a class / Scan a book". The prototype tracks this with a variable set by the log-in buttons.
+10. Save-as-you-go on long forms: admin class setup (now input fields), teacher class setup, invite teacher and add class. Changing a class's name or teacher saves straight away.
+11. Passwords: a strength meter plus rules (at least 10 characters, a number, a special character, not a common password), used when teachers and the school admin create accounts and when resetting a password. Added a create-account step for the school admin.
+12. Scanning: if a scan doesn't find the book, staff scan once more. If it still isn't found, the book is saved with its barcode and the typed title and author are attached to it; cancelling deletes it.
+13. Loaning: a teacher's own class is chosen for them, with a Change class option. Staff without a class choose the class first. A child at their limit has an arrow that opens an overlay of the books they have out.
+14. Teachers page is open to any staff member. A teacher opens as an overlay, with a confirmation overlay before removing them.
+15. Classes are renamed on their page in Teachers. Removing a class is blocked while any child has a book out; otherwise a warning says it also removes the children and their history, and offers Rename instead.
+16. Added a forgot-password flow from Log in.
+17. Public website (Home, About, Pricing, Contact) with placeholder content and its own nav. Registration now starts from the website; the old landing page was removed. Pricing is still to decide.
+18. Reviewed the wireframe against the brief and the FigJam board and fixed the gaps. The wireframe now has 52 frames (47 screens and 5 overlays) in 8 flows.
