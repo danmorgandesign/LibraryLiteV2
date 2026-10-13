@@ -25,7 +25,7 @@ Tap Scan → camera access allowed? (No → remind them to allow it → try agai
 Green days 1–7, orange 8–14, red 15+; overdue after a week. Limit 2 by default (teacher can change). Renew resets to green. Weekly reminder email the day before library day. Books belong to the whole school.
 
 ## 6 End of the school year (`43:492`)
-Loan history stays until a child leaves. Option A: rename the class. Option B: end the year → archive the eldest year group (leavers) → archive their history → move every other year group up. Still to decide: A, B or both; who can end the year; books a leaver still has on loan.
+Loan history stays until a child leaves. Decided: classes move on by renaming them (e.g. Year 3 becomes Year 4). Still to decide: books a leaver still has on loan.
 
 ## 7 Decisions & out of scope (`41:580`)
 The six answered questions (same as the brief's Decisions table) and the out-of-scope list.

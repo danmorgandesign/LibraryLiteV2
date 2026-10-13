@@ -8,4 +8,4 @@ Context loaded automatically from `.claude/rules/`:
 
 Figma flows board: https://www.figma.com/board/6TADZXvo4PxMned1su6bZP/Library-Lite-Flows?node-id=39-247
 
-Where the brief and the flows disagree, the brief wins. Anything the brief marks "Still to decide" (currently the end-of-year options) isn't decided yet: ask before building around it.
+Where the brief and the flows disagree, the brief wins. Anything the brief marks "Still to decide" (currently what happens to books a leaver still has on loan) isn't decided yet: ask before building around it.
