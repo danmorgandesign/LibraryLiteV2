@@ -10,7 +10,7 @@ School admin, class teachers, other staff (incl. the school admin after setup: n
 ## 2 Site map (`39:311`)
 Landing page (public) branches to:
 - **Register school** (public) → school name → address & contacts → starting email address → Library Lite emailed to approve → starting email gets a unique link.
-- **Log in** (public) → Scan Book, View Books (search the whole library, see who has each book), Manage Class (own class only: current loans colour-coded, each child's history, weekly library day, loan limit, add children).
+- **Log in** (public) → Scan Book, View Books (search the whole library, see who has each book), Manage Class (own class only: current loans colour-coded, each child's history, weekly library day, loan limit, add children, remove a child once they've returned all their books).
 
 ## 3 Onboarding (`40:465`)
 School registers → Library Lite approves by hand? (No → school doesn't go live) → starting email gets unique link (school admin) → admin sets up classes with teacher emails → each teacher gets an invite link → teacher sets up class and children → class ready.

@@ -56,6 +56,7 @@ Each teacher has a Manage Class page that only shows their own class. On it they
 - set the class's weekly library day, which most UK primary classes have on their timetable
 - change the class's loan limit
 - add the children in their class
+- remove a child, but only once they've returned all their books
 
 ## Schools, accounts and onboarding
 
