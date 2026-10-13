@@ -73,7 +73,7 @@ Any staff member can open Teachers. On it they can:
 - invite a new teacher for a class, whose email gets an invite link
 - rename a class or change its teacher, from that class's page
 - remove a teacher
-- add or remove classes. Removing a class also removes its children and their loan history, so it always asks for confirmation first. If the class still has children, the warning says so and suggests renaming the class instead if it's just moving up a year
+- add or remove classes. Removing a class also removes its children and their loan history, so it always asks for confirmation first. A class can't be removed while any of its children have books out. If the class still has children, the warning says so and suggests renaming the class instead if it's just moving up a year
 
 Invites and new classes save as a draft while they're typed, so nothing is lost if someone leaves the page. Changing a class's name or teacher saves straight away.
 
@@ -86,7 +86,9 @@ This section comes from the Figma flows board.
 3. The starting email address gets a unique link. That person, the school admin, uses it to create their account, with the same password rules as teachers, then set up classes and give each one a teacher's email. This setup saves as they go, class by class, so they can leave and come back to the link. Invites are only emailed when they press Send invites.
 4. Each teacher gets their own invite link, creates a password and sets up their class and its children. Their setup also saves as they go. A strength meter shows how strong the password is, and they can't continue until it meets every rule: at least 10 characters, includes a number, includes a special character, and isn't a common password.
 
-Nobody can sign up without an invite. The site has three parts: public pages (landing page, register, log in), the school registration steps, and the logged-in app (Scan Book, Books, Classes, Teachers).
+Nobody can sign up without an invite. The site has three parts: public pages (a website with Home, About, Pricing and Contact, plus register and log in), the school registration steps, and the logged-in app (Scan Book, Books, Classes, Teachers).
+
+Log in has a Forgot password link. Staff enter their email, get a reset link, and set a new password with the same rules as above. Pricing on the website is still to decide.
 
 ## End of the school year
 
