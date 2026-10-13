@@ -30,3 +30,6 @@ Afternoon:
 17. Public website (Home, About, Pricing, Contact) with placeholder content and its own nav. Registration now starts from the website; the old landing page was removed. Pricing is still to decide.
 18. Reviewed the wireframe against the brief and the FigJam board and fixed the gaps. The wireframe now has 52 frames (47 screens and 5 overlays) in 8 flows.
 19. Added a mock-up of the weekly reminder email (new section 9): sent the day before library day, listing the class's books on loan, oldest first, colour-coded, with an Open Classes button. The wireframe now has 53 frames in 9 flows.
+20. Added Help to the signed-in nav, between Teachers and Log Out.
+21. Added a Help page (new section 10): quick answers on scanning, barcodes that won't scan, loan colours and loan limits, plus a placeholder contact line. Help in the nav opens it. The wireframe now has 54 frames in 10 flows.
+22. Added Help to the brief and to the FigJam site map.

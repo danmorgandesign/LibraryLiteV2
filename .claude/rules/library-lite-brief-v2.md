@@ -86,7 +86,9 @@ This section comes from the Figma flows board.
 3. The starting email address gets a unique link. That person, the school admin, uses it to create their account, with the same password rules as teachers, then set up classes and give each one a teacher's email. This setup saves as they go, class by class, so they can leave and come back to the link. Invites are only emailed when they press Send invites.
 4. Each teacher gets their own invite link, creates a password and sets up their class and its children. Their setup also saves as they go. A strength meter shows how strong the password is, and they can't continue until it meets every rule: at least 10 characters, includes a number, includes a special character, and isn't a common password.
 
-Nobody can sign up without an invite. The site has three parts: public pages (a website with Home, About, Pricing and Contact, plus register and log in), the school registration steps, and the logged-in app (Scan Book, Books, Classes, Teachers).
+Nobody can sign up without an invite. The site has three parts: public pages (a website with Home, About, Pricing and Contact, plus register and log in), the school registration steps, and the logged-in app (Scan Book, Books, Classes, Teachers, Help).
+
+Help in the logged-in nav opens a page of quick answers: scanning a book, what to do when a barcode won't scan or the camera is blocked, what the loan colours mean, and why a child can't borrow. It ends with a contact line for the Library Lite team (the address is still a placeholder).
 
 Log in has a Forgot password link. Staff enter their email, get a reset link, and set a new password with the same rules as above. Pricing on the website is still to decide.
 
