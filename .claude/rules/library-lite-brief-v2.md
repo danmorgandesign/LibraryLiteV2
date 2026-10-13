@@ -53,14 +53,14 @@ Books lets any staff member search the whole school library and see who has each
 
 Each teacher has a Classes page that only shows their own class. On it they can:
 
-- see the class list, with each child's name showing the colour of their oldest loan
+- see the class list, with each child's name showing the colour of their oldest loan, and open a quick view of a child's books to return them
 - set the class's weekly library day, which most UK primary classes have on their timetable
-- change the class's loan limit
-- add the children in their class
+- change the class's loan limit (both settings change through an Edit button and a dropdown)
+- add the children in their class, as a first name plus a surname initial only when two children share a first name. Surnames are never stored
 
 Tapping a child's name opens their child view. On it the teacher can:
 
-- see which books the child has on loan now, colour-coded by age
+- see which books the child has on loan now, colour-coded by age, and return any of them. Every return from the class list or child view asks for confirmation first
 - see the child's borrowing history
 - remove the child, but only once they've returned all their books
 
@@ -75,7 +75,7 @@ Any staff member can open Teachers. On it they can:
 - remove a teacher
 - add or remove classes. Removing a class also removes its children and their loan history, so it always asks for confirmation first. A class can't be removed while any of its children have books out. If the class still has children, the warning says so and suggests renaming the class instead if it's just moving up a year
 
-Invites and new classes save as a draft while they're typed, so nothing is lost if someone leaves the page. Changing a class's name or teacher saves straight away.
+Invites and new classes save as a draft while they're typed, so nothing is lost if someone leaves the page. A class's name and teacher are changed through an Edit button that opens a small window, and save when Save is pressed.
 
 ## Schools, accounts and onboarding
 
@@ -119,3 +119,4 @@ The brief's open questions, answered by Dan on Oct 13, 2026. The sections above 
 | Moving up a year | Loan history stays until a child leaves. Classes move on by renaming them. Leavers return their books before they're removed (see End of the school year). |
 | Password rules | At least 10 characters, includes a number and a special character, and isn't a common password. |
 | Finding the school at registration | Looked up in the DfE's Get Information about Schools list, England only for now, refreshed weekly. One account per school: a school that's already registered is told to ask its admin for an invite. A school that isn't listed types its details in, and Library Lite checks them by hand. |
+| Children's names | First name plus an optional surname initial, in two separate fields. Surnames are never stored. |

@@ -38,3 +38,12 @@ Afternoon:
 25. Registration now looks the school up instead of asking for its address. Staff search England's official list of schools (GIAS) by name, postcode or both, pick their school from the matches, and its address fills in. A school that's already registered is told to ask its admin for an invite. A school that isn't listed types its details in by hand. This added three screens (choose your school, enter details by hand, already registered) and a School card component. The wireframe now has 56 frames in 10 flows.
 26. Data model: schools now store their URN (the school's unique reference number). A new gias_schools table holds the GIAS list of about 25,000 open schools, refreshed by a weekly import job. The database allows only one school per URN.
 27. Updated the brief and the FigJam flows board for the school lookup. Looking up schools in Wales, Scotland and Northern Ireland is out of scope for now.
+
+Evening:
+
+28. Class page (E1): the weekly library day and loan limit are now read-only, each with an Edit button. Edit opens an overlay with a dropdown (Monday to Friday; 1 to 5 books) and Save or Cancel. Added Select and Setting components to the Kit.
+29. Class page in Teachers (G7, G7b, G8): class name and teacher work the same way, through Rename class and Change teacher overlays. These changes now save on Save rather than as you type.
+30. Children's names are now two fields, first name and an optional one-letter initial, on teacher class setup (B4) and Add a child (E2). Surnames are never stored. The data model's children table now has first_name and initial.
+31. Returning books without scanning: the child view (E3) has a Return button on each book on loan, and children on the class list (E1) who have books out get a Quick view overlay of their loans with Return on each. Every return asks for confirmation first, and the screens after show the book moved into history. Once all books are back, Remove child is enabled.
+32. Font pairs for a possible visual style, on the Mood Board page: Fjalla One with Cantarell, Roboto with Lora, Montserrat with Karla, and Fugaz One with Work Sans, each with its own text styles and tokens.
+33. Updated the brief for all of the above. The wireframe now has 75 frames (54 screens and 21 overlays) in 10 flows.
