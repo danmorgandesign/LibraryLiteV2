@@ -73,7 +73,7 @@ Any staff member can open Teachers. On it they can:
 - invite a new teacher for a class, whose email gets an invite link
 - rename a class or change its teacher, from that class's page
 - remove a teacher
-- add or remove classes, but a class can only be removed once it has no children
+- add or remove classes. Removing a class always asks for confirmation first, with a clear warning if it still has children
 
 Invites and new classes save as a draft while they're typed, so nothing is lost if someone leaves the page. Changing a class's name or teacher saves straight away.
 
