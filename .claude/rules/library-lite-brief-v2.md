@@ -64,6 +64,8 @@ Tapping a child's name opens their child view. On it the teacher can:
 - see the child's borrowing history
 - remove the child, but only once they've returned all their books
 
+Staff without a class (other staff and the school admin) who open Classes are offered two choices: choose a class to view, or scan a book.
+
 ## Managing teachers
 
 The school admin and class teachers can open Teachers. On it they can:
@@ -109,4 +111,5 @@ The brief's open questions, answered by Dan on Oct 13, 2026. The sections above 
 | Search the whole library | Yes. Staff can search every book and see who has each one. |
 | Category when adding a book | Yes, Fiction or Non-fiction only. No sub-genres. |
 | School admin's role | An extra user without a class, like a teaching assistant. |
+| Password rules | At least 10 characters, includes a number and a special character, and isn't a common password. |
 | Moving up a year | Loan history stays until a child leaves. Classes move on by renaming them. Leavers return their books before they're removed (see End of the school year). |

@@ -10,7 +10,7 @@ School admin, class teachers, other staff (incl. the school admin after setup: n
 ## 2 Site map (`39:311`)
 Landing page (public) branches to:
 - **Register school** (public) → school name → address & contacts → starting email address → Library Lite emailed to approve → starting email gets a unique link.
-- **Log in** (public) → Scan Book, Books (search the whole library, see who has each book), Classes (own class only: class list with each child's name showing the colour of their oldest loan, weekly library day, loan limit, add children). Tapping a name opens the **Child view**: that child's books on loan now (colour-coded), borrowing history, remove the child once they've returned all their books.
+- **Log in** (public) → Scan Book, Books (search the whole library, see who has each book), Classes (own class only: class list with each child's name showing the colour of their oldest loan, weekly library day, loan limit, add children; staff without a class are offered: choose a class to view, or scan a book). Tapping a name opens the **Child view**: that child's books on loan now (colour-coded), borrowing history, remove the child once they've returned all their books.
 - **Log in** also → **Teachers** (school admin and teachers): invite a new teacher for a class (email gets an invite link), change a class's teacher (from that class's page), remove a teacher, add or remove classes (a class can only be removed once it has no children). Invite and add-class drafts save as they're typed; changing a class's teacher saves straight away.
 
 ## 3 Onboarding (`40:465`)
@@ -29,4 +29,4 @@ Green days 1–7, orange 8–14, red 15+; overdue after a week. Limit 2 by defau
 Loan history stays until a child leaves. Decided: classes move on by renaming them (e.g. Year 3 becomes Year 4). Decided: leavers must return all their books before they're removed from the school.
 
 ## 7 Decisions & out of scope (`41:580`)
-The six answered questions (same as the brief's Decisions table) and the out-of-scope list.
+Seven decisions (the brief's six answered questions plus password rules, same as the brief's Decisions table) and the out-of-scope list.
