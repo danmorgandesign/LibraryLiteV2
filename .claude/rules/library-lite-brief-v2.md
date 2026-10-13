@@ -72,7 +72,7 @@ Nobody can sign up without an invite. The site has three parts: public pages (la
 
 A child's loan history stays until they leave the school. Classes move on by renaming them: for example, Year 3 becomes Year 4, and its children and their history stay.
 
-Still to decide: what happens to books a leaver still has on loan.
+Leavers must return all their books before they're removed from the school.
 
 ## Out of scope for now
 
@@ -91,4 +91,4 @@ The brief's open questions, answered by Dan on Oct 13, 2026. The sections above 
 | Search the whole library | Yes. Staff can search every book and see who has each one. |
 | Category when adding a book | Yes, Fiction or Non-fiction only. No sub-genres. |
 | School admin's role | An extra user without a class, like a teaching assistant. |
-| Moving up a year | Loan history stays until a child leaves. Classes move on by renaming them (see End of the school year). |
+| Moving up a year | Loan history stays until a child leaves. Classes move on by renaming them. Leavers return their books before they're removed (see End of the school year). |
