@@ -51,12 +51,16 @@ View Books lets any staff member search the whole school library and see who has
 
 Each teacher has a Manage Class page that only shows their own class. On it they can:
 
-- see which books each child has on loan now, colour-coded by age
-- see each child's borrowing history
+- see the class list, with each child's name colour-coded by the age of their loans
 - set the class's weekly library day, which most UK primary classes have on their timetable
 - change the class's loan limit
 - add the children in their class
-- remove a child, but only once they've returned all their books
+
+Tapping a child's name opens their child view. On it the teacher can:
+
+- see which books the child has on loan now, colour-coded by age
+- see the child's borrowing history
+- remove the child, but only once they've returned all their books
 
 ## Schools, accounts and onboarding
 
