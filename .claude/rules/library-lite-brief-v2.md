@@ -66,8 +66,8 @@ Tapping a child's name opens their child view. On it the teacher can:
 
 The school admin and class teachers can open Manage Teachers. On it they can:
 
-- invite a new teacher, whose email gets an invite link
-- change a class's teacher
+- invite a new teacher for a class, whose email gets an invite link
+- change a class's teacher, from that class's page
 - remove a teacher
 - add or remove classes, but a class can only be removed once it has no children
 
