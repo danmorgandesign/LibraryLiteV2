@@ -5,12 +5,13 @@ Source: [Library Lite Flows board](https://www.figma.com/board/6TADZXvo4PxMned1s
 Read top to bottom. Key: green rounded = start/end, yellow diamond = decision, blue square = screen/action, violet parallelogram = input, teal cylinder = saved data, teal sticky = decision made, yellow sticky = still to decide (none open right now).
 
 ## 1 Who uses it (`39:284`)
-School admin, class teachers, other staff (incl. the school admin after setup: no class), and the Library Lite team (approves schools). Anyone with a login can loan to any child. Children and parents don't log in.
+School admin, class teachers, other staff (incl. the school admin after setup: no class), and the Library Lite team (approves schools). The school admin and class teachers can manage teachers and classes. Anyone with a login can loan to any child. Children and parents don't log in.
 
 ## 2 Site map (`39:311`)
 Landing page (public) branches to:
 - **Register school** (public) → school name → address & contacts → starting email address → Library Lite emailed to approve → starting email gets a unique link.
 - **Log in** (public) → Scan Book, View Books (search the whole library, see who has each book), Manage Class (own class only: class list with each child's name showing the colour of their oldest loan, weekly library day, loan limit, add children). Tapping a name opens the **Child view**: that child's books on loan now (colour-coded), borrowing history, remove the child once they've returned all their books.
+- **Log in** also → **Manage Teachers** (school admin and teachers): invite a new teacher (email gets an invite link), change a class's teacher, remove a teacher, add or remove classes.
 
 ## 3 Onboarding (`40:465`)
 School registers → Library Lite approves by hand? (No → school doesn't go live) → starting email gets unique link (school admin) → admin sets up classes with teacher emails → each teacher gets an invite link → teacher sets up class and children → class ready.

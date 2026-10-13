@@ -13,8 +13,8 @@ Its heart is one action: scan a book's barcode on an iPad. The app works out wha
 
 It's for school staff only for now. Children and parents don't log in or see anything.
 
-- **School admin:** the account that registered and pays for the school. Sets up the school's classes and invites teachers. After that they're an extra user without a class, like a teaching assistant.
-- **Class teachers:** each is linked to a class. They manage their class's children, library day and loan limit, and get the weekly reminder email.
+- **School admin:** the account that registered and pays for the school. Sets up the school's classes and invites teachers. After that they're an extra user without a class, like a teaching assistant, who can also manage teachers and classes.
+- **Class teachers:** each is linked to a class. They manage their class's children, library day and loan limit, and get the weekly reminder email. They can also manage teachers and classes.
 - **Other staff, such as teaching assistants:** these users don't need a class of their own. The school admin is one of them.
 
 Anyone with a login at the school can scan books and loan them to any child in the school.
@@ -62,6 +62,15 @@ Tapping a child's name opens their child view. On it the teacher can:
 - see the child's borrowing history
 - remove the child, but only once they've returned all their books
 
+## Managing teachers
+
+The school admin and class teachers can open Manage Teachers. On it they can:
+
+- invite a new teacher, whose email gets an invite link
+- change a class's teacher
+- remove a teacher
+- add or remove classes
+
 ## Schools, accounts and onboarding
 
 This section comes from the Figma flows board.
@@ -71,7 +80,7 @@ This section comes from the Figma flows board.
 3. The starting email address gets a unique link. That person, the school admin, uses it to set up classes and give each one a teacher's email.
 4. Each teacher gets their own invite link and sets up their class and its children.
 
-Nobody can sign up without an invite. The site has three parts: public pages (landing page, register, log in), the school registration steps, and the logged-in app (Scan Book, View Books, Manage Class).
+Nobody can sign up without an invite. The site has three parts: public pages (landing page, register, log in), the school registration steps, and the logged-in app (Scan Book, View Books, Manage Class, Manage Teachers).
 
 ## End of the school year
 
