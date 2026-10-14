@@ -1,5 +1,27 @@
 # Library Lite V2 log
 
+## October 14, 2026
+
+Morning:
+
+1. Teacher (G4) is now a page rather than an overlay, mirroring the class page: name and class are Setting cards with Edit overlays (G4a, G4b), and Remove teacher has a confirm overlay (G5).
+2. Books (D1): Type and Status filter chips, a Sort by dropdown (D1b) and a filtered state (D1a), with a filter panel on the right.
+3. Ran a design review of the whole wireframe. Section 1 (gaps that block the build) is worked through below.
+
+Afternoon (review section 1):
+
+4. Multiple copies, decided: no school barcode labels. When every copy of a book is on loan, the On loan screen (C9) offers "It's a different copy" (C9a), which loans it straight away. It also asks the other child's teacher to confirm in an in-app pop-up (E1k, answers E1l/E1m) that keeps coming back until they answer. If the scanner is that teacher, they're asked on the spot (C9b). Returns of a title with several copies out always ask which child (C9c).
+5. Rule for every flow: never assume or default. When the app can't know something, it asks the person.
+6. Books with no barcode: "No barcode? Find it by title" on C1 and C3 opens C12 (search by title or author). C13 adds a book with no barcode. As the title is typed, it suggests matching books already in the library (C13a), and picking one asks whether it's another copy (C13b).
+7. Nothing is deleted any more: Remove is now Archive for teachers, classes and children. A new Archive page (G10, with a Restore class overlay G10a) lets anyone restore them, and an Activity log (G11) records every archive and restore. Nobody can archive themselves or the last admin.
+8. End of year: a new section 11 holds a guided flow. K1 sets new class names, suggested by adding one to the year number, with an edit overlay K1a. K2/K2a handle the leavers' books still out. K3 confirms everything in one step, and K4 is the done screen.
+9. Leavers' unreturned books are written off at End of year, one at a time by a person (K2b), never automatically. A new Lost books report (K5) lists each year's write-offs and can be downloaded as a CSV.
+10. Invite links last 14 days. Teachers (G1) lists invites still waiting, with when they expire, and a Resend button. G1 also has new links to Archive, Activity log, End of year and Lost books.
+11. Data model: books are split into titles and copies, with new copy_checks and activity_log tables. Archive columns were added to users, classes and children, plus users.name, invites.expires_at, loans.closed_as and copy write-off columns. New rules: one open loan per copy, nothing is assumed, write-offs are always chosen, and End of year is one transaction. Open question 1 (multiple copies) is closed.
+12. Updated the brief (the Claude Doc and the repo export) for all of the above, with six new rows in the Decisions table.
+
+Still to do: the FigJam flows board and `library-lite-flows.md` don't show any of today's afternoon changes yet. Open: how long archived children's data is kept (UK GDPR), whether books can be marked lost during the year, and the "add a written-off book back" screen on scan (in the annotations only). Next from the review: section 2 (missing flows), starting with the library-day session.
+
 ## October 13, 2026
 
 1. Set up the repo: `CLAUDE.md` loads the V2 brief and a summary of the flows board as Claude Code rules.
