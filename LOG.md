@@ -20,7 +20,23 @@ Afternoon (review section 1):
 11. Data model: books are split into titles and copies, with new copy_checks and activity_log tables. Archive columns were added to users, classes and children, plus users.name, invites.expires_at, loans.closed_as and copy write-off columns. New rules: one open loan per copy, nothing is assumed, write-offs are always chosen, and End of year is one transaction. Open question 1 (multiple copies) is closed.
 12. Updated the brief (the Claude Doc and the repo export) for all of the above, with six new rows in the Decisions table.
 
-Still to do: the FigJam flows board and `library-lite-flows.md` don't show any of today's afternoon changes yet. Open: how long archived children's data is kept (UK GDPR), whether books can be marked lost during the year, and the "add a written-off book back" screen on scan (in the annotations only). Next from the review: section 2 (missing flows), starting with the library-day session.
+Evening (review section 2, missing flows):
+
+13. Library-day session: tried a scan session with toasts, Undo and a "Just scanned" list on C1, then rolled it all back. Loans, returns and renewals keep their confirmation screens (C8, C10, C11), and there's no separate Returns session.
+14. Choosing the child (C7) is now a grid of big name tiles, 4 across the full width, built from a new Child tile component in the Kit. Search, sort (first name A–Z or Z–A, most books out, oldest loan first) and filters (can borrow or at limit, loan colour) are hidden until "Show search and filters" is tapped (C7c).
+15. USB or Bluetooth barcode scanners are added to the brief: they work exactly like a camera scan.
+16. New book page (D2), opened from Books: copies and who has them, borrowing history, edit title and author (D2a) and category (D2b). Any staff member can mark a copy lost or damaged at any time, after a confirm (D2c, then D2e). Archive book (D2d) is blocked while a copy is on loan, and archived books can be restored from the Archive (G10).
+17. Books (D1, D1a) gained Loan colour and Class filters, so overdue books across the school are easy to find (shown, not wired).
+18. Adding many children: "Paste a list of names" on Add a child (E2) and class setup (B4). Each line keeps the first name and the surname's first letter. A check screen lists every child before saving (E2a–E2d, B4a–B4d), and a name already in the class has to be answered: Add anyway or Skip.
+19. Moving a child: the child view (E3) has a Class card. Edit opens Move to another class (E3h), and E3i shows the result. Their loans and history move with them, and the move goes in the activity log.
+20. Inviting: G2 is now Invite someone, either a teacher for a class or staff without a class (G2a). Only the email is required. Staff without a class are listed with the teachers. Waiting invites can be cancelled after a confirm (G1a, then G1b), using a new optional second button on the List row component.
+21. Job shares: class pages (G7, G7b, G8) have an optional Second teacher (G7e). Both teachers see the class as their own and get the reminder email.
+22. My account: a new nav link and a new section 12 with My account (L1), plus overlays to edit your name (L1a), change your email (L1b, which only takes over once the confirm link is opened) and change your password (L1c).
+23. Admins: the teacher page (G4) has an Admin card to make someone an admin (G4c, then G4d) or remove it (G4e). A school can have several admins and always keeps at least one.
+24. Data model: archived titles, write-off reasons (lost, damaged, not returned), a second teacher per class, invites that can be cancelled or have no class, pending email changes, admins for any user, and new activity log actions (title edited, moved, invite cancelled, admin added and removed).
+25. Updated the brief (the Claude Doc and the repo export) for all of the above, with seven new Decisions rows. The wireframe now has 128 frames (87 screens and 41 overlays) in 12 flow sections.
+
+Still to do: the FigJam flows board and `library-lite-flows.md` don't show any of today's changes yet. Open: what admins can do that other staff can't, how long archived children's data is kept (UK GDPR), and the "add a written-off book back" screen on scan (in the annotations only). Next from the review: approval states and emails (items 13–14), then billing, empty and error states, and shared iPads.
 
 ## October 13, 2026
 

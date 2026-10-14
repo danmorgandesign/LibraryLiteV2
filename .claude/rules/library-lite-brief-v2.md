@@ -13,11 +13,13 @@ Its heart is one action: scan a book's barcode on an iPad. The app works out wha
 
 It's for school staff only for now. Children and parents don't log in or see anything.
 
-- **School admin:** the account that registered and pays for the school. Sets up the school's classes and invites teachers. After that they're an extra user without a class, like a teaching assistant, who can also manage teachers and classes.
+- **School admin:** the account that registered and pays for the school. Sets up the school's classes and invites teachers. After that they're an extra user without a class, like a teaching assistant, who can also manage teachers and classes. Any staff member can be made an admin too, from their page on Teachers, after a confirm. A school can have several admins and always keeps at least one.
 - **Class teachers:** each is linked to a class. They manage their class's children, library day and loan limit, and get the weekly reminder email. They can also manage teachers and classes.
 - **Other staff, such as teaching assistants:** these users don't need a class of their own. The school admin is one of them. They can also manage teachers and classes.
 
 Anyone with a login at the school can scan books and loan them to any child in the school.
+
+Everyone has a **My account** page, linked from the nav, where they change their own name, email and password. A new email only replaces the old one once the person opens the confirm link sent to it. A new password follows the same rules as at setup.
 
 ## The core flow: scan a book
 
@@ -39,9 +41,9 @@ Scan flow (1 scan, 3 outcomes):
 
 If a scan doesn't find the book, staff are asked to scan it once more. If the second scan still isn't recognised or found, the book is saved straight away with its barcode. When staff add the title and author, they're attached to that barcode, so the book is recognised the next time it's scanned. If they cancel instead, the saved book and its barcode are deleted. A new book can be loaned straight away or just added to the library.
 
-When loaning a book, a teacher's own class is chosen for them, so they go straight to choosing the child, with an option to change class. Staff without a class choose the class first.
+When loaning a book, a teacher's own class is chosen for them, so they go straight to choosing the child, with an option to change class. Staff without a class choose the class first. Children show as a grid of big name tiles across the full width. Search by name, sort (first name A–Z or Z–A, most books out, oldest loan first) and filters (can borrow or at limit, loan colour) are hidden until staff tap Show search and filters.
 
-If a barcode won't scan, staff can type in the ISBN instead. If camera access is blocked on the iPad, the app reminds them to allow it when they try to scan.
+If a barcode won't scan, staff can type in the ISBN instead. If camera access is blocked on the iPad, the app reminds them to allow it when they try to scan. Staff can also use a USB or Bluetooth barcode scanner instead of the camera. It types the barcode like a keyboard, and the scan screen treats it exactly like a camera scan.
 
 **Books with no barcode.** Some books have no barcode at all, such as old books and donations. This is rare, and these books simply never get one. From the scan screen, staff tap **No barcode? Find it by title** and search the library by title or author. Picking a book there works exactly like scanning it. If the book isn't in the library yet, staff add it by typing the title and author. As they type the title, the app suggests matching books already in the library. The search is short and forgiving: any word in the title or author, ignoring case, punctuation and small typos. If they pick a suggestion, the app asks **is this another copy of that book?** Yes adds it as another copy, and No adds it as a new book. The app never decides it's the same book on its own.
 
@@ -57,7 +59,14 @@ When a book is added, staff choose Fiction or Non-fiction. There are no sub-genr
 
 ## Viewing books
 
-Books lets any staff member search the whole school library and see who has each book.
+Books lets any staff member search the whole school library and see who has each book. Filters narrow the list by type, available or on loan, loan colour (so overdue books across the school are easy to find) and class.
+
+Tapping a book opens its page. Any staff member can:
+
+- see each copy and who has it now, and the book's borrowing history
+- edit the title and author, or change the category
+- mark any copy **lost** or **damaged**, at any time of year, after a confirm. If the copy is on loan, that loan is closed. The copy goes in the lost books report with its reason, and scanning it later asks whether to add it back
+- archive the book, after a confirm. It's blocked while any copy is on loan. Archived books leave Books and search, keep their history, and can be restored from the Archive
 
 ## Managing a class
 
@@ -67,11 +76,13 @@ Each teacher has a Classes page that only shows their own class. On it they can:
 - set the class's weekly library day, which most UK primary classes have on their timetable
 - change the class's loan limit (both settings change through an Edit button and a dropdown)
 - add the children in their class, as a first name plus a surname initial only when two children share a first name. Surnames are never stored
+- add many children at once by pasting a list of names, one per line, from the school's records system. Only the first name and the first letter of the surname are kept. A check screen lists every child before anything is saved: staff can fix or remove any row, and a name that's already in the class is flagged and must be answered (add anyway or skip). This is offered both during class setup and on the class page
 
 Tapping a child's name opens their child view. On it the teacher can:
 
 - see which books the child has on loan now, colour-coded by age, and return any of them. Every return from the class list or child view asks for confirmation first
 - see the child's borrowing history
+- move the child to another class at any time. Their books on loan and borrowing history move with them, and the move is recorded in the activity log
 - archive the child, but only once they've returned all their books
 
 Staff without a class (other staff and the school admin) who open Classes are offered two choices: choose a class to view, or scan a book.
@@ -80,11 +91,13 @@ Staff without a class (other staff and the school admin) who open Classes are of
 
 Any staff member can open Teachers. On it they can:
 
-- invite a new teacher for a class, whose email gets an invite link. Links last 14 days. Invites that haven't been accepted are listed on Teachers with when they expire, and can be resent with a fresh link
-- rename a class or change its teacher, from that class's page
+- invite someone, either a teacher for a class or a staff member without a class (such as a teaching assistant). Only their email is needed, and the class is optional. Their email gets an invite link. Links last 14 days. Invites that haven't been accepted are listed on Teachers with when they expire. They can be resent with a fresh link, or cancelled after a confirm, which stops the link working
+- see staff without a class in the same Teachers list, marked "No class"
+- rename a class or change its teacher, from that class's page. A class can also have a second teacher for a job share. Both see the class as their own and both get the weekly reminder email
+- make someone an admin, or remove admin from them, from their page, after a confirm. The last admin can't be removed
 - archive a teacher, who then can't log in
 - add or archive classes. Archiving a class archives its children and their loan history with it, so it always asks for confirmation first. A class can't be archived while any of its children have books out. If the class still has children, the warning says so and suggests renaming the class instead if it's just moving up a year
-- open the **Archive** and restore any archived teacher, class or child as it was
+- open the **Archive** and restore any archived teacher, class, child or book as it was
 - open the **Activity log**: every archive and restore, with who did it and when, newest first
 
 **Nothing is deleted.** Teachers, classes and children are archived, never removed, so they can always be restored. Every archive and restore is written to the activity log, which can't be edited. Nobody can archive themselves, and the school always keeps at least one admin.
@@ -114,7 +127,7 @@ A child's loan history stays with them as their class moves up. At the end of th
 2. **Leavers.** Any books the leaving classes still have out are listed. This is the point where the school accepts that a leaver's unreturned book is gone. For each book, staff either mark it returned or **write it off**, which closes the loan, takes the book out of the library's count and adds it to the lost books report. The flow can't finish until every book is one or the other. Nothing is written off automatically.
 3. **Check and confirm.** A summary of every change, then **Move everyone up** applies it all at once: classes renamed, teachers moved, books written off, and leavers archived with their history. It's recorded in the activity log.
 
-**Lost books report.** It lists every book written off in the school year, with who had it and when, and can be downloaded as a spreadsheet for school records. It opens at the end of the flow and from Lost books on Teachers. If a written-off book turns up, scanning it asks whether to add it back to the library.
+**Lost books report.** It lists every book written off in the school year, with who had it, when, and why (not returned, lost or damaged), and can be downloaded as a spreadsheet for school records. It opens at the end of the flow and from Lost books on Teachers. If a written-off book turns up, scanning it asks whether to add it back to the library.
 
 Afterwards staff add next year's new class from Teachers. Any part can be put right later by renaming a class or restoring leavers from the archive. A single class can still be renamed on its own page at any time.
 
@@ -135,13 +148,19 @@ The brief's open questions, answered by Dan on Oct 13, 2026. The sections above 
 | Child at their loan limit | The loan is blocked. No warning step. |
 | Search the whole library | Yes. Staff can search every book and see who has each one. |
 | Category when adding a book | Yes, Fiction or Non-fiction only. No sub-genres. |
-| School admin's role | An extra user without a class, like a teaching assistant. |
+| School admin's role | An extra user without a class, like a teaching assistant. Any staff member can also be made an admin. A school can have several admins and always has at least one (Oct 14). |
+| Job shares | A class can have a second, optional teacher. Both see it as their own class and both get the reminder email (Oct 14). |
+| My account | A My account link in the nav lets everyone change their own name, email and password. A new email only takes over once its confirm link is opened (Oct 14). |
 | Moving up a year | A guided End of year flow moves every class up at once: suggested names that staff check, leavers' books returned first, then one confirm. Leavers are archived with their history (Oct 14). |
 | Password rules | At least 10 characters, includes a number and a special character, and isn't a common password. |
 | Finding the school at registration | Looked up in the DfE's Get Information about Schools list, England only for now, refreshed weekly. One account per school: a school that's already registered is told to ask its admin for an invite. A school that isn't listed types its details in, and Library Lite checks them by hand. |
 | Children's names | First name plus an optional surname initial, in two separate fields. Surnames are never stored. |
+| Adding many children | Paste a list of names, one per line, during class setup or from the class page. Each line keeps the first name and the surname's first letter. Every child is checked on one screen before saving, and duplicates are flagged and asked about (Oct 14). |
 | Multiple copies of a book | No school barcode labels. Staff say when a scanned book is a different copy; it's loaned straight away and the other child's teacher confirms in an in-app pop-up. Returns of a title with several copies out always ask which child. Nothing is assumed or decided automatically (Oct 14). |
 | Books with no barcode | Found and added by title. Typing a title suggests matching books in the library; picking one asks whether it's another copy. It's rare, so there's no labelling (Oct 14). |
 | Removing teachers, classes and children | Never deleted: they're archived and anyone can restore them. Every archive and restore goes in an activity log. Nobody can archive themselves or the last admin. How long archived children are kept is still open (children's data) (Oct 14). |
 | Leavers' unreturned books | Written off at End of year, one book at a time by a person, never automatically. Written-off books go in a yearly lost books report (Oct 14). |
-| Invite links | Last 14 days and can be resent from Teachers (Oct 14). |
+| Lost or damaged books | Any staff member can mark a copy lost or damaged at any time from the book's page, after a confirm. It's written off with that reason and goes in the lost books report (Oct 14). |
+| Editing and archiving books | Any staff member, from the book's page. Archiving is blocked while a copy is on loan, and archived books can be restored (Oct 14). |
+| Invite links | Last 14 days and can be resent or cancelled from Teachers (Oct 14). |
+| Inviting staff without a class | Invite asks whether they're a teacher for a class or staff without a class; only the email is required. They're listed with the teachers. The page keeps the name Teachers (Oct 14). |
