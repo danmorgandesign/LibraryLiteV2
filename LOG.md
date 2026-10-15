@@ -130,6 +130,7 @@
 115. Illustrations have no border or background after all (Dan removed it on iPad Home): all four Home and all four About versions now show the artwork straight on the page, padding kept. Images rules updated.
 116. Breakpoints synced to Dan's iPad landscape edits: text copied to the desktop, iPad portrait and phone versions (Home 1 change each, About 3, Contact 1, Pricing already matched; e.g. "tablet" instead of "iPad", placeholder prefixes removed), and the Register section is centred on every Home and About version.
 117. Pricing (H3) ends with the Register your school section too (all four versions and the wireframe; note updated). The Register your school button that sat beside Book a call is removed, so Book a call (trusts) sits under the plans and the section is the one register call to action. The iPad landscape Pricing page now grows to 956 and scrolls.
+118. Book a call now sits inside the Multi-academy trust card (Dan), still opening H3a. Price card (Prototype V2) and Option card (wireframe) each gained an optional button (Show button, off by default, so other cards are unchanged); the separate button row under the plans is gone. Done on all four Pricing versions and the wireframe.
 
 ## October 14, 2026
 
