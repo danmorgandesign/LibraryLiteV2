@@ -113,6 +113,7 @@
 98. Icons: Dan added Phosphor icons (MIT) to the Design System page. Feature card gained an icon slot (Icon instance swap plus a Show icon toggle, off by default). H1's "One scan" card shows the scan icon in ink on the yellow tile.
 99. Confirmed by Dan: Book a call stores nothing (the request is emailed to the team), H3b's "within two working days" stands, and it's a request form, not a time-slot picker.
 100. Feature card icons: no yellow tile or border any more; the icon itself is 48 square (new semantic token size/icon-lg → size/48), in ink. H1 cards: scan (One scan), loan-status / traffic signal (Colour-coded loans), reminder / bell (Weekly reminders).
+101. The loan-status icon now has three lights (it showed two). Redrawn in Phosphor Regular style (rounded body and three ringed lights, 1.5 lines at 24px, one filled shape in ink); the Duotone version's light fill matches. Icons stay Regular weight and ink (Dan).
 
 ## October 14, 2026
 
