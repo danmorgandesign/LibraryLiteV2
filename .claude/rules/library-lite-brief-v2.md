@@ -97,7 +97,7 @@ Any staff member can open Teachers. Everything on it is open to all staff except
 - see staff without a class in the same Teachers list, marked "No class"
 - rename a class or change its teacher, from that class's page. A class can also have a second teacher for a job share. Both see the class as their own and both get the weekly reminder email
 - admins only: make someone an admin, or remove admin from them, from their page, after a confirm. The last admin can't be removed
-- admins only: archive a teacher, who then can't log in, or restore one
+- admins only: archive a teacher, who then can't log in, or restore one. A teacher with a class can't be archived until someone takes over the class: archiving asks who the new teacher is first
 - add or archive classes. Archiving a class archives its children and their loan history with it, so it always asks for confirmation first. A class can't be archived while any of its children have books out. If the class still has children, the warning says so and suggests renaming the class instead if it's just moving up a year
 - open the **Archive** and restore any archived class, child or book as it was (restoring a teacher is admins only)
 - open the **Activity log**: every archive and restore, with who did it and when, newest first
@@ -162,7 +162,7 @@ The brief's open questions, answered by Dan on Oct 13, 2026. The sections above 
 | Adding many children | Paste a list of names, one per line, during class setup or from the class page. Each line keeps the first name and the surname's first letter. Every child is checked on one screen before saving, and duplicates are flagged and asked about (Oct 14). |
 | Multiple copies of a book | No school barcode labels. Staff say when a scanned book is a different copy; it's loaned straight away and the other child's teacher confirms in an in-app pop-up. Returns of a title with several copies out always ask which child. Nothing is assumed or decided automatically (Oct 14). |
 | Books with no barcode | Found and added by title. Typing a title suggests matching books in the library; picking one asks whether it's another copy. It's rare, so there's no labelling (Oct 14). |
-| Removing teachers, classes and children | Never deleted: they're archived and can be restored (teachers by admins only). Every archive and restore goes in an activity log. Nobody can archive themselves or the last admin. How long archived children are kept is still open (children's data) (Oct 14). |
+| Removing teachers, classes and children | Never deleted: they're archived and can be restored (teachers by admins only). Every archive and restore goes in an activity log. Nobody can archive themselves or the last admin. Each school chooses how long archived children are kept (Oct 14–15). |
 | Leavers' unreturned books | Written off at End of year, one book at a time by a person, never automatically. Written-off books go in a yearly lost books report (Oct 14). |
 | Lost or damaged books | Any staff member can mark a copy lost or damaged at any time from the book's page, after a confirm. It's written off with that reason and goes in the lost books report (Oct 14). |
 | Editing and archiving books | Any staff member, from the book's page. Archiving is blocked while a copy is on loan, and archived books can be restored (Oct 14). |
@@ -172,3 +172,8 @@ The brief's open questions, answered by Dan on Oct 13, 2026. The sections above 
 | School approval | The person who registered sees a "we've got your details" page until approval. A school that's turned down hears why by email after a conversation, outside the app. No in-app approval queue (Oct 15). |
 | Starting email | Registration asks for a school contact email. The starting email is then chosen: the contact email or a different one. Nothing is pre-picked. The setup link works for 7 days (Oct 15). |
 | Shared iPads | Log out after 30 minutes without use. Switch user: tap your name, enter a 4-digit PIN; only staff with a PIN are listed, others can get a reminder email; locks after 5 wrong tries. No lock screen hiding children's names (Oct 15). |
+| Archiving a teacher with a class | Not allowed until someone takes over the class. Archiving asks for the new teacher, who then gets the class's reminder email (Oct 15). |
+| School holidays | Loans keep counting through holidays. No term dates are stored (Oct 15). |
+| Children's history | Any staff member can see any child's borrowing history (Oct 15). |
+| Time zone | Days are counted in UK time (Oct 15). |
+| Success measures | The share of loans returned on time, for one class or the whole school, and teachers active each week (Oct 15). |

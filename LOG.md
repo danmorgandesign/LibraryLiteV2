@@ -23,7 +23,10 @@
 19. PIN rules, decided: after 5 wrong PINs in a row, PIN log-in locks until the person logs in with email (M1c Too many tries; demo link on M1a). M1 only lists staff who have set a PIN. "Not listed? Email me a reminder to set up a PIN" on M1/M1b → M1d Get a PIN reminder → M1e Check your email → I7 Set up your PIN email (button → Log in, then Set your PIN).
 20. B2 Invites sent is now an overlay on B1 (opened by Send invites), not a separate page. It keeps "Go to Library Lite" and the demo link to the invite email (I5).
 21. Review section 3 (UX polish, screen sizes) is skipped for now.
-22. Wireframe: 145 frames (102 screens, 43 overlays) in 13 sections.
+22. Archiving a teacher with a class, decided: not allowed until someone takes over the class. G4's Archive teacher now opens G5a, which asks for the new teacher; Archive teacher stays disabled until one is chosen. Picking a teacher swaps to G5b, where Archive teacher → G1. There's no "No teacher" option. G5 stays for staff without a class, and its copy now says an admin can restore them.
+23. Review section 4 decisions: loans keep counting through holidays; any staff member can see any child's history; each school chooses how long archived children are kept; days are counted in UK time. Success measures: the share of loans returned on time (one class or the whole school) and teachers active each week. The data model's open questions card is updated to match.
+24. The brief (five new Decisions rows), the FigJam board (decisions 18–19) and library-lite-flows.md are updated.
+25. Wireframe: 147 frames (102 screens, 45 overlays) in 13 sections.
 
 ## October 14, 2026
 
