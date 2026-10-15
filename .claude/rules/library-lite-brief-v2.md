@@ -54,7 +54,7 @@ When a book is added, staff choose Fiction or Non-fiction. There are no sub-genr
 ## Loan rules
 
 - **Loan limit:** each child can have 2 books out at once by default. A class's teacher can change that limit at any time. A child at their limit can't borrow any more: the loan is blocked, with no warning step. Staff can tap that child to see which books they have out.
-- **Colour coding:** books are due back on the class's library day. A loan is green until then. If that library day ends without the book coming back, it turns orange (late). If the next library day passes too, it turns red. The child's class library day is used, in UK time.
+- **Colour coding:** books are due back on the class's library day. A loan is green until then. If that library day ends without the book coming back, it turns orange (late). If the next library day passes too, it turns red. The teacher sets the library day, and every loan is due on the next one, whatever day it was made (a loan made on library day is due the following week). A child who moves class follows the new class's day. If a class has no library day yet, a loan is due on the same weekday a week later. Holidays still count, so books still out after a holiday are red: schools want every book back by the end of term. Days are counted in UK time.
 - **Renewing:** this tells the app the teacher has seen the book and is happy for the child to keep it. The loan goes back to green and is due on the next library day.
 - **Weekly reminder:** each teacher gets an email the day before their class's library day. It lists the books their class has on loan, with the same colour coding as the website.
 - **Collection:** books belong to the whole school library, not to a class, so any child can borrow any book.

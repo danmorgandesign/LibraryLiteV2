@@ -35,7 +35,8 @@
 31. Stats is open to any staff member.
 32. Deleted children: their name goes, but their past loans stay as "Deleted child", so each book keeps its borrow count. The book page (D2/D2e) now shows "borrowed 14 times", and one history row shows "Deleted child". The data model rule is updated.
 33. Brief (loan rules + three new Decisions rows), FigJam board section 5 and library-lite-flows.md updated.
-34. Wireframe: 150 frames (105 screens, 45 overlays) in 14 sections.
+34. Library-day details, decided: a loan made on any day is due on the next library day (a loan on library day itself is due the following week). A child who moves class follows the new class's day. A class with no library day uses the loan's own weekday. Holidays still count, because schools want every book back by the end of term. These are in the brief, the data model, E1's note, the board and library-lite-flows.md.
+35. Wireframe: 150 frames (105 screens, 45 overlays) in 14 sections.
 
 ## October 14, 2026
 
