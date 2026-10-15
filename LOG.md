@@ -72,6 +72,7 @@
 57. Same change in the data model (worked-out row: top 8 open schools from 3 characters), the IA map, the brief, the FigJam site map and IA section, and library-lite-flows.md.
 58. A4 Your school & contacts matches A3's layout: the form (contact name, contact email, phone, Next/Back) on the left, the school card and "Not your school? Change it" on the right. Layout only, so no other artifact changes.
 59. School suggestions, decided: they start at 3 characters and show up to 5 schools. The Search button stays as a traditional search with the full list (A3a). Updated in A3/A3s notes, the data model, the brief, the FigJam site map and library-lite-flows.md.
+60. B0 Create your admin account: form on the left, a welcome hero on the right (illustration placeholder; "Welcome to Library Lite, [school name]"; the three set-up steps: create your account, add classes and teachers' emails, send the invites then scan your first book). Layout only, so no other artifact changes.
 
 ## October 14, 2026
 
