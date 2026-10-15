@@ -85,6 +85,7 @@
 70. Visual design started. Mood Board: new font trial Option 5 (Roboto headings from Option 2, Cantarell body from Option 1), with tokens font/trial-5-heading and font/trial-5-body and text styles Trial 5/Heading and Trial 5/Body.
 71. Font, decided: Option 1, Fjalla One for headings and Cantarell (Regular and Bold) for body text. Brand colour, decided: #FAFF2F (from the Mood Board).
 72. New "Primitives" variable collection (133 variables, separate from the wireframe's WF collections, hidden from pickers, with CSS code syntax). It holds: white, black, and 11-step scales (50–950) for yellow (brand, #FAFF2F = yellow/300), neutral (tinted slightly yellow), and green, orange and red for the loan colours; space 0–96; radius 0–24 and full; border 1–4; size 16–1194 (44 = smallest touch target, 834×1194 = iPad); font families, weights, styles, sizes 12–64, line heights 16–72 and letter spacing. The Design System page shows them all as a specimen bound to the variables.
+73. Green rebuilt around Dan's new green/500, #2BAE10 (a purer, yellower green). The whole green scale was regenerated from it: 50 #F1FFEF … 950 #032600. On white, green/600 #1D8D02 is 4.3:1, so green text needs green/700 #156E02 (6.4:1) or darker.
 
 ## October 14, 2026
 
