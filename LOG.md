@@ -87,6 +87,7 @@
 72. New "Primitives" variable collection (133 variables, separate from the wireframe's WF collections, hidden from pickers, with CSS code syntax). It holds: white, black, and 11-step scales (50–950) for yellow (brand, #FAFF2F = yellow/300), neutral (tinted slightly yellow), and green, orange and red for the loan colours; space 0–96; radius 0–24 and full; border 1–4; size 16–1194 (44 = smallest touch target, 834×1194 = iPad); font families, weights, styles, sizes 12–64, line heights 16–72 and letter spacing. The Design System page shows them all as a specimen bound to the variables.
 73. Green rebuilt around Dan's new green/500, #2BAE10 (a purer, yellower green). The whole green scale was regenerated from it: 50 #F1FFEF … 950 #032600. On white, green/600 #1D8D02 is 4.3:1, so green text needs green/700 #156E02 (6.4:1) or darker.
 74. Red rebuilt the same way around Dan's new red/500, #FD0303 (pure red): 50 #FEF9F8 … 950 #3C0000. On white, red/500 is 4.0:1, so red text needs red/600 #CE0302 (5.8:1) or darker.
+75. Orange rebuilt the same way around Dan's new orange/500, #FF7B00: 50 #FEF9F6 … 950 #3C1801. On white, orange/600 is 3.8:1, so orange text needs orange/700 #A34C01 (5.8:1) or darker.
 
 ## October 14, 2026
 
