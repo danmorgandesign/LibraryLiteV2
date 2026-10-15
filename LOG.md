@@ -66,6 +66,7 @@
 51. Brief: new "Information architecture" section (before Out of scope) with the signed-in and public nav, a table of the 14 areas (who sees each, main screens) and a link to the full map in Figma.
 52. FigJam board: new section "9 Information architecture" (84:522), one box per area with who can see it and a line per screen with its overlays and states; library-lite-flows.md has a matching section 9.
 53. Data model linked to the IA map: a new "Tables by area" card lists which tables each of the 14 areas reads and writes, and the intro points to the map. Gap fixed: loans gains returned_by and renewed_by (whoever was signed in), which Stats needs for "teachers active each week".
+54. Brief: new "Data model" section (after Information architecture) with a plain-language table of the 14 tables, the rules the database enforces, what's worked out rather than stored, and a link to the full model in Figma.
 
 ## October 14, 2026
 

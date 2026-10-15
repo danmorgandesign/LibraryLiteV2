@@ -186,6 +186,37 @@ The site has 14 areas. The full map, with every screen, the overlays it opens an
 
 Every area also has the empty, error and loading states listed under Empty and error states.
 
+## Data model
+
+Library Lite stores its data in 14 tables. The full model, with every column, is on the [Information Architecture V2 page in Figma](https://www.figma.com/design/ufE3h5LxKNO4XfMFR82cSt/Library-Lite?node-id=822-824), with a card showing which tables each area uses. Every table is limited to one school.
+
+| Table | What it holds |
+| --- | --- |
+| schools | Each school: name, address, contacts, starting email, and whether it's approved |
+| gias_schools | A read-only copy of England's official list of schools, refreshed weekly |
+| users | Staff: name, email, password, PIN, whether they're an admin, and when they were archived |
+| invites | Invite and set-up links: who for, which class, and when they expire, were accepted or cancelled |
+| password_resets | Reset links, which work once for 12 hours |
+| sessions | Who is signed in on which device, ending after 30 minutes without use |
+| device_users | Which staff have used each shared iPad, for Switch user |
+| classes | Name, teacher, second teacher, library day and loan limit |
+| children | First name and optional initial. Deleted for good 30 days after they're archived |
+| titles | Each book title: barcode, title, author and category |
+| copies | Each physical book, and whether it has been written off and why |
+| loans | One row each time a book goes out: who loaned, returned or renewed it, and when |
+| copy_checks | Questions to a teacher about whether a child still has a copy |
+| activity_log | Every archive, restore, write-off and End of year. It can't be edited |
+
+**The database enforces:**
+
+- one open loan per copy, and the loan limit, checked as the loan is saved
+- every save is all-or-nothing, and nothing is queued while offline
+- nothing is assumed: when the app can't know something, a person is asked
+- teachers, classes, children and books are archived rather than deleted. Archived children are the one exception, deleted after 30 days; their past loans stay without a name, so book borrow counts stay right
+- End of year happens in one step, or not at all
+
+**Worked out, not stored:** loan colours (from the class's library day, in UK time), each child's colour on the class list, scan results, Stats and whether a link still works. Working them out each time means they're never out of date.
+
 ## Out of scope for now
 
 - Logins or views for parents or children
