@@ -13,7 +13,7 @@ Its heart is one action: scan a book's barcode on an iPad. The app works out wha
 
 It's for school staff only for now. Children and parents don't log in or see anything.
 
-- **School admin:** the account that registered and pays for the school. Sets up the school's classes and invites teachers. After that they're an extra user without a class, like a teaching assistant, who can also manage teachers and classes. Any staff member can be made an admin too, from their page on Teachers, after a confirm. A school can have several admins and always keeps at least one. Only admins can make or remove admins, archive or restore teachers and run End of year. Billing isn't one of the admin rights; who handles it is still open.
+- **School admin:** the account that registered and pays for the school. Sets up the school's classes and invites teachers. After that they're an extra user without a class, like a teaching assistant, who can also manage teachers and classes. Any staff member can be made an admin too, from their page on Teachers, after a confirm. A school can have several admins and always keeps at least one. Only admins can make or remove admins, archive or restore teachers and run End of year. Billing isn't one of the admin rights: it's handled outside the app, with the person who registered the school.
 - **Class teachers:** each is linked to a class. They manage their class's children, library day and loan limit, and get the weekly reminder email. They can also manage teachers and classes.
 - **Other staff, such as teaching assistants:** these users don't need a class of their own. The school admin is one of them. They can also manage teachers and classes.
 
@@ -119,7 +119,7 @@ Help in the logged-in nav opens a page of quick answers: scanning a book, what t
 
 Log in has a Forgot password link. Staff enter their email, get a reset link, and set a new password with the same rules as above. The reset link works once and stops working after 12 hours.
 
-**Emails.** Designed so far: the weekly reminder, password reset, confirm new email and the email changed notice to the old address. Still to design: invite, school approved and school turned down. Pricing on the website is still to decide.
+**Emails.** Designed so far: the weekly reminder, password reset, confirm new email, the email changed notice to the old address, invite and school approved. The school turned down email is sent outside the app. Pricing on the website is still to decide.
 
 ## End of the school year
 
@@ -166,5 +166,5 @@ The brief's open questions, answered by Dan on Oct 13, 2026. The sections above 
 | Editing and archiving books | Any staff member, from the book's page. Archiving is blocked while a copy is on loan, and archived books can be restored (Oct 14). |
 | Invite links | Last 14 days and can be resent or cancelled from Teachers (Oct 14). |
 | Inviting staff without a class | Invite asks whether they're a teacher for a class or staff without a class; only the email is required. They're listed with the teachers. The page keeps the name Teachers (Oct 14). |
-| Admin rights | Only admins make or remove admins, archive or restore teachers and run End of year. Billing isn't one of them (Oct 15). |
+| Admin rights | Only admins make or remove admins, archive or restore teachers and run End of year. Billing isn't one of them: it's handled outside the app with the person who registered the school (Oct 15). |
 | School approval | The person who registered sees a "we've got your details" page until approval. A school that's turned down hears why by email after a conversation, outside the app. No in-app approval queue (Oct 15). |

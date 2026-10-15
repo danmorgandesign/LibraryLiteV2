@@ -5,7 +5,7 @@ Source: [Library Lite Flows board](https://www.figma.com/board/6TADZXvo4PxMned1s
 Read top to bottom. Key: green rounded = start/end, yellow diamond = decision, blue square = screen/action, violet parallelogram = input, teal cylinder = saved data, teal sticky = decision made, yellow sticky = still to decide (none open right now).
 
 ## 1 Who uses it (`39:284`)
-School admin (registered the school, then stays as staff without a class), class teachers, other staff (invited as staff without a class, listed with the teachers), and the Library Lite team (approves schools; a school that's turned down hears why by email after a conversation, outside the app). Any staff member can be made an admin; a school can have several and always keeps one. Only admins make or remove admins, archive or restore teachers and run End of year. Anyone with a login can loan to any child. Children and parents don't log in.
+School admin (registered the school and is the billing contact, handled outside the app; then stays as staff without a class), class teachers, other staff (invited as staff without a class, listed with the teachers), and the Library Lite team (approves schools; a school that's turned down hears why by email after a conversation, outside the app). Any staff member can be made an admin; a school can have several and always keeps one. Only admins make or remove admins, archive or restore teachers and run End of year. Anyone with a login can loan to any child. Children and parents don't log in.
 
 ## 2 Site map (`39:311`)
 Public website (Home, About, Pricing, Contact) branches to:

@@ -10,7 +10,9 @@
 6. Approval, decided: A6 "Thanks, we've got your details" is the waiting page, and now says Library Lite may get in touch with the school's contacts first. A school that's turned down hears why by email after a conversation, outside the app. There's no approval queue in the app.
 7. The FigJam flows board and its repo export (library-lite-flows.md) are brought up to date with Oct 14–15. Remove is now Archive throughout. New boxes cover My account, Archive and the activity log, End of year, books with no barcode, and different copies with their copy check. Section 6 shows the four-step End of year flow, and decisions 8–15 are added.
 8. The brief (doc and repo export) is updated with all of the above, plus two new Decisions rows: admin rights and school approval.
-9. Wireframe: 133 frames (92 screens, 41 overlays) in 12 sections.
+9. Two more emails: I5 Invite (button → B3; the B2 demo link now goes through it) and I6 School approved, sent to the starting email (button → B0; the A6 demo link now goes through it). Every email Library Lite sends from the app is now laid out. School turned down is sent outside the app.
+10. Billing, decided: handled outside the app, with the person who registered the school.
+11. Wireframe: 135 frames (94 screens, 41 overlays) in 12 sections.
 
 ## October 14, 2026
 
