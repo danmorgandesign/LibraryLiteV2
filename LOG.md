@@ -92,6 +92,7 @@
 77. Red 50–400 smoothed so the step up to red/500 is no longer a jump: 50 #FEF4F3, 100 #FEE4E0, 200 #FFC9C0, 300 #FEA193, 400 #FE6C5B. 500–950 unchanged.
 78. Font confirmed: Option 1, Fjalla One for headings and Cantarell for body text. Semantic tokens not started yet (Dan: not yet).
 79. Five in-between spacing primitives added: space/28, 36, 56, 72 and 88. Spacing now steps by 4 up to 40, then by 8 from 48 to 96 (0, 2, 4, 8 … 96; 19 values). The Primitives collection has 138 variables, and the specimen shows the new rows in order.
+80. Radius cut to four: 0 (full-bleed: camera, banners, nav), 8 (controls: buttons, inputs, chips, rows), 16 (containers: cards, overlays, tiles) and full (pills, status chips, PIN keys). radius/4, 12 and 24 removed; the specimen sheet's corners moved from 24 to 16. Primitives now has 135 variables. Sizes and type sizes left as they are for now.
 
 ## October 14, 2026
 
