@@ -160,6 +160,7 @@
 145. Retired pill (Dan): new Status=Retired variant in both Status chip sets. On Prototype V2 it is a grey pill (bg/muted, text/default, about 14:1); on the wireframe it is greyscale. Retired copies on D2e show it above the copy name, with "Retired today by Teacher name 1" below. Brief Loan status chips row updated (doc and repo copy).
 146. D2f Book: never borrowed: Archive book is now enabled (its only copy is in the library) and opens D2d on both pages. Notes updated.
 147. Wireframe D2, D2e and D2f match the prototype: the separate Copies column is gone, and each copy card has a header with its status pill above the copy name and Retire on the right (D2 Copy 1 Retire → D2c). D2f shows one Copy 1 card with "Not borrowed yet. Each loan of this copy will show here." D2/D2e/D2f notes on both pages now describe the copy cards.
+148. Every Retire button on D2, D2e and D2f now opens the D2c retire confirm (Copy 2 on D2 and D2e, and the D2f copy), on both pages.
 
 ## October 14, 2026
 
