@@ -263,4 +263,4 @@ The brief's open questions, answered by Dan on Oct 13, 2026. The sections above 
 | Time zone | Days are counted in UK time (Oct 15). |
 | Success measures | The share of loans returned on time, for one class or the whole school, and teachers active each week, shown on a Stats page (Oct 15). |
 | Invites after setup | After Send invites, the admin lands on Teachers with each invite marked Pending (Oct 15). |
-| Visual design | Fonts: Fjalla One for headings, Cantarell for body text. Brand colour #FAFF2F (yellow). Primitive tokens are in the Figma file's Design System page (Oct 15). |
+| Visual design | Fonts: Fjalla One for headings, Cantarell for body text. Brand colour #FAFF2F (yellow), used as a fill with dark text. Second colour deep blue #0150AF for links, secondary buttons, focus rings, selected chips and info (AAA on white and on the yellow). Green, orange and red are kept for loan colours. Primitive tokens are in the Figma file's Design System page (Oct 15). |
