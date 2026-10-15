@@ -37,8 +37,8 @@ Scan flow (1 scan, 3 outcomes):
 
 - If a free copy of the book exists, scanning it simply loans that copy.
 - If every known copy is on loan, the On loan screen offers Return and Renew. Under them it asks "Do you suspect this may be a book that there are multiple copies of?", with the button "Yes, I reckon it's a different copy" to say **It's a different copy**. Choosing a different copy loans it straight away under the same title details. It also asks the teacher of the child who has the other copy to check that child still has it.
-- That check pops up in the app the next time the teacher uses it, and keeps popping up until they answer. **Yes, they still have it** means the school now has two copies. **No, it's back in the library** means the first loan was never scanned back in, so it's closed as returned. An unanswered check is never decided automatically.
-- If the person scanning is that child's own teacher, they're asked on the spot instead.
+- That check pops up as soon as the teacher logs in, and keeps popping up until they answer. **Yes, they still have it** means the school now has two copies. **No, it's back in the library** means the first loan was never scanned back in, so it's closed as returned. An unanswered check is never decided automatically.
+- This is the same even if the person scanning is that child's own teacher: the check pops up as soon as they next log in.
 - When more than one copy of a title is on loan, a scan asks **who's returning this copy?** and staff pick the child. The app never guesses which loan to close, including when a teacher scans in a pile of returns for their class.
 
 If a scan doesn't find the book, staff are asked to scan it once more. If the second scan still isn't recognised or found, the book is saved straight away with its barcode. When staff add the title and author, they're attached to that barcode, so the book is recognised the next time it's scanned. If they cancel instead, the saved book and its barcode are deleted. A new book can be loaned straight away or just added to the library.
