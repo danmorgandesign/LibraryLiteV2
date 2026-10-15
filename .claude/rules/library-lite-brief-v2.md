@@ -54,8 +54,8 @@ When a book is added, staff choose Fiction or Non-fiction. There are no sub-genr
 ## Loan rules
 
 - **Loan limit:** each child can have 2 books out at once by default. A class's teacher can change that limit at any time. A child at their limit can't borrow any more: the loan is blocked, with no warning step. Staff can tap that child to see which books they have out.
-- **Colour coding:** every loan shows its age by colour. It's green for days 1 to 7, orange for days 8 to 14 and red from day 15. A loan counts as overdue once it's past a week.
-- **Renewing:** this tells the app the teacher has seen the book and is happy for the child to keep it. The loan goes back to green and the week starts again from that day.
+- **Colour coding:** books are due back on the class's library day. A loan is green until then. If that library day ends without the book coming back, it turns orange (late). If the next library day passes too, it turns red. The child's class library day is used, in UK time.
+- **Renewing:** this tells the app the teacher has seen the book and is happy for the child to keep it. The loan goes back to green and is due on the next library day.
 - **Weekly reminder:** each teacher gets an email the day before their class's library day. It lists the books their class has on loan, with the same colour coding as the website.
 - **Collection:** books belong to the whole school library, not to a class, so any child can borrow any book.
 
@@ -173,6 +173,9 @@ The brief's open questions, answered by Dan on Oct 13, 2026. The sections above 
 | School approval | The person who registered sees a "we've got your details" page until approval. A school that's turned down hears why by email after a conversation, outside the app. No in-app approval queue (Oct 15). |
 | Starting email | Registration asks for a school contact email. The starting email is then chosen: the contact email or a different one. Nothing is pre-picked. The setup link works for 7 days (Oct 15). |
 | Shared iPads | Log out after 30 minutes without use. Switch user: tap your name, enter a 4-digit PIN; only staff with a PIN are listed, others can get a reminder email; locks after 5 wrong tries. No lock screen hiding children's names (Oct 15). |
+| Loan colours | Based on the class's library day, not a count of days: green until the next library day, orange once one is missed, red after two or more (Oct 15). |
+| Deleted children's records | After 30 days the child's name is deleted. Their past loans stay without a name ("Deleted child") so each book keeps its borrow count (Oct 15). |
+| Stats access | Any staff member can open Stats. On time = back by the library day, while still green (Oct 15). |
 | Archiving a teacher with a class | Not allowed until someone takes over the class. Archiving asks for the new teacher, who then gets the class's reminder email (Oct 15). |
 | School holidays | Loans keep counting through holidays. No term dates are stored (Oct 15). |
 | Children's history | Any staff member can see any child's borrowing history (Oct 15). |

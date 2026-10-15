@@ -27,7 +27,7 @@ Tap Scan → camera access allowed? (No → remind them to allow it → try agai
 Every loan, return and renew ends on a confirmation screen.
 
 ## 5 Loan rules (`41:549`)
-Green days 1–7, orange 8–14, red 15+; overdue after a week. Limit 2 by default (teacher can change). Renew resets to green. Weekly reminder email the day before library day. Books belong to the whole school.
+Books are due back on the class's library day: green until the next library day, orange (late) once one library day passes without a return, red after two or more. Limit 2 by default (teacher can change). Renew resets to green, due the next library day. Weekly reminder email the day before library day. Books belong to the whole school.
 
 ## 6 End of the school year (`43:492`)
 Loan history stays with a child as their class moves up. Decided: a guided End of year flow, run by an admin from Teachers: 1 new class names (suggested by adding one to the number; staff check each, change the teacher, or mark the class as leaving) → 2 leavers (books still out are each returned or written off by a person; can't finish until all are done) → 3 check and confirm (Move everyone up applies it all in one step, recorded in the activity log) → 4 done (add next year's new class; Lost books report per school year, downloadable). Nothing is written off automatically; a written-off book that turns up can be added back.

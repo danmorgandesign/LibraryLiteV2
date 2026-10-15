@@ -31,7 +31,11 @@
 27. New section 14 Stats, opened from a Stats link on Teachers: N1 whole school (Returned on time 82%, Teachers active each week 6 of 8, period picker, chart placeholders) and N1a one class (class picker; on-time share for that class).
 28. Present view: two more duplicate flows from copied frames were removed (G1e, G5a). There are now 14 flows, one per section.
 29. Brief, FigJam board and library-lite-flows.md updated; data model open question 4 is decided.
-30. Wireframe: 150 frames (105 screens, 45 overlays) in 14 sections.
+30. Loan colours now follow the class's library day instead of a count of days: green until the next library day, orange (late) once a library day passes without the book coming back, red after two or more. Renewing makes it due the next library day. Updated: Help (J1), the weekly reminder email (I1), the loan-row notes, the website note on H1, the data model and Stats ("on time" = back by the library day).
+31. Stats is open to any staff member.
+32. Deleted children: their name goes, but their past loans stay as "Deleted child", so each book keeps its borrow count. The book page (D2/D2e) now shows "borrowed 14 times", and one history row shows "Deleted child". The data model rule is updated.
+33. Brief (loan rules + three new Decisions rows), FigJam board section 5 and library-lite-flows.md updated.
+34. Wireframe: 150 frames (105 screens, 45 overlays) in 14 sections.
 
 ## October 14, 2026
 
