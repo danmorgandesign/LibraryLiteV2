@@ -151,6 +151,7 @@
 136. Status chips (Dan): Available is a blue pill (blue/700) with "Available" in white; green, orange and red are same-size pills (91×24) that say "On loan" in white. To pass text contrast, semantic loan/*/solid in Light mode now point at green/700 (6.4:1), orange/700 (5.8:1) and red/600 (5.8:1). At limit and Pending unchanged. Applies wherever the chip is used on Prototype V2.
 137. Colour is never the only signal (Dan): on-loan rows on D1 and D1a also say the status in words (Due Friday / Late: missed 1 library day / Very late: missed 2+ library days). Wireframe D1/D1a match, with the rule in their notes. Brief (doc and repo copy) has a new Loan status chips row; the Semantic specimen shows the new shades.
 138. Orange looked brown with white text, so loan pills changed (Dan chose option B from a Mood Board comparison, "Loan pill options"): green and orange use their bright 500s with ink text (6.1:1 and 6.9:1); red stays red/600 with white text (5.8:1, as red/500 with ink is only 4.4:1); Available stays blue/700 with white. New semantic tokens color/loan/green|orange|red/on-solid hold the pill text colours; loan/*/solid in Light mode now point at green/500, orange/500, red/600.
+139. Books list rows (Dan): the sub-label is just "Author name · Fiction" or "Author name · Non-fiction". The status words and the On loan child and class are removed from D1 and D1a (Prototype V2 and wireframe; notes updated). Who has the book and when it's due stay on the book page (D2). Brief Loan status chips row updated (doc and repo copy).
 
 ## October 14, 2026
 
