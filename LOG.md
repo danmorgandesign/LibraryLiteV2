@@ -26,7 +26,12 @@
 22. Archiving a teacher with a class, decided: not allowed until someone takes over the class. G4's Archive teacher now opens G5a, which asks for the new teacher; Archive teacher stays disabled until one is chosen. Picking a teacher swaps to G5b, where Archive teacher → G1. There's no "No teacher" option. G5 stays for staff without a class, and its copy now says an admin can restore them.
 23. Review section 4 decisions: loans keep counting through holidays; any staff member can see any child's history; each school chooses how long archived children are kept; days are counted in UK time. Success measures: the share of loans returned on time (one class or the whole school) and teachers active each week. The data model's open questions card is updated to match.
 24. The brief (five new Decisions rows), the FigJam board (decisions 18–19) and library-lite-flows.md are updated.
-25. Wireframe: 147 frames (102 screens, 45 overlays) in 13 sections.
+25. After Send invites, the B2 overlay's "Go to Library Lite" now opens G1e Teachers: invites just sent. It shows the admin, the three invited teachers under "Pending invites" with a new Pending chip, and their classes as "Teacher invited (pending)". Every G1 version now says "Pending invites" with the chip, and the invite details are shortened to fit.
+26. Archived children are deleted for good 30 days after they were archived (this replaces "the school chooses"). The wording on E5, G9b, G10, K3 and K4 says so, and G10's child rows show the days left.
+27. New section 14 Stats, opened from a Stats link on Teachers: N1 whole school (Returned on time 82%, Teachers active each week 6 of 8, period picker, chart placeholders) and N1a one class (class picker; on-time share for that class).
+28. Present view: two more duplicate flows from copied frames were removed (G1e, G5a). There are now 14 flows, one per section.
+29. Brief, FigJam board and library-lite-flows.md updated; data model open question 4 is decided.
+30. Wireframe: 150 frames (105 screens, 45 overlays) in 14 sections.
 
 ## October 14, 2026
 

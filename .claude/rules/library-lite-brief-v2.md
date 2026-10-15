@@ -101,8 +101,9 @@ Any staff member can open Teachers. Everything on it is open to all staff except
 - add or archive classes. Archiving a class archives its children and their loan history with it, so it always asks for confirmation first. A class can't be archived while any of its children have books out. If the class still has children, the warning says so and suggests renaming the class instead if it's just moving up a year
 - open the **Archive** and restore any archived class, child or book as it was (restoring a teacher is admins only)
 - open the **Activity log**: every archive and restore, with who did it and when, newest first
+- open **Stats**: the share of loans returned on time, for the whole school or one class, over a chosen period, and how many teachers were active each week
 
-**Nothing is deleted.** Teachers, classes and children are archived, never removed, so they can always be restored. Every archive and restore is written to the activity log, which can't be edited. Nobody can archive themselves, and the school always keeps at least one admin.
+**Nothing is deleted straight away.** Teachers, classes and children are archived, never removed, so they can be restored. Archived children are the one exception: they're deleted for good 30 days after they were archived, to keep children's data no longer than needed. Every archive and restore is written to the activity log, which can't be edited. Nobody can archive themselves, and the school always keeps at least one admin.
 
 Invites and new classes save as a draft while they're typed, so nothing is lost if someone leaves the page. A class's name and teacher are changed through an Edit button that opens a small window, and save when Save is pressed.
 
@@ -162,7 +163,7 @@ The brief's open questions, answered by Dan on Oct 13, 2026. The sections above 
 | Adding many children | Paste a list of names, one per line, during class setup or from the class page. Each line keeps the first name and the surname's first letter. Every child is checked on one screen before saving, and duplicates are flagged and asked about (Oct 14). |
 | Multiple copies of a book | No school barcode labels. Staff say when a scanned book is a different copy; it's loaned straight away and the other child's teacher confirms in an in-app pop-up. Returns of a title with several copies out always ask which child. Nothing is assumed or decided automatically (Oct 14). |
 | Books with no barcode | Found and added by title. Typing a title suggests matching books in the library; picking one asks whether it's another copy. It's rare, so there's no labelling (Oct 14). |
-| Removing teachers, classes and children | Never deleted: they're archived and can be restored (teachers by admins only). Every archive and restore goes in an activity log. Nobody can archive themselves or the last admin. Each school chooses how long archived children are kept (Oct 14–15). |
+| Removing teachers, classes and children | Never deleted: they're archived and can be restored (teachers by admins only). Every archive and restore goes in an activity log. Nobody can archive themselves or the last admin. Archived children are deleted for good after 30 days (Oct 14–15). |
 | Leavers' unreturned books | Written off at End of year, one book at a time by a person, never automatically. Written-off books go in a yearly lost books report (Oct 14). |
 | Lost or damaged books | Any staff member can mark a copy lost or damaged at any time from the book's page, after a confirm. It's written off with that reason and goes in the lost books report (Oct 14). |
 | Editing and archiving books | Any staff member, from the book's page. Archiving is blocked while a copy is on loan, and archived books can be restored (Oct 14). |
@@ -176,4 +177,5 @@ The brief's open questions, answered by Dan on Oct 13, 2026. The sections above 
 | School holidays | Loans keep counting through holidays. No term dates are stored (Oct 15). |
 | Children's history | Any staff member can see any child's borrowing history (Oct 15). |
 | Time zone | Days are counted in UK time (Oct 15). |
-| Success measures | The share of loans returned on time, for one class or the whole school, and teachers active each week (Oct 15). |
+| Success measures | The share of loans returned on time, for one class or the whole school, and teachers active each week, shown on a Stats page (Oct 15). |
+| Invites after setup | After Send invites, the admin lands on Teachers with each invite marked Pending (Oct 15). |
