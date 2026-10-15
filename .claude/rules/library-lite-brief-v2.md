@@ -43,7 +43,7 @@ Scan flow (1 scan, 3 outcomes):
 
 If a scan doesn't find the book, staff are asked to scan it once more. If the second scan still isn't recognised or found, the book is saved straight away with its barcode. When staff add the title and author, they're attached to that barcode, so the book is recognised the next time it's scanned. If they cancel instead, the saved book and its barcode are deleted. A new book can be loaned straight away or just added to the library.
 
-When loaning a book, a teacher's own class is chosen for them, so they go straight to choosing the child, with an option to change class. Staff without a class choose the class first. Children show as a grid of big name tiles across the full width. Search by name, sort (first name A–Z or Z–A, most books out, oldest loan first) and filters (can borrow or at limit, loan colour) are hidden until staff tap Show search and filters.
+When loaning a book, a teacher's own class is chosen for them, so they go straight to choosing the child, with an option to change class. Staff without a class choose the class first. Children show as a grid of big name tiles across the full width. They're in first-name order, A–Z. A search by name is hidden until staff tap Show search. There's no sort or filter here.
 
 If a barcode won't scan, staff can type in the ISBN instead. If camera access is blocked on the iPad, the app reminds them to allow it when they try to scan. Staff can also use a USB or Bluetooth barcode scanner instead of the camera. It types the barcode like a keyboard, and the scan screen treats it exactly like a camera scan.
 

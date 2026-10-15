@@ -78,6 +78,7 @@
 63. Same change in the brief, the data model (invites.sent_at), the IA map, the FigJam onboarding flow and IA section, and library-lite-flows.md.
 64. B2 Invites sent is back (I shouldn't have deleted it): an overlay opened by Done on B1 and B1a, listing each invited teacher's email, class and expiry with a Pending chip. Go to Library Lite → G1e; the "open a teacher invite" demo link moved back onto it. IA map and FigJam IA section updated.
 65. Teachers (G1, G1b, G1c, G1e): the links that sat in a row at the bottom (Archive, Activity log, End of year, Lost books, Stats and the admin demo link) are now a "More" column on the right, beside the lists. Layout only.
+66. Choosing the child (C7, C7c, C7n) has no sort or filters any more, just a search by name. Children are in first-name order, A–Z. The toggle reads Show search / Hide search, and C7c is renamed "Choose child: search". Same change in the brief, the IA map and the FigJam IA section.
 
 ## October 14, 2026
 
