@@ -37,7 +37,10 @@
 33. Brief (loan rules + three new Decisions rows), FigJam board section 5 and library-lite-flows.md updated.
 34. Library-day details, decided: a loan made on any day is due on the next library day (a loan on library day itself is due the following week). A child who moves class follows the new class's day. A class with no library day uses the loan's own weekday. Holidays still count, because schools want every book back by the end of term. These are in the brief, the data model, E1's note, the board and library-lite-flows.md.
 35. Confirmed: if a teacher changes the library day, books already out become due on the new day.
-36. Wireframe: 150 frames (105 screens, 45 overlays) in 14 sections.
+36. Written-off book turns up: scanning it opens C14 Written-off book found (the copy, when and why it was written off, "Add it back to the library" or "Not now"). Adding it back opens C14a, a confirmation screen: the copy leaves the lost books report, the activity log records it, and there's "Loan it now" or "Scan another book". C1 has a demo link, "Written-off book".
+37. Leftover days-based wording fixed: C8 Loan done and C11 Renewed now give the due library day ("due back on Class name 1's library day, Monday 20 Oct").
+38. G10b Archive: not an admin, opened from Archive on G1c. Archived teachers have no Restore and say only admins can restore them.
+39. Wireframe: 153 frames (108 screens, 45 overlays) in 14 sections.
 
 ## October 14, 2026
 
