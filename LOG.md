@@ -114,6 +114,10 @@
 99. Confirmed by Dan: Book a call stores nothing (the request is emailed to the team), H3b's "within two working days" stands, and it's a request form, not a time-slot picker.
 100. Feature card icons: no yellow tile or border any more; the icon itself is 48 square (new semantic token size/icon-lg → size/48), in ink. H1 cards: scan (One scan), loan-status / traffic signal (Colour-coded loans), reminder / bell (Weekly reminders).
 101. The loan-status icon now has three lights (it showed two). Redrawn in Phosphor Regular style (rounded body and three ringed lights, 1.5 lines at 24px, one filled shape in ink); the Duotone version's light fill matches. Icons stay Regular weight and ink (Dan).
+102. Traffic light weight kept as is (Dan).
+103. H1 is fully responsive. New "Responsive" variable collection with Desktop / Tablet / Mobile modes: page margin (64 / 32 / 16), section spacing (64 / 48 / 32), Display (64 / 56 / 40), Title (48 / 40 / 32) and Heading (32 / 32 / 28) sizes, plus screen width (1440 / 1194 / 390). Semantic space/page and the Display, Title and Heading type tokens now point at it, so a frame's mode sets its sizes. The Prototype V2 page is set to Tablet, so existing iPad screens are unchanged. New primitives size/390 and size/1440, and semantic size/column-min (240).
+104. H1's layout reflows: the hero (text and illustration) and the feature cards wrap when there's no room (each column at least 240 wide), the illustration keeps its shape, and the hero buttons wrap. Nav bar and Footer no longer have a fixed width.
+105. New breakpoint frames under the website row: H1 desktop (1440), H1 iPad portrait (834) and H1 phone (390). The phone uses a new Nav bar mobile component (logo plus a 44px menu button with the menu icon), which slides up a new H1m Menu overlay (Home, About, Pricing, Contact, Log in, each 44px tall, and a close button). The iPad landscape H1 (1194) stays the prototype's version.
 
 ## October 14, 2026
 
