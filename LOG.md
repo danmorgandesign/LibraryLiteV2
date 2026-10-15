@@ -49,6 +49,8 @@
     - Session: A2t phones log out after 30 minutes without use.
 41. Brief: new "Empty and error states" paragraph.
 42. Wireframe: 172 frames (126 screens, 46 overlays) in 15 sections.
+43. Stats "Not enough loans yet" shows until 10 loans have come back (Dan confirmed).
+44. Demo links from the main screens into their states: D1 → D1e, D1n; E1 → E1e; E3 → E3e; D2 → D2f; G10 → G10e; G11 → G11e; K5 → K5e; N1 → N1e; C12 → C12n; C7c → C7n; C1 → C1x, C1l; A3 → A3x; A2 → A2x, A2y, A2t, X1; and the E1a library-day window swaps to E1x. A few screens grew slightly, so their sections were made taller to fit.
 
 ## October 14, 2026
 
