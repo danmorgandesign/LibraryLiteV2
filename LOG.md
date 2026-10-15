@@ -1,5 +1,17 @@
 # Library Lite V2 log
 
+## October 15, 2026
+
+1. Admin rights, decided: only admins can make or remove admins, archive or restore teachers, and run End of year. Billing isn't an admin right; who handles it is still open.
+2. Two new frames show what staff who aren't admins see. G1c Teachers has no End of year link. G4f Teacher has no Edit on the Admin card and no Archive teacher, with a note explaining why. G1 has a demo link to switch between the two views.
+3. The Archive (G10) notes say restoring a teacher is admins only. Classes, children and books can still be restored by anyone.
+4. Section 9 is now "9 Emails", with three new emails. I2 Password reset (the link works once and lasts 12 hours; the A2b demo link now goes through it to A2c). I3 Confirm new email, sent to the new address (button → L1). I4 Email changed notice, sent to the old address once the change is confirmed.
+5. Email changes only take effect once the confirm link is opened, so a typo can't lock anyone out.
+6. Approval, decided: A6 "Thanks, we've got your details" is the waiting page, and now says Library Lite may get in touch with the school's contacts first. A school that's turned down hears why by email after a conversation, outside the app. There's no approval queue in the app.
+7. The FigJam flows board and its repo export (library-lite-flows.md) are brought up to date with Oct 14–15. Remove is now Archive throughout. New boxes cover My account, Archive and the activity log, End of year, books with no barcode, and different copies with their copy check. Section 6 shows the four-step End of year flow, and decisions 8–15 are added.
+8. The brief (doc and repo export) is updated with all of the above, plus two new Decisions rows: admin rights and school approval.
+9. Wireframe: 133 frames (92 screens, 41 overlays) in 12 sections.
+
 ## October 14, 2026
 
 Morning:

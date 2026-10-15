@@ -13,13 +13,13 @@ Its heart is one action: scan a book's barcode on an iPad. The app works out wha
 
 It's for school staff only for now. Children and parents don't log in or see anything.
 
-- **School admin:** the account that registered and pays for the school. Sets up the school's classes and invites teachers. After that they're an extra user without a class, like a teaching assistant, who can also manage teachers and classes. Any staff member can be made an admin too, from their page on Teachers, after a confirm. A school can have several admins and always keeps at least one.
+- **School admin:** the account that registered and pays for the school. Sets up the school's classes and invites teachers. After that they're an extra user without a class, like a teaching assistant, who can also manage teachers and classes. Any staff member can be made an admin too, from their page on Teachers, after a confirm. A school can have several admins and always keeps at least one. Only admins can make or remove admins, archive or restore teachers and run End of year. Billing isn't one of the admin rights; who handles it is still open.
 - **Class teachers:** each is linked to a class. They manage their class's children, library day and loan limit, and get the weekly reminder email. They can also manage teachers and classes.
 - **Other staff, such as teaching assistants:** these users don't need a class of their own. The school admin is one of them. They can also manage teachers and classes.
 
 Anyone with a login at the school can scan books and loan them to any child in the school.
 
-Everyone has a **My account** page, linked from the nav, where they change their own name, email and password. A new email only replaces the old one once the person opens the confirm link sent to it. A new password follows the same rules as at setup.
+Everyone has a **My account** page, linked from the nav, where they change their own name, email and password. A new email only replaces the old one once the person opens the confirm link sent to it, so a typo in the new address can't lock anyone out. The old address is then emailed to say the email has changed. A new password follows the same rules as at setup.
 
 ## The core flow: scan a book
 
@@ -89,15 +89,15 @@ Staff without a class (other staff and the school admin) who open Classes are of
 
 ## Managing teachers
 
-Any staff member can open Teachers. On it they can:
+Any staff member can open Teachers. Everything on it is open to all staff except the two items marked admins only. On it they can:
 
 - invite someone, either a teacher for a class or a staff member without a class (such as a teaching assistant). Only their email is needed, and the class is optional. Their email gets an invite link. Links last 14 days. Invites that haven't been accepted are listed on Teachers with when they expire. They can be resent with a fresh link, or cancelled after a confirm, which stops the link working
 - see staff without a class in the same Teachers list, marked "No class"
 - rename a class or change its teacher, from that class's page. A class can also have a second teacher for a job share. Both see the class as their own and both get the weekly reminder email
-- make someone an admin, or remove admin from them, from their page, after a confirm. The last admin can't be removed
-- archive a teacher, who then can't log in
+- admins only: make someone an admin, or remove admin from them, from their page, after a confirm. The last admin can't be removed
+- admins only: archive a teacher, who then can't log in, or restore one
 - add or archive classes. Archiving a class archives its children and their loan history with it, so it always asks for confirmation first. A class can't be archived while any of its children have books out. If the class still has children, the warning says so and suggests renaming the class instead if it's just moving up a year
-- open the **Archive** and restore any archived teacher, class, child or book as it was
+- open the **Archive** and restore any archived class, child or book as it was (restoring a teacher is admins only)
 - open the **Activity log**: every archive and restore, with who did it and when, newest first
 
 **Nothing is deleted.** Teachers, classes and children are archived, never removed, so they can always be restored. Every archive and restore is written to the activity log, which can't be edited. Nobody can archive themselves, and the school always keeps at least one admin.
@@ -109,7 +109,7 @@ Invites and new classes save as a draft while they're typed, so nothing is lost 
 This section comes from the Figma flows board.
 
 1. A school registers on the public site. It searches England's official list of schools by name, postcode or both, then picks itself from the matches, so its address fills in. A school that isn't listed types its details in by hand. It then adds contacts and a starting email address.
-2. Library Lite approves the school by hand before it goes live.
+2. Library Lite approves the school by hand before it goes live. Until then, the person who registered sees a page saying the school is checked by hand and the starting email address will get a link once it's approved. If a school is turned down, Library Lite talks to them first, then emails them why, outside the app. There's no approval queue inside the app.
 3. The starting email address gets a unique link. That person, the school admin, uses it to create their account, with the same password rules as teachers, then set up classes and give each one a teacher's email. This setup saves as they go, class by class, so they can leave and come back to the link. Invites are only emailed when they press Send invites.
 4. Each teacher gets their own invite link, creates a password and sets up their class and its children. Their setup also saves as they go. A strength meter shows how strong the password is, and they can't continue until it meets every rule: at least 10 characters, includes a number, includes a special character, and isn't a common password.
 
@@ -117,11 +117,13 @@ Nobody can sign up without an invite. The site has three parts: public pages (a 
 
 Help in the logged-in nav opens a page of quick answers: scanning a book, what to do when a barcode won't scan or the camera is blocked, what the loan colours mean, and why a child can't borrow. It ends with a contact line for the Library Lite team (the address is still a placeholder).
 
-Log in has a Forgot password link. Staff enter their email, get a reset link, and set a new password with the same rules as above. Pricing on the website is still to decide.
+Log in has a Forgot password link. Staff enter their email, get a reset link, and set a new password with the same rules as above. The reset link works once and stops working after 12 hours.
+
+**Emails.** Designed so far: the weekly reminder, password reset, confirm new email and the email changed notice to the old address. Still to design: invite, school approved and school turned down. Pricing on the website is still to decide.
 
 ## End of the school year
 
-A child's loan history stays with them as their class moves up. At the end of the year, any staff member runs **End of year** from Teachers. It moves every class up in one step:
+A child's loan history stays with them as their class moves up. At the end of the year, an admin runs **End of year** from Teachers. It moves every class up in one step:
 
 1. **New class names.** Each class gets a suggested new name, made by adding one to the number in its name (Year 4 → Year 5). Staff check every class and can change the name, keep it, change the teacher, or mark the class as leaving. A class with no number in its name gets no suggestion and must be set by hand.
 2. **Leavers.** Any books the leaving classes still have out are listed. This is the point where the school accepts that a leaver's unreturned book is gone. For each book, staff either mark it returned or **write it off**, which closes the loan, takes the book out of the library's count and adds it to the lost books report. The flow can't finish until every book is one or the other. Nothing is written off automatically.
@@ -158,9 +160,11 @@ The brief's open questions, answered by Dan on Oct 13, 2026. The sections above 
 | Adding many children | Paste a list of names, one per line, during class setup or from the class page. Each line keeps the first name and the surname's first letter. Every child is checked on one screen before saving, and duplicates are flagged and asked about (Oct 14). |
 | Multiple copies of a book | No school barcode labels. Staff say when a scanned book is a different copy; it's loaned straight away and the other child's teacher confirms in an in-app pop-up. Returns of a title with several copies out always ask which child. Nothing is assumed or decided automatically (Oct 14). |
 | Books with no barcode | Found and added by title. Typing a title suggests matching books in the library; picking one asks whether it's another copy. It's rare, so there's no labelling (Oct 14). |
-| Removing teachers, classes and children | Never deleted: they're archived and anyone can restore them. Every archive and restore goes in an activity log. Nobody can archive themselves or the last admin. How long archived children are kept is still open (children's data) (Oct 14). |
+| Removing teachers, classes and children | Never deleted: they're archived and can be restored (teachers by admins only). Every archive and restore goes in an activity log. Nobody can archive themselves or the last admin. How long archived children are kept is still open (children's data) (Oct 14). |
 | Leavers' unreturned books | Written off at End of year, one book at a time by a person, never automatically. Written-off books go in a yearly lost books report (Oct 14). |
 | Lost or damaged books | Any staff member can mark a copy lost or damaged at any time from the book's page, after a confirm. It's written off with that reason and goes in the lost books report (Oct 14). |
 | Editing and archiving books | Any staff member, from the book's page. Archiving is blocked while a copy is on loan, and archived books can be restored (Oct 14). |
 | Invite links | Last 14 days and can be resent or cancelled from Teachers (Oct 14). |
 | Inviting staff without a class | Invite asks whether they're a teacher for a class or staff without a class; only the email is required. They're listed with the teachers. The page keeps the name Teachers (Oct 14). |
+| Admin rights | Only admins make or remove admins, archive or restore teachers and run End of year. Billing isn't one of them (Oct 15). |
+| School approval | The person who registered sees a "we've got your details" page until approval. A school that's turned down hears why by email after a conversation, outside the app. No in-app approval queue (Oct 15). |
