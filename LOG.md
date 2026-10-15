@@ -105,6 +105,9 @@
 90. Icons: Dan is researching an icon set; the yellow icon tiles on H1's feature cards stay as placeholders until then. The Link button stays blue with no underline.
 91. New Prototype V2 Kit components: Price card (plan, price, period, details), Text input and Text area (label above a white field with an input border; the area is 120 tall). New semantic tokens size/text-max (720, paragraph width) and size/field-area (120).
 92. H2 About, H3 Pricing and H4 Contact designed to match H1: page background, Title headings, Body large intros. About is now two columns (text left, illustration placeholder right). Pricing uses three equal-height Price cards (£99 / £149 / £199 a year, still dummy) and keeps Register your school → A3. Contact uses the new Text inputs in two rows plus a Text area for the message, and Send message.
+93. Pricing plans stay equal (no "most popular" highlight).
+94. Website footer: new Footer component (white bar with a top border; "© 2026 Library Lite" left; Contact us → H4 and Privacy right). It's pinned to the bottom of H1–H4. There's no Privacy page yet, so that link isn't wired. H1's spacing tightened from 64 to 48 so everything fits above the footer.
+95. Holding here: next screens not chosen yet.
 
 ## October 14, 2026
 
