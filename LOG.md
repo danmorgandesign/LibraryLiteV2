@@ -143,6 +143,7 @@
 128. Overlay style (Dan, from H3a): every Prototype V2 overlay (49) is now white (bg/surface) with a 2px border/subtle border and radius/container corners (the phone menu only rounds its bottom corners; D1b's goes on its menu card).
 129. Field default border now passes contrast: semantic color/border/input → neutral/500 (4.6:1 on white; 3.8:1 in Dark), used by the Default state of Text input and Text area. Dan's override on the Your name field was cleared so every field follows the component.
 130. Contact after Send: H4 Send message → H4b "Thanks, your message is on its way" (standard card, reply within two working days, Back to home → H1). H4a errors shows Your name and Email in their Error state ("Enter your name", "Enter an email address, like name@school.sch.uk"), reached from a new H4 demo link; Send message there → H4b. Nothing stored; the message is emailed to the team. Built on Prototype V2 and the wireframe (wireframe H4a shows one error line, as its fields have no states), with notes; IA map, FigJam IA box and library-lite-flows.md updated.
+131. Free trial (Dan): "30 days free to make sure you're the right fit" card above the two plans on Pricing, in the standard card style with Dan's unDraw reading illustration (now the component illustration/pricing/trial, licence recorded) on the left at 120 tall. All four versions and the wireframe (note updated). iPad Pricing grows to 866 and scrolls. Brief Pricing row (doc and repo copy) and library-lite-flows.md say 30 days free.
 
 ## October 14, 2026
 
