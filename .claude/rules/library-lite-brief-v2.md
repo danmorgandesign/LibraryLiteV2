@@ -36,7 +36,7 @@ Scan flow (1 scan, 3 outcomes):
 **More than one copy.** Copies of a book share an ISBN, and schools don't stick their own labels on books. Library Lite finds extra copies as they turn up:
 
 - If a free copy of the book exists, scanning it simply loans that copy.
-- If every known copy is on loan, the On loan screen offers Return and Renew. Under them it asks "Do you suspect this may be a book that there are multiple copies of?", with a link to say **It's a different copy**. Choosing a different copy loans it straight away under the same title details. It also asks the teacher of the child who has the other copy to check that child still has it.
+- If every known copy is on loan, the On loan screen offers Return and Renew. Under them it asks "Do you suspect this may be a book that there are multiple copies of?", with the link "Yes, I reckon it's a different copy" to say **It's a different copy**. Choosing a different copy loans it straight away under the same title details. It also asks the teacher of the child who has the other copy to check that child still has it.
 - That check pops up in the app the next time the teacher uses it, and keeps popping up until they answer. **Yes, they still have it** means the school now has two copies. **No, it's back in the library** means the first loan was never scanned back in, so it's closed as returned. An unanswered check is never decided automatically.
 - If the person scanning is that child's own teacher, they're asked on the spot instead.
 - When more than one copy of a title is on loan, a scan asks **who's returning this copy?** and staff pick the child. The app never guesses which loan to close, including when a teacher scans in a pile of returns for their class.
