@@ -91,6 +91,7 @@
 76. Yellow rebuilt with the brand colour #FAFF2F at yellow/500 (it was at 300): 50 #FAFDE5 … 950 #3B3C00. As #FAFF2F is so light, 50–400 are pale tints and the darker steps turn olive. On white, yellow text only passes from yellow/800 #7A7C00 (4.5:1). The specimen label and radius shapes now use yellow/500.
 77. Red 50–400 smoothed so the step up to red/500 is no longer a jump: 50 #FEF4F3, 100 #FEE4E0, 200 #FFC9C0, 300 #FEA193, 400 #FE6C5B. 500–950 unchanged.
 78. Font confirmed: Option 1, Fjalla One for headings and Cantarell for body text. Semantic tokens not started yet (Dan: not yet).
+79. Five in-between spacing primitives added: space/28, 36, 56, 72 and 88. Spacing now steps by 4 up to 40, then by 8 from 48 to 96 (0, 2, 4, 8 … 96; 19 values). The Primitives collection has 138 variables, and the specimen shows the new rows in order.
 
 ## October 14, 2026
 
