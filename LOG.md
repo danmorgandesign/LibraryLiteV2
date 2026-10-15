@@ -127,6 +127,7 @@
 112. Copy on the Register section approved. Home (H1) now ends with the same Register your school section (→ A3) on all four versions and in the wireframe. The iPad landscape Home page grows to 1140 and scrolls.
 113. Illustrations: source unDraw (undraw.co), unDraw licence (free for commercial and personal use, no attribution required), recorded on both illustration components. Borders stay ink.
 114. Overlay border (Dan, from H3b): every Prototype V2 overlay (49) now has a 2px ink border on the inside, using semantic color/border/strong and border-width/strong. D1b Sort by gets it on its menu card, as the overlay itself is a transparent full-screen layer.
+115. Illustrations have no border or background after all (Dan removed it on iPad Home): all four Home and all four About versions now show the artwork straight on the page, padding kept. Images rules updated.
 
 ## October 14, 2026
 
