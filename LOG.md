@@ -88,6 +88,7 @@
 73. Green rebuilt around Dan's new green/500, #2BAE10 (a purer, yellower green). The whole green scale was regenerated from it: 50 #F1FFEF … 950 #032600. On white, green/600 #1D8D02 is 4.3:1, so green text needs green/700 #156E02 (6.4:1) or darker.
 74. Red rebuilt the same way around Dan's new red/500, #FD0303 (pure red): 50 #FEF9F8 … 950 #3C0000. On white, red/500 is 4.0:1, so red text needs red/600 #CE0302 (5.8:1) or darker.
 75. Orange rebuilt the same way around Dan's new orange/500, #FF7B00: 50 #FEF9F6 … 950 #3C1801. On white, orange/600 is 3.8:1, so orange text needs orange/700 #A34C01 (5.8:1) or darker.
+76. Yellow rebuilt with the brand colour #FAFF2F at yellow/500 (it was at 300): 50 #FAFDE5 … 950 #3B3C00. As #FAFF2F is so light, 50–400 are pale tints and the darker steps turn olive. On white, yellow text only passes from yellow/800 #7A7C00 (4.5:1). The specimen label and radius shapes now use yellow/500.
 
 ## October 14, 2026
 
