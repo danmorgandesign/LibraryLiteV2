@@ -124,6 +124,9 @@
 109. About illustration: Dan's open-book artwork is now the component illustration/hero/about (transparent background), placed in all four H2 About versions at its own ratio (iPad 543×290, desktop 634×338, iPad portrait 363×194, phone 358×191). Source and licence still to record.
 110. Illustrations keep the border (Dan): on all four H1 and all four H2 versions the artwork sits in a frame with a white background, ink border, container radius and lg padding, filling its column. The art inside is scaled to fit, never stretched. (A reusable component for this isn't possible, because Figma won't let a nested illustration be resized inside an instance.) Images rules updated.
 111. About (H2) gains a "Register your school" section under the About content: heading, "It only takes a few minutes. We check every school by hand, then you add your classes and invite your teachers.", and a Register your school button → A3. Prototype V2: a white panel with the ink border on all four H2 versions; the iPad landscape About page now grows to 898 tall and scrolls. Wireframe H2 has the same section (note updated); wireframe section 8 made taller to fit.
+112. Copy on the Register section approved. Home (H1) now ends with the same Register your school section (→ A3) on all four versions and in the wireframe. The iPad landscape Home page grows to 1140 and scrolls.
+113. Illustrations: source unDraw (undraw.co), unDraw licence (free for commercial and personal use, no attribution required), recorded on both illustration components. Borders stay ink.
+114. Overlay border (Dan, from H3b): every Prototype V2 overlay (49) now has a 2px ink border on the inside, using semantic color/border/strong and border-width/strong. D1b Sort by gets it on its menu card, as the overlay itself is a transparent full-screen layer.
 
 ## October 14, 2026
 
