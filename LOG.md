@@ -133,6 +133,7 @@
 118. Book a call now sits inside the Multi-academy trust card (Dan), still opening H3a. Price card (Prototype V2) and Option card (wireframe) each gained an optional button (Show button, off by default, so other cards are unchanged); the separate button row under the plans is gone. Done on all four Pricing versions and the wireframe.
 119. Pricing: Register your school (primary, → A3) now sits inside the School card, matching Book a call in the trust card, and the Register box underneath is removed. iPad landscape Pricing fits 834 again, with the footer at the bottom. All four versions and the wireframe (note updated).
 120. Contact matches the other pages (Dan chose "form in a bordered panel"): the fields and Send message sit in a white panel with the ink border, container radius and xl padding. All four versions and the wireframe; iPad landscape Contact grows to 874 and scrolls.
+121. Contact form check: text fields were 50 tall and buttons 52, against the 48 control size, because their borders added to the height. Borders no longer count towards layout, so Text input fields and Primary, Secondary and Disabled buttons are exactly 48 everywhere they're used. Wireframe Contact: the Message field now spans the full form width.
 
 ## October 14, 2026
 
