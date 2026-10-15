@@ -41,3 +41,6 @@ Wireframe section 15 States; each code matches the screen it belongs to.
 - **No results & loading:** D1n Books and C7n Choose child (Clear search); C12n Find by title (still offers adding without a barcode); C1l Finding this book (no answer → type title and author).
 - **Errors:** C1x No connection (banner on every page, scanning and saving pause, nothing queued); A3x School lookup not working (type details instead); E1x Didn't save (what was typed stays); X1 Link expired (one shared page for every kind of link); A2x email and password don't match (never says which); A2y account archived.
 - **Session:** M1b shared iPad and A2t phone, both logged out after 30 minutes without use.
+
+## 9 Information architecture (`84:522`)
+One box per area (wireframe sections 1–14), saying who can see it, with a line per screen and the overlays and states it opens. It matches the map on the wireframe file's Information Architecture V2 page (`937:3440`) and the Information architecture section of the brief. Signed-in nav: Scan Book · Books · Classes · Teachers · Help · My account · Switch user · Log Out; public nav: Home · About · Pricing · Contact · Log in.
