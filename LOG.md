@@ -81,6 +81,7 @@
 66. Choosing the child (C7, C7c, C7n) has no sort or filters any more, just a search by name. Children are in first-name order, A–Z. The toggle reads Show search / Hide search, and C7c is renamed "Choose child: search". Same change in the brief, the IA map and the FigJam IA section.
 67. C9 On loan: "It's a different copy" is no longer a button next to Return and Renew. Under the buttons it now asks "Do you suspect this may be a book that there are multiple copies of?", with the button "Yes, I reckon it's a different copy" → C9a. Brief and library-lite-flows.md updated (the flows copy also had old renew wording, now "due the next library day").
 68. Copy check is now only a pop-up at log in. C9b (the on-the-spot question when the scanner is the child's own teacher) is removed; that teacher gets the same pop-up (E1k) as anyone else. New C1k shows it: Scan Book with E1k popping up straight away, reached from a new A2 demo link "log in with a copy check waiting". Brief, notes, IA map, FigJam board and library-lite-flows.md updated.
+69. End of the morning session: wireframe 174 frames (128 screens, 46 overlays) in 15 sections, 14 flows. Brief, FigJam board, data model, IA map and this repo all match.
 
 ## October 14, 2026
 
