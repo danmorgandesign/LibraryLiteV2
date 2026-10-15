@@ -108,6 +108,7 @@
 93. Pricing plans stay equal (no "most popular" highlight).
 94. Website footer: new Footer component (white bar with a top border; "© 2026 Library Lite" left; Contact us → H4 and Privacy right). It's pinned to the bottom of H1–H4. There's no Privacy page yet, so that link isn't wired. H1's spacing tightened from 64 to 48 so everything fits above the footer.
 95. Holding here: next screens not chosen yet.
+96. Pricing, decided: two options. School: £300, billed annually. Multi-academy trust: contact us to discuss options. H3 on Prototype V2 has two Price cards (School £300 billed annually; Multi-academy trust "Let's talk") and a new "Contact us about a trust" secondary button → H4 beside Register your school. The intro copy now reads "One price per school, billed annually. Running a multi-academy trust? Get in touch." The wireframe H3 matches (two Option cards, same buttons, annotation updated). Brief updated (doc and repo copy), including a Pricing Decisions row.
 
 ## October 14, 2026
 
