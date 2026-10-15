@@ -34,3 +34,10 @@ Loan history stays with a child as their class moves up. Decided: a guided End o
 
 ## 7 Decisions & out of scope (`41:580`)
 Nineteen decisions (Oct 13–15): 1 camera & ISBN, 2 loan limit, 3 search, 4 category, 5 school admin and admin rights, 6 new school year, 7 passwords, 8 copies, 9 never assume, 10 nothing is deleted, 11 lost or damaged, 12 confirmations (no toasts, undo or scan feed), 13 children's names (first name + optional initial), 14 email changes need the confirm link, 15 school approval (no in-app queue), 16 starting email (contact email or a different one), 17 shared iPads (30-minute logout, Switch user with a PIN, no lock screen), 18 archiving a teacher with a class, 19 data & time (keep counting in holidays, any staff sees history, archived children deleted after 30 days, UK time). Plus the out-of-scope list.
+
+## 8 Empty, error and loading states (`82:482`)
+Wireframe section 15 States; each code matches the screen it belongs to.
+- **Empty:** D1e Books: empty library (→ Scan your first book); E1e Classes: no children yet (add a child or paste a list); E3e Child view: nothing borrowed; D2f Book: never borrowed; G10e Archive: empty; G11e Activity log: empty; K5e Lost books: none; N1e Stats: not enough loans yet (until 10 loans have come back).
+- **No results & loading:** D1n Books and C7n Choose child (Clear search); C12n Find by title (still offers adding without a barcode); C1l Finding this book (no answer → type title and author).
+- **Errors:** C1x No connection (banner on every page, scanning and saving pause, nothing queued); A3x School lookup not working (type details instead); E1x Didn't save (what was typed stays); X1 Link expired (one shared page for every kind of link); A2x email and password don't match (never says which); A2y account archived.
+- **Session:** M1b shared iPad and A2t phone, both logged out after 30 minutes without use.
