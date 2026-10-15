@@ -19,6 +19,8 @@ It's for school staff only for now. Children and parents don't log in or see any
 
 Anyone with a login at the school can scan books and loan them to any child in the school.
 
+**Shared iPads.** Class iPads stay signed in, but log out after 30 minutes without use. Switch user in the nav lists the staff who have used that iPad: they tap their name and enter a 4-digit PIN, which they set in My account. Every loan records who was signed in. Children's names stay visible while signed in; there's no separate lock screen.
+
 Everyone has a **My account** page, linked from the nav, where they change their own name, email and password. A new email only replaces the old one once the person opens the confirm link sent to it, so a typo in the new address can't lock anyone out. The old address is then emailed to say the email has changed. A new password follows the same rules as at setup.
 
 ## The core flow: scan a book
@@ -108,9 +110,9 @@ Invites and new classes save as a draft while they're typed, so nothing is lost 
 
 This section comes from the Figma flows board.
 
-1. A school registers on the public site. It searches England's official list of schools by name, postcode or both, then picks itself from the matches, so its address fills in. A school that isn't listed types its details in by hand. It then adds contacts and a starting email address.
+1. A school registers on the public site. It searches England's official list of schools by name, postcode or both, then picks itself from the matches, so its address fills in. A school that isn't listed types its details in by hand. It then adds a contact name, contact email and phone, and chooses the starting email address: the contact email or a different one.
 2. Library Lite approves the school by hand before it goes live. Until then, the person who registered sees a page saying the school is checked by hand and the starting email address will get a link once it's approved. If a school is turned down, Library Lite talks to them first, then emails them why, outside the app. There's no approval queue inside the app.
-3. The starting email address gets a unique link. That person, the school admin, uses it to create their account, with the same password rules as teachers, then set up classes and give each one a teacher's email. This setup saves as they go, class by class, so they can leave and come back to the link. Invites are only emailed when they press Send invites.
+3. The starting email address gets a unique link, which works for 7 days. That person, the school admin, uses it to create their account, with the same password rules as teachers, then set up classes and give each one a teacher's email. This setup saves as they go, class by class, so they can leave and come back to the link. Invites are only emailed when they press Send invites.
 4. Each teacher gets their own invite link, creates a password and sets up their class and its children. Their setup also saves as they go. A strength meter shows how strong the password is, and they can't continue until it meets every rule: at least 10 characters, includes a number, includes a special character, and isn't a common password.
 
 Nobody can sign up without an invite. The site has three parts: public pages (a website with Home, About, Pricing and Contact, plus register and log in), the school registration steps, and the logged-in app (Scan Book, Books, Classes, Teachers, Help).
@@ -168,3 +170,5 @@ The brief's open questions, answered by Dan on Oct 13, 2026. The sections above 
 | Inviting staff without a class | Invite asks whether they're a teacher for a class or staff without a class; only the email is required. They're listed with the teachers. The page keeps the name Teachers (Oct 14). |
 | Admin rights | Only admins make or remove admins, archive or restore teachers and run End of year. Billing isn't one of them: it's handled outside the app with the person who registered the school (Oct 15). |
 | School approval | The person who registered sees a "we've got your details" page until approval. A school that's turned down hears why by email after a conversation, outside the app. No in-app approval queue (Oct 15). |
+| Starting email | Registration asks for a school contact email. The starting email is then chosen: the contact email or a different one. Nothing is pre-picked. The setup link works for 7 days (Oct 15). |
+| Shared iPads | Log out after 30 minutes without use. Switch user: tap your name, enter a 4-digit PIN. No lock screen hiding children's names (Oct 15). |
