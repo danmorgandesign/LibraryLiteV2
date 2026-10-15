@@ -19,7 +19,7 @@ It's for school staff only for now. Children and parents don't log in or see any
 
 Anyone with a login at the school can scan books and loan them to any child in the school.
 
-**Shared iPads.** Class iPads stay signed in, but log out after 30 minutes without use. Switch user in the nav lists the staff who have used that iPad: they tap their name and enter a 4-digit PIN, which they set in My account. Every loan records who was signed in. Children's names stay visible while signed in; there's no separate lock screen.
+**Shared iPads.** Class iPads stay signed in, but log out after 30 minutes without use. Switch user in the nav lists the staff who have used that iPad and set a PIN: they tap their name and enter their 4-digit PIN, which they set in My account. Anyone not listed can ask for an email reminder to set one up. After 5 wrong PINs in a row, PIN log-in locks until they log in with their email. Every loan records who was signed in. Children's names stay visible while signed in; there's no separate lock screen.
 
 Everyone has a **My account** page, linked from the nav, where they change their own name, email and password. A new email only replaces the old one once the person opens the confirm link sent to it, so a typo in the new address can't lock anyone out. The old address is then emailed to say the email has changed. A new password follows the same rules as at setup.
 
@@ -121,7 +121,7 @@ Help in the logged-in nav opens a page of quick answers: scanning a book, what t
 
 Log in has a Forgot password link. Staff enter their email, get a reset link, and set a new password with the same rules as above. The reset link works once and stops working after 12 hours.
 
-**Emails.** Designed so far: the weekly reminder, password reset, confirm new email, the email changed notice to the old address, invite and school approved. The school turned down email is sent outside the app. Pricing on the website is still to decide.
+**Emails.** Designed so far: the weekly reminder, password reset, confirm new email, the email changed notice to the old address, invite, school approved and the PIN reminder. The school turned down email is sent outside the app. Pricing on the website is still to decide.
 
 ## End of the school year
 
@@ -171,4 +171,4 @@ The brief's open questions, answered by Dan on Oct 13, 2026. The sections above 
 | Admin rights | Only admins make or remove admins, archive or restore teachers and run End of year. Billing isn't one of them: it's handled outside the app with the person who registered the school (Oct 15). |
 | School approval | The person who registered sees a "we've got your details" page until approval. A school that's turned down hears why by email after a conversation, outside the app. No in-app approval queue (Oct 15). |
 | Starting email | Registration asks for a school contact email. The starting email is then chosen: the contact email or a different one. Nothing is pre-picked. The setup link works for 7 days (Oct 15). |
-| Shared iPads | Log out after 30 minutes without use. Switch user: tap your name, enter a 4-digit PIN. No lock screen hiding children's names (Oct 15). |
+| Shared iPads | Log out after 30 minutes without use. Switch user: tap your name, enter a 4-digit PIN; only staff with a PIN are listed, others can get a reminder email; locks after 5 wrong tries. No lock screen hiding children's names (Oct 15). |

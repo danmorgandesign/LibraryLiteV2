@@ -17,7 +17,11 @@
 13. A5 Starting email offers a choice between the contact email from A4 and a different email. Nothing is pre-picked, and Register is disabled until one is chosen. A5a shows the contact email chosen, A5b a different email with the email field. A6 moved right to make room.
 14. Shared iPads, decided: a signed-in iPad logs out after 30 minutes without use, staff can switch user with a 4-digit PIN, and there's no lock screen hiding children's names. New section 13 Shared iPad: M1 Who's using this iPad? (staff who've used it), M1a Enter your PIN (keypad → Scan Book), M1b Logged out after 30 minutes. The signed-in nav gains "Switch user". My account (L1) gains a "PIN for switching user" card with a Set your PIN overlay (L1d), which asks for the account password first. Data model: users.pin_hash and a device_users table; loans.loaned_by is whoever is signed in.
 15. The brief, the FigJam board (contacts, starting email choice, Switch user, decisions 16–17) and library-lite-flows.md are updated with all of this.
-16. Wireframe: 141 frames (99 screens, 42 overlays) in 13 sections.
+16. Present view fix: every email I cloned had copied I1's flow starting point, so the prototype listed six flows all called "9 Weekly reminder email". D1a, G1b and G1c had picked up duplicate flows the same way, and E1k had a stray "Flow 1". There's now one flow per section: "9 Emails" plus new flows for 10 Help, 11 End of year, 12 My account and 13 Shared iPad.
+17. A6's demo link is renamed "Demo: open the school approved email" (it goes to I6, then B0).
+18. A5, A5a and A5b intro now reads: "This person becomes your school's first admin. They'll get the link to set up classes and invite teachers."
+19. PIN rules, decided: after 5 wrong PINs in a row, PIN log-in locks until the person logs in with email (M1c Too many tries; demo link on M1a). M1 only lists staff who have set a PIN. "Not listed? Email me a reminder to set up a PIN" on M1/M1b → M1d Get a PIN reminder → M1e Check your email → I7 Set up your PIN email (button → Log in, then Set your PIN).
+20. Wireframe: 145 frames (103 screens, 42 overlays) in 13 sections.
 
 ## October 14, 2026
 
