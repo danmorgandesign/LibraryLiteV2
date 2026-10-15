@@ -71,6 +71,7 @@
 56. A3 Find your school now has a "Matching schools" box on the right. From three characters typed in name or postcode, matching schools appear and update with every key. New A3s shows "St Mary" typed with four matches: picking one opens A4, an already-registered school opens A3c, and "My school isn't listed" opens A3b. A3 has a demo link to A3s. Search still opens the full list (A3a).
 57. Same change in the data model (worked-out row: top 8 open schools from 3 characters), the IA map, the brief, the FigJam site map and IA section, and library-lite-flows.md.
 58. A4 Your school & contacts matches A3's layout: the form (contact name, contact email, phone, Next/Back) on the left, the school card and "Not your school? Change it" on the right. Layout only, so no other artifact changes.
+59. School suggestions, decided: they start at 3 characters and show up to 5 schools. The Search button stays as a traditional search with the full list (A3a). Updated in A3/A3s notes, the data model, the brief, the FigJam site map and library-lite-flows.md.
 
 ## October 14, 2026
 
