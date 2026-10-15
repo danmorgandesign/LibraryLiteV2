@@ -135,6 +135,7 @@
 120. Contact matches the other pages (Dan chose "form in a bordered panel"): the fields and Send message sit in a white panel with the ink border, container radius and xl padding. All four versions and the wireframe; iPad landscape Contact grows to 874 and scrolls.
 121. Contact form check: text fields were 50 tall and buttons 52, against the 48 control size, because their borders added to the height. Borders no longer count towards layout, so Text input fields and Primary, Secondary and Disabled buttons are exactly 48 everywhere they're used. Wireframe Contact: the Message field now spans the full form width.
 122. Text fields match the buttons (Dan): 2px ink border. Semantic color/border/input now points at the same colour as border/strong in both modes (ink in Light, near-white in Dark), and Text input and Text area fields use border-width/strong. Applies everywhere the fields are used (Contact, Book a call). A focus state still needs designing (likely a blue ring outside the field).
+123. Card standard (Dan): the Feature cards are the standard card: white (bg/surface), 1px border/subtle, radius/container, space/lg padding. H1's Register section now uses it on all four versions (content stays centred).
 
 ## October 14, 2026
 
