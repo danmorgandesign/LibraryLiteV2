@@ -17,7 +17,7 @@
 13. A5 Starting email offers a choice between the contact email from A4 and a different email. Nothing is pre-picked, and Register is disabled until one is chosen. A5a shows the contact email chosen, A5b a different email with the email field. A6 moved right to make room.
 14. Shared iPads, decided: a signed-in iPad logs out after 30 minutes without use, staff can switch user with a 4-digit PIN, and there's no lock screen hiding children's names. New section 13 Shared iPad: M1 Who's using this iPad? (staff who've used it), M1a Enter your PIN (keypad → Scan Book), M1b Logged out after 30 minutes. The signed-in nav gains "Switch user". My account (L1) gains a "PIN for switching user" card with a Set your PIN overlay (L1d), which asks for the account password first. Data model: users.pin_hash and a device_users table; loans.loaned_by is whoever is signed in.
 15. The brief, the FigJam board (contacts, starting email choice, Switch user, decisions 16–17) and library-lite-flows.md are updated with all of this.
-16. Wireframe: 141 frames (100 screens, 41 overlays) in 13 sections.
+16. Wireframe: 141 frames (99 screens, 42 overlays) in 13 sections.
 
 ## October 14, 2026
 
