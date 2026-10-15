@@ -63,6 +63,7 @@
 48. Two state codes clashed with existing overlays, so they're renamed: E1e Classes: no children yet → E1n, and E3e Child view: nothing borrowed → E3n (frames, demo links, board, data model, library-lite-flows.md).
 49. New Information architecture map on the Information Architecture V2 page, next to the data model. One card per area (sections 1–14) saying who can see it, with a row per screen (108) listing its overlays and states. It's worked out from the prototype links, so every overlay and state sits under the screen that opens it. Admin-only screens are marked. The intro gives the signed-in and public nav.
 50. Wireframe Read me updated: 14 flows, sections 9 Emails, 13 Shared iPad, 14 Stats and 15 States, the two Teachers views, the library-day colour rule, the Empty state and Banner components, checking flows after copying screens, and the known gaps (filters not wired, iPad landscape only, overlay dims set by hand, Stats charts are placeholders).
+51. Brief: new "Information architecture" section (before Out of scope) with the signed-in and public nav, a table of the 14 areas (who sees each, main screens) and a link to the full map in Figma.
 
 ## October 14, 2026
 

@@ -159,6 +159,33 @@ A child's loan history stays with them as their class moves up. At the end of th
 
 Afterwards staff add next year's new class from Teachers. Any part can be put right later by renaming a class or restoring leavers from the archive. A single class can still be renamed on its own page at any time.
 
+## Information architecture
+
+The site has 14 areas. The full map, with every screen, the overlays it opens and its states, is on the [Information Architecture V2 page in Figma](https://www.figma.com/design/ufE3h5LxKNO4XfMFR82cSt/Library-Lite?node-id=937-3440).
+
+**Signed-in nav:** Scan Book · Books · Classes · Teachers · Help · My account · Switch user · Log Out. Teachers also links to Archive, Activity log, End of year (admins only), Lost books and Stats.
+
+**Public nav:** Home · About · Pricing · Contact · Log in.
+
+| Area | Who sees it | Main screens |
+| --- | --- | --- |
+| Log in and registration | Public | Log in, forgot password, find your school, contacts, starting email, registered |
+| Invite setup | Anyone with a set-up or invite link | Admin account, school set-up, invites sent, teacher account, set up your class |
+| Scan a book | Any staff | Scan, type the ISBN, add a book, choose the child, loan done, on loan, return, renew, different copy, find by title, written-off book |
+| Books | Any staff | Books (search, filters, sort), book page (copies, history, lost or damaged, archive) |
+| Classes | Teachers see their own class | Class (library day, loan limit, children, quick view), add or paste children, child view (loans, history, move, archive), copy check |
+| Staff without a class | Staff without a class | Choose a class to view, or scan a book |
+| Teachers | Any staff; some actions admins only | Teachers and pending invites, invite someone, teacher page, class pages, add class, Archive, Activity log |
+| Website | Public | Home, About, Pricing, Contact |
+| Emails | Sent by Library Lite | Weekly reminder, password reset, confirm new email, email changed, invite, school approved, PIN reminder |
+| Help | Any staff | Quick answers and a contact line |
+| End of year | Admins only (Lost books: any staff) | New class names, leavers, check and confirm, done, lost books report |
+| My account | Your own account | Name, email, password, PIN |
+| Shared iPad | Anyone on a shared iPad | Who's using this iPad, enter your PIN, logged out, PIN locked, PIN reminder |
+| Stats | Any staff | Whole school, one class |
+
+Every area also has the empty, error and loading states listed under Empty and error states.
+
 ## Out of scope for now
 
 - Logins or views for parents or children
