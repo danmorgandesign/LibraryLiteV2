@@ -73,6 +73,9 @@
 58. A4 Your school & contacts matches A3's layout: the form (contact name, contact email, phone, Next/Back) on the left, the school card and "Not your school? Change it" on the right. Layout only, so no other artifact changes.
 59. School suggestions, decided: they start at 3 characters and show up to 5 schools. The Search button stays as a traditional search with the full list (A3a). Updated in A3/A3s notes, the data model, the brief, the FigJam site map and library-lite-flows.md.
 60. B0 Create your admin account: form on the left, a welcome hero on the right (illustration placeholder; "Welcome to Library Lite, [school name]"; the three set-up steps: create your account, add classes and teachers' emails, send the invites then scan your first book). Layout only, so no other artifact changes.
+61. B3 and B3b (teacher create account) get the same welcome hero as B0: "Welcome to Library Lite, Teacher name 3", invited to the school as teacher for Class name 3, and three steps (create your account, add the children, scan your first book).
+62. B1 Admin setup has no save step and no bulk send any more. Each class row has its own Invite button: it emails that teacher straight away and the row shows "Pending verification" until they create their account. B1 shows classes 1–2 pending and class 3 with Invite; new B1a shows all three pending (and has the "open a teacher invite" demo link). The bottom button is now Done → G1e. The B2 "Invites sent" overlay is deleted, as nothing opens it now. Class name fields are narrower so the status fits.
+63. Same change in the brief, the data model (invites.sent_at), the IA map, the FigJam onboarding flow and IA section, and library-lite-flows.md.
 
 ## October 14, 2026
 
