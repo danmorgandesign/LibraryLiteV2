@@ -67,6 +67,7 @@
 52. FigJam board: new section "9 Information architecture" (84:522), one box per area with who can see it and a line per screen with its overlays and states; library-lite-flows.md has a matching section 9.
 53. Data model linked to the IA map: a new "Tables by area" card lists which tables each of the 14 areas reads and writes, and the intro points to the map. Gap fixed: loans gains returned_by and renewed_by (whoever was signed in), which Stats needs for "teachers active each week".
 54. Brief: new "Data model" section (after Information architecture) with a plain-language table of the 14 tables, the rules the database enforces, what's worked out rather than stored, and a link to the full model in Figma.
+55. FigJam board: new section "10 Data model" (85:550), a teal cylinder per table with its main columns, plus Relationships, The database enforces and Worked out, not stored; library-lite-flows.md has a matching section 10.
 
 ## October 14, 2026
 
