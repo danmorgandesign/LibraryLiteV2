@@ -89,6 +89,8 @@
 74. Red rebuilt the same way around Dan's new red/500, #FD0303 (pure red): 50 #FEF9F8 … 950 #3C0000. On white, red/500 is 4.0:1, so red text needs red/600 #CE0302 (5.8:1) or darker.
 75. Orange rebuilt the same way around Dan's new orange/500, #FF7B00: 50 #FEF9F6 … 950 #3C1801. On white, orange/600 is 3.8:1, so orange text needs orange/700 #A34C01 (5.8:1) or darker.
 76. Yellow rebuilt with the brand colour #FAFF2F at yellow/500 (it was at 300): 50 #FAFDE5 … 950 #3B3C00. As #FAFF2F is so light, 50–400 are pale tints and the darker steps turn olive. On white, yellow text only passes from yellow/800 #7A7C00 (4.5:1). The specimen label and radius shapes now use yellow/500.
+77. Red 50–400 smoothed so the step up to red/500 is no longer a jump: 50 #FEF4F3, 100 #FEE4E0, 200 #FFC9C0, 300 #FEA193, 400 #FE6C5B. 500–950 unchanged.
+78. Font confirmed: Option 1, Fjalla One for headings and Cantarell for body text. Semantic tokens not started yet (Dan: not yet).
 
 ## October 14, 2026
 
