@@ -21,7 +21,9 @@
 17. A6's demo link is renamed "Demo: open the school approved email" (it goes to I6, then B0).
 18. A5, A5a and A5b intro now reads: "This person becomes your school's first admin. They'll get the link to set up classes and invite teachers."
 19. PIN rules, decided: after 5 wrong PINs in a row, PIN log-in locks until the person logs in with email (M1c Too many tries; demo link on M1a). M1 only lists staff who have set a PIN. "Not listed? Email me a reminder to set up a PIN" on M1/M1b → M1d Get a PIN reminder → M1e Check your email → I7 Set up your PIN email (button → Log in, then Set your PIN).
-20. Wireframe: 145 frames (103 screens, 42 overlays) in 13 sections.
+20. B2 Invites sent is now an overlay on B1 (opened by Send invites), not a separate page. It keeps "Go to Library Lite" and the demo link to the invite email (I5).
+21. Review section 3 (UX polish, screen sizes) is skipped for now.
+22. Wireframe: 145 frames (102 screens, 43 overlays) in 13 sections.
 
 ## October 14, 2026
 
