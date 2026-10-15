@@ -76,6 +76,7 @@
 61. B3 and B3b (teacher create account) get the same welcome hero as B0: "Welcome to Library Lite, Teacher name 3", invited to the school as teacher for Class name 3, and three steps (create your account, add the children, scan your first book).
 62. B1 Admin setup has no save step and no bulk send any more. Each class row has its own Invite button: it emails that teacher straight away and the row shows "Pending verification" until they create their account. B1 shows classes 1–2 pending and class 3 with Invite; new B1a shows all three pending (and has the "open a teacher invite" demo link). The bottom button is now Done → G1e. The B2 "Invites sent" overlay is deleted, as nothing opens it now. Class name fields are narrower so the status fits.
 63. Same change in the brief, the data model (invites.sent_at), the IA map, the FigJam onboarding flow and IA section, and library-lite-flows.md.
+64. B2 Invites sent is back (I shouldn't have deleted it): an overlay opened by Done on B1 and B1a, listing each invited teacher's email, class and expiry with a Pending chip. Go to Library Lite → G1e; the "open a teacher invite" demo link moved back onto it. IA map and FigJam IA section updated.
 
 ## October 14, 2026
 
