@@ -109,6 +109,8 @@
 94. Website footer: new Footer component (white bar with a top border; "© 2026 Library Lite" left; Contact us → H4 and Privacy right). It's pinned to the bottom of H1–H4. There's no Privacy page yet, so that link isn't wired. H1's spacing tightened from 64 to 48 so everything fits above the footer.
 95. Holding here: next screens not chosen yet.
 96. Pricing, decided: two options. School: £300, billed annually. Multi-academy trust: contact us to discuss options. H3 on Prototype V2 has two Price cards (School £300 billed annually; Multi-academy trust "Let's talk") and a new "Contact us about a trust" secondary button → H4 beside Register your school. The intro copy now reads "One price per school, billed annually. Running a multi-academy trust? Get in touch." The wireframe H3 matches (two Option cards, same buttons, annotation updated). Brief updated (doc and repo copy), including a Pricing Decisions row.
+97. Trusts book a call. On H3 the second button is now "Book a call" and opens a new overlay, H3a Book a call: your name, email, phone, trust name, plus optional number of schools and best time to call. Request a call swaps to H3b "Thanks, we'll be in touch" (Close). Cancel closes it. Built on both the wireframe (with Data notes: nothing stored, the details are emailed to the Library Lite team) and Prototype V2 (designed). IA map, FigJam board (site map and IA section), library-lite-flows.md and the brief updated.
+98. Icons: Dan added Phosphor icons (MIT) to the Design System page. Feature card gained an icon slot (Icon instance swap plus a Show icon toggle, off by default). H1's "One scan" card shows the scan icon in ink on the yellow tile.
 
 ## October 14, 2026
 

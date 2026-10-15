@@ -122,7 +122,7 @@ Help in the logged-in nav opens a page of quick answers: scanning a book, what t
 
 Log in has a Forgot password link. Staff enter their email, get a reset link, and set a new password with the same rules as above. The reset link works once and stops working after 12 hours.
 
-**Emails.** Designed so far: the weekly reminder, password reset, confirm new email, the email changed notice to the old address, invite, school approved and the PIN reminder. The school turned down email is sent outside the app. Pricing on the website: School £300, billed annually; multi-academy trusts contact us to discuss options.
+**Emails.** Designed so far: the weekly reminder, password reset, confirm new email, the email changed notice to the old address, invite, school approved and the PIN reminder. The school turned down email is sent outside the app. Pricing on the website: School £300, billed annually; multi-academy trusts book a call (a short form; the team calls them back).
 
 **Empty and error states.** Every list has an empty state that says what to do next; the most important is an empty library at first login, which leads straight to scanning the first book. Searches that find nothing offer to clear the search. With no connection, a banner shows on every page and scanning and saving pause until the connection is back (nothing is queued). If a save fails, what was typed stays so it can be saved again. Every old, used or cancelled link opens one shared "This link has expired" page. Log in says when the email and password don't match (never which one), or when an account is archived. Phones log out after 30 minutes without use, like shared iPads.
 
@@ -264,4 +264,4 @@ The brief's open questions, answered by Dan on Oct 13, 2026. The sections above 
 | Success measures | The share of loans returned on time, for one class or the whole school, and teachers active each week, shown on a Stats page (Oct 15). |
 | Invites after setup | After Send invites, the admin lands on Teachers with each invite marked Pending (Oct 15). |
 | Visual design | Fonts: Fjalla One for headings, Cantarell for body text. Brand colour #FAFF2F (yellow), used as a fill with dark text. Second colour deep blue #0150AF for links, secondary buttons, focus rings, selected chips and info (AAA on white and on the yellow). Green, orange and red are kept for loan colours. Primitive and semantic tokens and the Text styles are on the Figma file's Design System page; designs use only the semantic tokens (Oct 15). |
-| Pricing | Two options: School, £300 billed annually; multi-academy trust, contact us to discuss options (Oct 15). |
+| Pricing | Two options: School, £300 billed annually; multi-academy trust, book a call to discuss options (Oct 15). |
