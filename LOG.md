@@ -161,6 +161,8 @@
 146. D2f Book: never borrowed: Archive book is now enabled (its only copy is in the library) and opens D2d on both pages. Notes updated.
 147. Wireframe D2, D2e and D2f match the prototype: the separate Copies column is gone, and each copy card has a header with its status pill above the copy name and Retire on the right (D2 Copy 1 Retire → D2c). D2f shows one Copy 1 card with "Not borrowed yet. Each loan of this copy will show here." D2/D2e/D2f notes on both pages now describe the copy cards.
 148. Every Retire button on D2, D2e and D2f now opens the D2c retire confirm (Copy 2 on D2 and D2e, and the D2f copy), on both pages.
+149. D2c stays one shared "Retire copy 1?" confirm for every Retire button in the demo (Dan).
+150. Prototype V2 Read me updated: designed so far (website section 8; D1, D1a, D1b, D2, D2e, D2f), the colour status pills including Retired, the new Kit components (List row, Select, Filter chip, Status chip), the copy card standard, and known gaps (other app screens, including the D2a/D2b/D2c overlays, still use wireframe components; shared D2c). End of day: Books is the first designed app area; next is the D2 overlays (D2a, D2b, D2c) or the next area Dan picks.
 
 ## October 14, 2026
 
