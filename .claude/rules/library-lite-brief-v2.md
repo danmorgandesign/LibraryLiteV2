@@ -124,6 +124,8 @@ Log in has a Forgot password link. Staff enter their email, get a reset link, an
 
 **Emails.** Designed so far: the weekly reminder, password reset, confirm new email, the email changed notice to the old address, invite, school approved and the PIN reminder. The school turned down email is sent outside the app. Pricing on the website is still to decide.
 
+**Empty and error states.** Every list has an empty state that says what to do next; the most important is an empty library at first login, which leads straight to scanning the first book. Searches that find nothing offer to clear the search. With no connection, a banner shows on every page and scanning and saving pause until the connection is back (nothing is queued). If a save fails, what was typed stays so it can be saved again. Every old, used or cancelled link opens one shared "This link has expired" page. Log in says when the email and password don't match (never which one), or when an account is archived. Phones log out after 30 minutes without use, like shared iPads.
+
 ## End of the school year
 
 A child's loan history stays with them as their class moves up. At the end of the year, an admin runs **End of year** from Teachers. It moves every class up in one step:

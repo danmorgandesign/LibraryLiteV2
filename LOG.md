@@ -41,6 +41,14 @@
 37. Leftover days-based wording fixed: C8 Loan done and C11 Renewed now give the due library day ("due back on Class name 1's library day, Monday 20 Oct").
 38. G10b Archive: not an admin, opened from Archive on G1c. Archived teachers have no Restore and say only admins can restore them.
 39. Wireframe: 153 frames (108 screens, 45 overlays) in 14 sections.
+40. States pass (Dan: all of them). New Kit components "Empty state" (title, body, optional button) and "Banner" (message), both bound to tokens. New section 15 States:
+    - Empty: D1e Books: empty library ("Scan your first book" → C1), E1e Classes: no children yet (Add a child / Paste a list), E3e Child view: nothing borrowed, D2f Book: never borrowed, G10e Archive: empty, G11e Activity log: empty, K5e Lost books: none, N1e Stats: not enough loans yet.
+    - No results: D1n Books, C12n Find by title (still offers adding without a barcode), C7n Choose child.
+    - Errors: C1x no connection (banner, scanning and saving paused), A3x school lookup not working (→ type details, A3b), E1x save failed (shown on an Edit window), X1 Link expired (one shared page for every kind of link), A2x wrong email or password, A2y account archived.
+    - Loading: C1l Finding this book.
+    - Session: A2t phones log out after 30 minutes without use.
+41. Brief: new "Empty and error states" paragraph.
+42. Wireframe: 172 frames (126 screens, 46 overlays) in 15 sections.
 
 ## October 14, 2026
 
