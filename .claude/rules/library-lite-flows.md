@@ -37,7 +37,7 @@ Nineteen decisions (Oct 13–15): 1 camera & ISBN, 2 loan limit, 3 search, 4 cat
 
 ## 8 Empty, error and loading states (`82:482`)
 Wireframe section 15 States; each code matches the screen it belongs to.
-- **Empty:** D1e Books: empty library (→ Scan your first book); E1e Classes: no children yet (add a child or paste a list); E3e Child view: nothing borrowed; D2f Book: never borrowed; G10e Archive: empty; G11e Activity log: empty; K5e Lost books: none; N1e Stats: not enough loans yet (until 10 loans have come back).
+- **Empty:** D1e Books: empty library (→ Scan your first book); E1n Classes: no children yet (add a child or paste a list); E3n Child view: nothing borrowed; D2f Book: never borrowed; G10e Archive: empty; G11e Activity log: empty; K5e Lost books: none; N1e Stats: not enough loans yet (until 10 loans have come back).
 - **No results & loading:** D1n Books and C7n Choose child (Clear search); C12n Find by title (still offers adding without a barcode); C1l Finding this book (no answer → type title and author).
 - **Errors:** C1x No connection (banner on every page, scanning and saving pause, nothing queued); A3x School lookup not working (type details instead); E1x Didn't save (what was typed stays); X1 Link expired (one shared page for every kind of link); A2x email and password don't match (never says which); A2y account archived.
 - **Session:** M1b shared iPad and A2t phone, both logged out after 30 minutes without use.
