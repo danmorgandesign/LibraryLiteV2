@@ -139,6 +139,7 @@
 124. The standard card style now also applies to About's Register section and the Contact form panel, on all four versions of each. The 2px ink border stays on interactive things only: buttons, text fields and overlays.
 125. Text fields follow Dan's Your name field: default border is 1px color/border/default (light grey), in the components, so every field matches (Contact, Book a call). Flagged: that grey is 1.5:1 on white, below WCAG's 3:1 for field outlines.
 126. Field states: Text input and Text area are now component sets with State = Default | Focus (2px border/focus blue) | Error (2px border/error red plus an Error message in text/error, Body small; editable, defaults "Enter your name" / "Enter a message"). Both sets sit in a clear column on the right of the Prototype V2 Kit.
+127. Book a call (H3a) fields are now two columns: you (Your name, Email, Phone) on the left, the trust (Trust name, Number of schools, Best time to call) on the right. Prototype V2 and wireframe.
 
 ## October 14, 2026
 
