@@ -137,6 +137,8 @@
 122. Text fields match the buttons (Dan): 2px ink border. Semantic color/border/input now points at the same colour as border/strong in both modes (ink in Light, near-white in Dark), and Text input and Text area fields use border-width/strong. Applies everywhere the fields are used (Contact, Book a call). A focus state still needs designing (likely a blue ring outside the field).
 123. Card standard (Dan): the Feature cards are the standard card: white (bg/surface), 1px border/subtle, radius/container, space/lg padding. H1's Register section now uses it on all four versions (content stays centred).
 124. The standard card style now also applies to About's Register section and the Contact form panel, on all four versions of each. The 2px ink border stays on interactive things only: buttons, text fields and overlays.
+125. Text fields follow Dan's Your name field: default border is 1px color/border/default (light grey), in the components, so every field matches (Contact, Book a call). Flagged: that grey is 1.5:1 on white, below WCAG's 3:1 for field outlines.
+126. Field states: Text input and Text area are now component sets with State = Default | Focus (2px border/focus blue) | Error (2px border/error red plus an Error message in text/error, Body small; editable, defaults "Enter your name" / "Enter a message"). Both sets sit in a clear column on the right of the Prototype V2 Kit.
 
 ## October 14, 2026
 
