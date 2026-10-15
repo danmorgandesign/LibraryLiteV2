@@ -154,6 +154,7 @@
 139. Books list rows (Dan): the sub-label is just "Author name · Fiction" or "Author name · Non-fiction". The status words and the On loan child and class are removed from D1 and D1a (Prototype V2 and wireframe; notes updated). Who has the book and when it's due stay on the book page (D2). Brief Loan status chips row updated (doc and repo copy).
 140. Retire replaces Lost or damaged (Dan): one Retire action per copy on D2, no lost or damaged choice. D2c is now "Retire copy 1?" with a single Retire copy button (Mark damaged removed); D2e is "Book: copy retired" ("Retired today by…"). The data model's copies.written_off_reason is now retired | not_returned; retired copies still go in the lost books report. Wireframe, Prototype V2, notes, IA map, data model, FigJam board, brief (doc and repo copy) and library-lite-flows.md all updated.
 141. D2 Book: Copy 1's sub-label is just "Child name 1" ("9 days out" removed). D2 and D2e rows swapped to the new List row, so their pills are the standard 91×24 (Copy 1's pill was squashed at 65×31). Borrowing history now sits on the left and Copies on the right on D2, D2e and D2f (both pages).
+142. Borrowing history is per copy (Dan): on D2 and D2e it splits into one column per copy (Copy 1: Child name 2, Deleted child; Copy 2: Child name 3), on both pages; D2f has one copy so stays single. Uses loans.copy_id (no data model change). Wireframe notes and brief (doc and repo copy) updated.
 
 ## October 14, 2026
 

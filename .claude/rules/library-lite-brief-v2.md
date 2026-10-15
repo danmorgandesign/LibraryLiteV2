@@ -65,7 +65,7 @@ Books lets any staff member search the whole school library and see who has each
 
 Tapping a book opens its page. Any staff member can:
 
-- see each copy and who has it now, and the book's borrowing history
+- see each copy and who has it now, and the borrowing history of each copy (one column per copy)
 - edit the title and author, or change the category
 - **retire any copy**, at any time of year, after a confirm. If the copy is on loan, that loan is closed. The copy goes in the lost books report as retired, and scanning it later asks whether to add it back
 - archive the book, after a confirm. It's blocked while any copy is on loan. Archived books leave Books and search, keep their history, and can be restored from the Archive
