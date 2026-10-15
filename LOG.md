@@ -82,6 +82,9 @@
 67. C9 On loan: "It's a different copy" is no longer a button next to Return and Renew. Under the buttons it now asks "Do you suspect this may be a book that there are multiple copies of?", with the button "Yes, I reckon it's a different copy" → C9a. Brief and library-lite-flows.md updated (the flows copy also had old renew wording, now "due the next library day").
 68. Copy check is now only a pop-up at log in. C9b (the on-the-spot question when the scanner is the child's own teacher) is removed; that teacher gets the same pop-up (E1k) as anyone else. New C1k shows it: Scan Book with E1k popping up straight away, reached from a new A2 demo link "log in with a copy check waiting". Brief, notes, IA map, FigJam board and library-lite-flows.md updated.
 69. End of the morning session: wireframe 174 frames (128 screens, 46 overlays) in 15 sections, 14 flows. Brief, FigJam board, data model, IA map and this repo all match.
+70. Visual design started. Mood Board: new font trial Option 5 (Roboto headings from Option 2, Cantarell body from Option 1), with tokens font/trial-5-heading and font/trial-5-body and text styles Trial 5/Heading and Trial 5/Body.
+71. Font, decided: Option 1, Fjalla One for headings and Cantarell (Regular and Bold) for body text. Brand colour, decided: #FAFF2F (from the Mood Board).
+72. New "Primitives" variable collection (133 variables, separate from the wireframe's WF collections, hidden from pickers, with CSS code syntax). It holds: white, black, and 11-step scales (50–950) for yellow (brand, #FAFF2F = yellow/300), neutral (tinted slightly yellow), and green, orange and red for the loan colours; space 0–96; radius 0–24 and full; border 1–4; size 16–1194 (44 = smallest touch target, 834×1194 = iPad); font families, weights, styles, sizes 12–64, line heights 16–72 and letter spacing. The Design System page shows them all as a specimen bound to the variables.
 
 ## October 14, 2026
 
