@@ -67,7 +67,7 @@ Tapping a book opens its page. Any staff member can:
 
 - see each copy and who has it now, and the book's borrowing history
 - edit the title and author, or change the category
-- mark any copy **lost** or **damaged**, at any time of year, after a confirm. If the copy is on loan, that loan is closed. The copy goes in the lost books report with its reason, and scanning it later asks whether to add it back
+- **retire any copy**, at any time of year, after a confirm. If the copy is on loan, that loan is closed. The copy goes in the lost books report as retired, and scanning it later asks whether to add it back
 - archive the book, after a confirm. It's blocked while any copy is on loan. Archived books leave Books and search, keep their history, and can be restored from the Archive
 
 ## Managing a class
@@ -155,7 +155,7 @@ A child's loan history stays with them as their class moves up. At the end of th
 2. **Leavers.** Any books the leaving classes still have out are listed. This is the point where the school accepts that a leaver's unreturned book is gone. For each book, staff either mark it returned or **write it off**, which closes the loan, takes the book out of the library's count and adds it to the lost books report. The flow can't finish until every book is one or the other. Nothing is written off automatically.
 3. **Check and confirm.** A summary of every change, then **Move everyone up** applies it all at once: classes renamed, teachers moved, books written off, and leavers archived with their history. It's recorded in the activity log.
 
-**Lost books report.** It lists every book written off in the school year, with who had it, when, and why (not returned, lost or damaged), and can be downloaded as a spreadsheet for school records. It opens at the end of the flow and from Lost books on Teachers. If a written-off book turns up, scanning it asks whether to add it back to the library.
+**Lost books report.** It lists every book written off in the school year, with who had it, when, and why (not returned, or retired), and can be downloaded as a spreadsheet for school records. It opens at the end of the flow and from Lost books on Teachers. If a written-off book turns up, scanning it asks whether to add it back to the library.
 
 Afterwards staff add next year's new class from Teachers. Any part can be put right later by renaming a class or restoring leavers from the archive. A single class can still be renamed on its own page at any time.
 
@@ -172,7 +172,7 @@ The site has 14 areas. The full map, with every screen, the overlays it opens an
 | Log in and registration | Public | Log in, forgot password, find your school, contacts, starting email, registered |
 | Invite setup | Anyone with a set-up or invite link | Admin account, school set-up, invites sent, teacher account, set up your class |
 | Scan a book | Any staff | Scan, type the ISBN, add a book, choose the child, loan done, on loan, return, renew, different copy, find by title, written-off book |
-| Books | Any staff | Books (search, filters, sort), book page (copies, history, lost or damaged, archive) |
+| Books | Any staff | Books (search, filters, sort), book page (copies, history, retire a copy, archive) |
 | Classes | Teachers see their own class | Class (library day, loan limit, children, quick view), add or paste children, child view (loans, history, move, archive), copy check |
 | Staff without a class | Staff without a class | Choose a class to view, or scan a book |
 | Teachers | Any staff; some actions admins only | Teachers and pending invites, invite someone, teacher page, class pages, add class, Archive, Activity log |
@@ -246,7 +246,7 @@ The brief's open questions, answered by Dan on Oct 13, 2026. The sections above 
 | Books with no barcode | Found and added by title. Typing a title suggests matching books in the library; picking one asks whether it's another copy. It's rare, so there's no labelling (Oct 14). |
 | Removing teachers, classes and children | Never deleted: they're archived and can be restored (teachers by admins only). Every archive and restore goes in an activity log. Nobody can archive themselves or the last admin. Archived children are deleted for good after 30 days (Oct 14–15). |
 | Leavers' unreturned books | Written off at End of year, one book at a time by a person, never automatically. Written-off books go in a yearly lost books report (Oct 14). |
-| Lost or damaged books | Any staff member can mark a copy lost or damaged at any time from the book's page, after a confirm. It's written off with that reason and goes in the lost books report (Oct 14). |
+| Retiring a copy | Any staff member can retire a copy at any time from the book's page, after a confirm (one Retire action, no lost or damaged choice; Oct 15). It's written off and goes in the lost books report (Oct 14). |
 | Editing and archiving books | Any staff member, from the book's page. Archiving is blocked while a copy is on loan, and archived books can be restored (Oct 14). |
 | Invite links | Last 14 days and can be resent or cancelled from Teachers (Oct 14). |
 | Inviting staff without a class | Invite asks whether they're a teacher for a class or staff without a class; only the email is required. They're listed with the teachers. The page keeps the name Teachers (Oct 14). |
