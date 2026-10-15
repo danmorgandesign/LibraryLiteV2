@@ -53,6 +53,13 @@
 44. Demo links from the main screens into their states: D1 → D1e, D1n; E1 → E1e; E3 → E3e; D2 → D2f; G10 → G10e; G11 → G11e; K5 → K5e; N1 → N1e; C12 → C12n; C7c → C7n; C1 → C1x, C1l; A3 → A3x; A2 → A2x, A2y, A2t, X1; and the E1a library-day window swaps to E1x. A few screens grew slightly, so their sections were made taller to fit.
 45. FigJam board: new section "8 Empty, error and loading states" (82:482) with every state in four columns (Empty, No results & loading, Errors, Session), and the same summary in library-lite-flows.md.
 46. Brief: a table of every state (state, where, what it shows) under "Empty and error states".
+47. Data model updated for the states:
+    - users gains pin_failed_count and pin_locked_at (5 wrong PINs lock it until an email log-in).
+    - invites: expires_at is 14 days for staff and 7 days for the admin set-up link.
+    - password_resets: 12 hours, one use.
+    - New sessions table (user, device, last_active_at, ended_at and why), ending after 30 minutes without use.
+    - Worked out: empty lists show their empty state; the scan result covers written-off copies (C14) and the book-details lookup (C1l, no answer → C4b); Stats needs 10 closed loans; any link that's expired, used, accepted or cancelled opens X1.
+    - Rules: saves are all-or-nothing; nothing is queued offline; archived users can't log in and a wrong log-in never says which part was wrong; the PIN lock.
 
 ## October 14, 2026
 
