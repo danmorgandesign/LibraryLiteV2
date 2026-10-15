@@ -126,6 +126,27 @@ Log in has a Forgot password link. Staff enter their email, get a reset link, an
 
 **Empty and error states.** Every list has an empty state that says what to do next; the most important is an empty library at first login, which leads straight to scanning the first book. Searches that find nothing offer to clear the search. With no connection, a banner shows on every page and scanning and saving pause until the connection is back (nothing is queued). If a save fails, what was typed stays so it can be saved again. Every old, used or cancelled link opens one shared "This link has expired" page. Log in says when the email and password don't match (never which one), or when an account is archived. Phones log out after 30 minutes without use, like shared iPads.
 
+| State | Where | What it shows |
+| --- | --- | --- |
+| Empty library | Books | "Your library is empty" and a Scan your first book button |
+| No children yet | A class on Classes | Add a child, or paste a list of names |
+| Nothing borrowed | A child's page | Their loans and history will show here, and a Scan a book button |
+| Never borrowed | A book's page | Borrowing history says "Not borrowed yet" |
+| Nothing archived | Archive | An explanation of what will show there |
+| No activity yet | Activity log | An explanation of what will show there |
+| No lost books | Lost books report | No books written off this school year; no download |
+| Not enough loans | Stats | Shown until 10 loans have come back |
+| No results | Books, choosing a child | Clear search |
+| No results | Find by title | Still offers adding the book without a barcode |
+| Finding this book | Scan Book | Shown between a scan and its result; no answer leads to typing title and author |
+| No connection | Every signed-in page | A banner; scanning and saving pause until the connection is back, nothing is queued |
+| School lookup not working | Registration | Type your school's details instead |
+| Didn't save | Any Edit window or form | What was typed stays so it can be saved again |
+| Link expired | Any old, used or cancelled link | One shared page with Log in and Back to the website |
+| Wrong email or password | Log in | Says they don't match, never which one |
+| Account archived | Log in | Ask your school's admin to restore it |
+| Logged out after 30 minutes | Shared iPads, phones | iPads: tap your name and enter your PIN. Phones: log in again |
+
 ## End of the school year
 
 A child's loan history stays with them as their class moves up. At the end of the year, an admin runs **End of year** from Teachers. It moves every class up in one step:
