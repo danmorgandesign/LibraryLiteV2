@@ -140,6 +140,9 @@
 125. Text fields follow Dan's Your name field: default border is 1px color/border/default (light grey), in the components, so every field matches (Contact, Book a call). Flagged: that grey is 1.5:1 on white, below WCAG's 3:1 for field outlines.
 126. Field states: Text input and Text area are now component sets with State = Default | Focus (2px border/focus blue) | Error (2px border/error red plus an Error message in text/error, Body small; editable, defaults "Enter your name" / "Enter a message"). Both sets sit in a clear column on the right of the Prototype V2 Kit.
 127. Book a call (H3a) fields are now two columns: you (Your name, Email, Phone) on the left, the trust (Trust name, Number of schools, Best time to call) on the right. Prototype V2 and wireframe.
+128. Overlay style (Dan, from H3a): every Prototype V2 overlay (49) is now white (bg/surface) with a 2px border/subtle border and radius/container corners (the phone menu only rounds its bottom corners; D1b's goes on its menu card).
+129. Field default border now passes contrast: semantic color/border/input → neutral/500 (4.6:1 on white; 3.8:1 in Dark), used by the Default state of Text input and Text area. Dan's override on the Your name field was cleared so every field follows the component.
+130. Contact after Send: H4 Send message → H4b "Thanks, your message is on its way" (standard card, reply within two working days, Back to home → H1). H4a errors shows Your name and Email in their Error state ("Enter your name", "Enter an email address, like name@school.sch.uk"), reached from a new H4 demo link; Send message there → H4b. Nothing stored; the message is emailed to the team. Built on Prototype V2 and the wireframe (wireframe H4a shows one error line, as its fields have no states), with notes; IA map, FigJam IA box and library-lite-flows.md updated.
 
 ## October 14, 2026
 
