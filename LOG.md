@@ -19,6 +19,7 @@
 15. D2d Archive book confirm overlay designed to the same overlay layout as D2a–D2c.
 16. Edit forms show the current value, not a placeholder. Text input gained a Content property (Empty or Filled; Filled text is in the default ink colour) and was renamed from Placeholder to Text. D2a now shows the book's title and author filled in.
 17. The nav's Register your school button is 44 tall (Semantic size/touch-min), which meets WCAG 2.2 AAA and Apple's 44 minimum. The website nav is now 77 tall. Other buttons, including the one in the phone menu, stay 48.
+18. Signed-in nav, from Dan's mock-up: Scan Book is now a yellow button on every signed-in nav (44 tall), then Books, Classes, Switch user and a Menu button. Menu opens a new dropdown, L0 Menu (section 12), with Teachers, Help, My account and Log Out. On Teachers, Help and My account the Menu button is shaded to show where you are. Switch user stays in the bar because shared iPads switch user often. Done on both Figma pages, with every signed-in nav wired. Updated in the brief (doc and repo copy), the flows file, the IA map, the FigJam board and both Read mes.
 
 ## October 15, 2026
 
