@@ -5,6 +5,9 @@ A website for UK primary school staff to catalogue and loan library books. The c
 Context loaded automatically from `.claude/rules/`:
 - `library-lite-brief-v2.md`: the product brief (users, scan flow, loan rules, viewing books, managing a class, managing teachers, onboarding, end of the school year, decisions).
 - `library-lite-flows.md`: summary of the Library Lite Flows FigJam board (the V2 Design Overview section).
+- `working-notes.md`: how Dan wants Claude to work, where everything lives, design standards, API gotchas and the current resume point. Read its "Resume point" section first when picking up the work.
+
+`notes/memory-history.md` holds the full day-by-day working notes (not auto-loaded; read the parts you need).
 
 Figma flows board: https://www.figma.com/board/6TADZXvo4PxMned1su6bZP/Library-Lite-Flows?node-id=39-247
 
