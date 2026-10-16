@@ -16,6 +16,8 @@
 12. Decided: wireframe components on undesigned screens are swapped for the Design System ones screen by screen, as each is designed. On loan pills keep hugging their text (consistent padding, not a fixed width).
 13. D2a Edit title and author, D2b Change category and D2c Retire copy overlays designed on Prototype V2: Semantic tokens and Text styles throughout, a header with the title, a muted line under it and Close, and the new Text input and Select components (480 wide). Links unchanged. The Prototype V2 Read me lists them as designed and describes the overlay layout.
 14. Register your school is now a yellow primary button at the end of the website nav (Home, About, Pricing, Contact, Log in) and at the bottom of the phone menu. It goes to A3 Find your school. Done on both Figma pages. The nav is 16px taller because the button is 48px. Updated in the brief (doc and repo copy), the flows file, the FigJam site map and the IA map.
+15. D2d Archive book confirm overlay designed to the same overlay layout as D2a–D2c.
+16. Edit forms show the current value, not a placeholder. Text input gained a Content property (Empty or Filled; Filled text is in the default ink colour) and was renamed from Placeholder to Text. D2a now shows the book's title and author filled in.
 
 ## October 15, 2026
 
