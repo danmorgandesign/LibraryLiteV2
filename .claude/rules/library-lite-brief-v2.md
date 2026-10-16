@@ -165,7 +165,7 @@ The site has 14 areas. The full map, with every screen, the overlays it opens an
 
 **Signed-in nav:** Scan Book (a yellow button) · Books · Classes · Switch user · Menu. The Menu button opens a dropdown with Teachers · Help · My account, then Log out below a separator (L0). The menu icon turns into an X while it's open; the X or a click outside closes it. Teachers also links to Archive, Activity log, End of year (admins only), Lost books and Stats.
 
-**Public nav:** Home · About · Pricing · Contact · Log in, plus a Register your school button (to A3 Find your school) at the end of the nav and the bottom of the phone menu.
+**Public nav:** Home · About · Pricing · Contact · Log in, plus a Register your school button (to A3 Find your school) at the end of the nav.
 
 | Area | Who sees it | Main screens |
 | --- | --- | --- |
@@ -265,5 +265,5 @@ The brief's open questions, answered by Dan on Oct 13, 2026. The sections above 
 | Invites after setup | After Send invites, the admin lands on Teachers with each invite marked Pending (Oct 15). |
 | Visual design | Fonts: Fjalla One for headings, Cantarell for body text. Brand colour #FAFF2F (yellow), used as a fill with dark text. Second colour deep blue #0150AF for links, secondary buttons, focus rings, selected chips and info (AAA on white and on the yellow). Green, orange and red are kept for loan colours. Primitive and semantic tokens and the Text styles are on the Figma file's Design System page; designs use only the semantic tokens (Oct 15). Every component lives in a Components frame on the Design System page, built only from semantic tokens and Text styles, with no hardcoded values (Oct 16). |
 | Pricing | 30 days free to start. Then two options: School, £300 billed annually; multi-academy trust, book a call to discuss options (Oct 15). |
-| Website layout and images | The public website is fully responsive: desktop, iPad (landscape and portrait) and phone, with a menu button on phones. Images are illustrations (SVG), not photos, so no photos of children are needed (Oct 15). |
+| Website layout and images | The public website, like the app, is designed for the iPad in landscape only (Oct 16). Images are illustrations (SVG), not photos, so no photos of children are needed (Oct 15). |
 | Loan status chips | Available is a blue pill; a book on loan is a green, orange or red pill that says "On loan". In the Books list a row shows only the author and fiction or non-fiction; who has the book and when it is due are on the book's page (Oct 15). A retired copy has a grey Retired pill on its card on the book's page (Oct 15). |
