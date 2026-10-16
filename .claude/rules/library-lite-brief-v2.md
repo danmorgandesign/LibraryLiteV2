@@ -165,7 +165,7 @@ The site has 14 areas. The full map, with every screen, the overlays it opens an
 
 **Signed-in nav:** Scan Book · Books · Classes · Teachers · Help · My account · Switch user · Log Out. Teachers also links to Archive, Activity log, End of year (admins only), Lost books and Stats.
 
-**Public nav:** Home · About · Pricing · Contact · Log in.
+**Public nav:** Home · About · Pricing · Contact · Log in, plus a Register your school button (to A3 Find your school) at the end of the nav and the bottom of the phone menu.
 
 | Area | Who sees it | Main screens |
 | --- | --- | --- |

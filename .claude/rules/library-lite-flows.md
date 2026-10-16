@@ -45,7 +45,7 @@ Wireframe section 15 States; each code matches the screen it belongs to.
 - **Session:** M1b shared iPad and A2t phone, both logged out after 30 minutes without use.
 
 ## 9 Information architecture (`84:522`)
-One box per area (wireframe sections 1–14), saying who can see it, with a line per screen and the overlays and states it opens. It matches the map on the wireframe file's Information Architecture V2 page (`937:3440`) and the Information architecture section of the brief. Signed-in nav: Scan Book · Books · Classes · Teachers · Help · My account · Switch user · Log Out; public nav: Home · About · Pricing · Contact · Log in.
+One box per area (wireframe sections 1–14), saying who can see it, with a line per screen and the overlays and states it opens. It matches the map on the wireframe file's Information Architecture V2 page (`937:3440`) and the Information architecture section of the brief. Signed-in nav: Scan Book · Books · Classes · Teachers · Help · My account · Switch user · Log Out; public nav: Home · About · Pricing · Contact · Log in · Register your school (button → A3).
 
 ## 10 Data model (`85:550`)
 One teal cylinder per table (14): schools, gias_schools, users, invites, password_resets, sessions, device_users, classes, children, titles, copies, loans, copy_checks, activity_log, each with its main columns and rules. Plus boxes for relationships, what the database enforces, and what's worked out rather than stored. Matches the data model on the wireframe file's Information Architecture V2 page (`822:824`) and the Data model section of the brief.
