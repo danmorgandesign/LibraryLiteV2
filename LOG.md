@@ -27,6 +27,8 @@
 23. L0 Menu reworked (both pages): it now covers only the top-right corner, with the X exactly over the menu icon and the dropdown flush with the right edge of the screen and the nav's bottom line. The dropdown has square top-left, top-right and bottom-right corners and no top or right border. New WF token radius/none. The menu could open too low on screens taller than 834 because overlays open centred; Dan needs to set L0 to open at the top right and close when clicking outside (these two settings can't be changed through the API).
 24. Removed the Responsive variable collection (left over from the deleted sizes). The Semantic page margin and Display, Title and Heading sizes now point straight at their tablet values (32 margin; 56, 40 and 32 type), so nothing on screen changed. The one layer bound to it directly (H1's content spacing, 48) now uses space/2xl.
 
+Open: L0 Menu still opens in the centre of the screen on both pages. Its overlay position has to be set to Top right, with Close when clicking outside ticked, by hand in Figma (on any nav Menu button's Open overlay interaction); the API can't change it. Question for Dan: set it by hand, or make L0 full-screen again (lines up on the 59 screens that are 834 tall, not the 23 taller ones)? Next after the menu: rebuild the Books Sort by dropdown (D1b) the same way.
+
 ## October 15, 2026
 
 1. Admin rights, decided: only admins can make or remove admins, archive or restore teachers, and run End of year. Billing isn't an admin right; who handles it is still open.
