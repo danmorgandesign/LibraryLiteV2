@@ -13,6 +13,8 @@
 9. Annotations fixed on both pages: deleted C9b removed from C8 and C9, "Mark damaged" removed from D2c, a class-archive note that had been copied onto D2 and G4 rows removed (G7's now says Archive class), and a stray "test" note removed from H1. Data model: the different-copy row no longer lists C9b.
 10. Images tidied on the Design System page: the three illustration components moved into the Images frame under an Illustrations heading, the Image set has its own heading, its spacing is bound to tokens, and Icons no longer overlaps Images.
 11. Brief (doc and repo copy) and Prototype V2 Read me say where the components live and that nothing is hardcoded.
+12. Decided: wireframe components on undesigned screens are swapped for the Design System ones screen by screen, as each is designed. On loan pills keep hugging their text (consistent padding, not a fixed width).
+13. D2a Edit title and author, D2b Change category and D2c Retire copy overlays designed on Prototype V2: Semantic tokens and Text styles throughout, a header with the title, a muted line under it and Close, and the new Text input and Select components (480 wide). Links unchanged. The Prototype V2 Read me lists them as designed and describes the overlay layout.
 
 ## October 15, 2026
 
