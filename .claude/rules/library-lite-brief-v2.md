@@ -163,7 +163,7 @@ Afterwards staff add next year's new class from Teachers. Any part can be put ri
 
 The site has 14 areas. The full map, with every screen, the overlays it opens and its states, is on the [Information Architecture V2 page in Figma](https://www.figma.com/design/ufE3h5LxKNO4XfMFR82cSt/Library-Lite?node-id=937-3440).
 
-**Signed-in nav:** Scan Book (a yellow button) · Books · Classes · Switch user · Menu. The Menu button opens a dropdown with Teachers · Help · My account · Log Out (L0). Teachers also links to Archive, Activity log, End of year (admins only), Lost books and Stats.
+**Signed-in nav:** Scan Book (a yellow button) · Books · Classes · Switch user · Menu. The Menu button opens a dropdown with Teachers · Help · My account, then Log out below a separator (L0). The menu icon turns into an X while it's open; the X or a click outside closes it. Teachers also links to Archive, Activity log, End of year (admins only), Lost books and Stats.
 
 **Public nav:** Home · About · Pricing · Contact · Log in, plus a Register your school button (to A3 Find your school) at the end of the nav and the bottom of the phone menu.
 

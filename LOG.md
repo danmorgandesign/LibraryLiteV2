@@ -21,6 +21,8 @@
 17. The nav's Register your school button is 44 tall (Semantic size/touch-min), which meets WCAG 2.2 AAA and Apple's 44 minimum. The website nav is now 77 tall. Other buttons, including the one in the phone menu, stay 48.
 18. Signed-in nav, from Dan's mock-up: Scan Book is now a yellow button on every signed-in nav (44 tall), then Books, Classes, Switch user and a Menu button. Menu opens a new dropdown, L0 Menu (section 12), with Teachers, Help, My account and Log Out. On Teachers, Help and My account the Menu button is shaded to show where you are. Switch user stays in the bar because shared iPads switch user often. Done on both Figma pages, with every signed-in nav wired. Updated in the brief (doc and repo copy), the flows file, the IA map, the FigJam board and both Read mes.
 19. The Menu button on Teachers, Help and My account has a white background instead of grey (Dan). Design stays focused on the tablet; no phone version of the app nav.
+20. Menu open state: while L0 is open, an X sits over the menu icon, and the X or a click outside closes the menu. Log out sits below a single separator, with no lines between Teachers, Help and My account. Wireframe matches (a Close button, and a new WF token stroke/none).
+21. "Log Out" is now "Log out" everywhere (sentence case, like My account and Switch user): the menu, the brief (doc and repo copy), the flows file, the IA map, the FigJam board and both Read mes.
 
 ## October 15, 2026
 
