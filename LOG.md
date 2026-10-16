@@ -25,6 +25,7 @@
 21. "Log Out" is now "Log out" everywhere (sentence case, like My account and Switch user): the menu, the brief (doc and repo copy), the flows file, the IA map, the FigJam board and both Read mes.
 22. Website is tablet only. Deleted the desktop, iPad portrait and phone versions of H1–H4 (12 frames), the H1m phone menu and the Nav bar mobile component. Section 8 now holds only the iPad landscape pages and their overlays. These had been my own addition on Oct 15, not something Dan asked for. Brief (doc and repo copy) and Prototype V2 Read me updated.
 23. L0 Menu reworked (both pages): it now covers only the top-right corner, with the X exactly over the menu icon and the dropdown flush with the right edge of the screen and the nav's bottom line. The dropdown has square top-left, top-right and bottom-right corners and no top or right border. New WF token radius/none. The menu could open too low on screens taller than 834 because overlays open centred; Dan needs to set L0 to open at the top right and close when clicking outside (these two settings can't be changed through the API).
+24. Removed the Responsive variable collection (left over from the deleted sizes). The Semantic page margin and Display, Title and Heading sizes now point straight at their tablet values (32 margin; 56, 40 and 32 type), so nothing on screen changed. The one layer bound to it directly (H1's content spacing, 48) now uses space/2xl.
 
 ## October 15, 2026
 
