@@ -18,6 +18,7 @@
 14. Register your school is now a yellow primary button at the end of the website nav (Home, About, Pricing, Contact, Log in) and at the bottom of the phone menu. It goes to A3 Find your school. Done on both Figma pages. The nav is 16px taller because the button is 48px. Updated in the brief (doc and repo copy), the flows file, the FigJam site map and the IA map.
 15. D2d Archive book confirm overlay designed to the same overlay layout as D2a–D2c.
 16. Edit forms show the current value, not a placeholder. Text input gained a Content property (Empty or Filled; Filled text is in the default ink colour) and was renamed from Placeholder to Text. D2a now shows the book's title and author filled in.
+17. The nav's Register your school button is 44 tall (Semantic size/touch-min), which meets WCAG 2.2 AAA and Apple's 44 minimum. The website nav is now 77 tall. Other buttons, including the one in the phone menu, stay 48.
 
 ## October 15, 2026
 
