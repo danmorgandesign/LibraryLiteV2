@@ -1,5 +1,19 @@
 # Library Lite V2 log
 
+## October 16, 2026
+
+1. Tidy-up check of everything (both Figma pages, tokens, Kit, flows, links, annotations, brief, flows file, FigJam board, data model, IA map). Counts match: 178 wireframe frames, 191 on Prototype V2, 14 flows each, no broken links.
+2. Components moved to the Design System page: a new Components frame (Actions, Navigation, Forms, Lists, status and settings, Cards) holds all 16 components. The Kit section on Prototype V2 is gone; instances still link.
+3. Every component is now tied to Semantic tokens and Text styles, with nothing hardcoded: 215 WF bindings swapped, fixed widths bound to tokens (instances stay Fill), Status chip strokes rebound.
+4. New Semantic size tokens: size/field, field-sm, card, menu, content, meter, tile, tile-h (now 144) and screen-phone, with primitives size/8, 144 and 260. New text style Text/Label small (14/20 bold) for pills.
+5. Status chips: At limit and Pending are now grey pills like Retired, and On loan pills hug their text.
+6. Designed screens (website, D1, D1a, D1b, D2, D2e, D2f) rebound from WF to Semantic, including each screen's own size and the Filter panel width.
+7. New Setting component (card standard, Edit link) replaces the wireframe one on D2, D2e and D2f, with links kept.
+8. Removed the stray "Flow 1" flow on Prototype V2 (it started on H3a).
+9. Annotations fixed on both pages: deleted C9b removed from C8 and C9, "Mark damaged" removed from D2c, a class-archive note that had been copied onto D2 and G4 rows removed (G7's now says Archive class), and a stray "test" note removed from H1. Data model: the different-copy row no longer lists C9b.
+10. Images tidied on the Design System page: the three illustration components moved into the Images frame under an Illustrations heading, the Image set has its own heading, its spacing is bound to tokens, and Icons no longer overlaps Images.
+11. Brief (doc and repo copy) and Prototype V2 Read me say where the components live and that nothing is hardcoded.
+
 ## October 15, 2026
 
 1. Admin rights, decided: only admins can make or remove admins, archive or restore teachers, and run End of year. Billing isn't an admin right; who handles it is still open.
